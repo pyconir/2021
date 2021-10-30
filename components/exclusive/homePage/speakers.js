@@ -1,16 +1,18 @@
 import styles from "./Speakers.module.css";
 
+const prefix = '/pyconir2021'
+
 export default function Speakers() {
   return (
     <section>
       <div className={styles.speakersSectionContainer}>
         <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitle}>سخنرانان</div>
-          <img src="/GeneralAssets/titleUnderline.png" alt="titleUnderline" />
+          <img src={prefix + "/GeneralAssets/titleUnderline.png"} alt="titleUnderline" />
         </div>
         <div className={styles.onProcessImageContainer}>
           <img
-            src="/GeneralAssets/onProcess.png"
+            src={prefix + "/GeneralAssets/onProcess.png"}
             alt="onProcess"
             width="200"
             height="172"

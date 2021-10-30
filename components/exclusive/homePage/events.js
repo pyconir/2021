@@ -1,5 +1,7 @@
 import styles from "./Events.module.css";
 
+const prefix = '/pyconir2021'
+
 export default function Events() {
   return (
     <section>
@@ -7,7 +9,7 @@ export default function Events() {
         <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitle}>خبرهای کنفرانس</div>
           <img
-            src="/GeneralAssets/titleUnderline.png"
+            src={prefix + "/GeneralAssets/titleUnderline.png"}
             alt="titleUnderline"
           />
         </div>
