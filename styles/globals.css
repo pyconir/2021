@@ -12,7 +12,7 @@ body {
 
 @font-face {
   font-family: "BKoodak_Bold";
-  src: url("/pyconir2021/fonts/bkoodak/bkoodak.TTF");
+  src: url("/2021/fonts/bkoodak/bkoodak.TTF");
   font-style: bold;
   font-weight: 400;
   font-display: swap;

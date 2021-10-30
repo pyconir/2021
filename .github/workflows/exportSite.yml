@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run export
         env:
-          NEXT_PUBLIC_BASE_PATH: /pyconir2021
+          NEXT_PUBLIC_BASE_PATH: /2021
       - run: touch ./out/.nojekyll
 
       - name: Deploy 🚀
