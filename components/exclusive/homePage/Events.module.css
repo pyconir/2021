@@ -1,0 +1,21 @@
+.eventSectionContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1fafc;
+  direction: rtl;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  padding-top: 40px;
+}
+
+.sectionTitleContainer {
+  margin-bottom: 65px;
+}
+
+.sectionTitle {
+  font-family: "BKoodak_Bold";
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #707070;
+}

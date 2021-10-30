@@ -6,11 +6,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BKoodak_Bold";
+  src: url("/fonts/Bkoodak/BKOODKBD.ttf");
+  font-style: bold;
+  font-weight: 400;
+  font-display: swap;
 }
