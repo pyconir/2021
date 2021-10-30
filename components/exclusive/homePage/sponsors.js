@@ -1,6 +1,6 @@
 import styles from "./Sponsors.module.css";
 
-const prefix = "/pyconir2021";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Sponsors() {
   return (

@@ -1,6 +1,6 @@
 import styles from "./Speakers.module.css";
 
-const prefix = '/pyconir2021'
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Speakers() {
   return (
@@ -8,7 +8,10 @@ export default function Speakers() {
       <div className={styles.speakersSectionContainer}>
         <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitle}>سخنرانان</div>
-          <img src={prefix + "/GeneralAssets/titleUnderline.png"} alt="titleUnderline" />
+          <img
+            src={prefix + "/GeneralAssets/titleUnderline.png"}
+            alt="titleUnderline"
+          />
         </div>
         <div className={styles.onProcessImageContainer}>
           <img

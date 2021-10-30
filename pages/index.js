@@ -6,7 +6,7 @@ import Events from "../components/exclusive/homePage/events";
 import Speakers from "../components/exclusive/homePage/speakers";
 import Sponsors from "../components/exclusive/homePage/sponsors";
 
-const prefix = "/pyconir2021";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
   return (
