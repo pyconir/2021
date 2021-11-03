@@ -1,0 +1,9 @@
+.AboutPythonSectionContainer {
+  width: 100%;
+  background-color: #f1fafc;
+  direction: rtl;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}

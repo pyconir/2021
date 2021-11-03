@@ -1,0 +1,11 @@
+.buyTicketPageContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1fafc;
+  direction: rtl;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  padding-top: 100px;
+  padding-bottom: 13vh;
+}
+

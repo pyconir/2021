@@ -10,9 +10,36 @@ body {
   box-sizing: border-box;
 }
 
+.bodyText {
+  font-family: "Sahel";
+  font-size: 16px;
+  line-height: 32px;
+  padding-bottom: 12px;
+}
+
+h1 {
+  font-family: "Sahel";
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-family: "Sahel";
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-family: "Sahel";
+  padding-bottom: 6px;
+}
+
+.buttonsText {
+  font-family: "Sahel";
+}
+
 @font-face {
   font-family: "BKoodak_Bold";
-  src: url("/2021/fonts/bkoodak/bkoodak.TTF");
+  /* src: url("/2021/fonts/bkoodak/bkoodak.TTF"); */
+  src: url("/fonts/bkoodak/bkoodak.TTF");
   font-style: bold;
   font-weight: 400;
   font-display: swap;
