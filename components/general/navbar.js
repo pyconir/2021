@@ -99,7 +99,9 @@ function DropDownMenu(props) {
   return (
     <div className={styles.dropDownMenu}>
       {props.pagesList.map((pageName) => (
-        <DropDownItem link={pageName.link}>{pageName.name}</DropDownItem>
+        <DropDownItem key={pageName.name} link={pageName.link}>
+          {pageName.name}
+        </DropDownItem>
       ))}
     </div>
   );
