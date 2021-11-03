@@ -8,7 +8,7 @@ export default function JobItem() {
       <div className={styles.brand}>
         <img
           className={styles.brandImage}
-          src="/GeneralAssets/onProcess.png"
+          src={prefix + "/GeneralAssets/onProcess.png"}
           alt=""
         />
       </div>
