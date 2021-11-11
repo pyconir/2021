@@ -7,7 +7,7 @@ export default function Landing() {
     <section>
       <div className={styles.landingSectionContainer}>
         <img
-          src={prefix + "/GeneralAssets/landingImage1.png"}
+          src={prefix + "/GeneralAssets/landingImage.png"}
           alt="landingImage"
           width="100%"
           height="100%"
