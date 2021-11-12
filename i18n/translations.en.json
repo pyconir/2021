@@ -29,7 +29,7 @@
         },
         "setup": { "head": "Setup", "item1": "", "item2": "", "item3": "" },
         "become speaker": {
-          "head": "ُSpeak in Pycon",
+          "head": "Speak in Pycon",
           "item1": "",
           "item2": "",
           "item3": ""
