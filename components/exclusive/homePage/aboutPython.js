@@ -1,51 +1,49 @@
 import styles from "./AboutPython.module.css";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function AboutPython() {
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const pagelang = () => {
+    if (typeof query !== "undefined") {
+      if (query.lang == "en") {
+        return "en";
+      } else {
+        return "fa";
+      }
+    } else {
+      return "fa";
+    }
+  };
   return (
     <section>
-      <div className={styles.AboutPythonSectionContainer}>
-        <h2>پایتون برای همه </h2>
-        <div className={"bodyText"}>
-          یکی از دلایلی که پایتون دوستانه‌ترین و یکی از آسان‌ترین زبان‌های
-          برنامه نویسی برای یادگیری است، وجود راه‌هایی است که اشخاص می‌توانند
-          ایده‌هایی به منظور بهبود آن ارایه دهند. این کار از طریق پیشنهادهای
-          بهبود پایتون یا PEP انجام می‌پذیرد. شناخته‌شده‌ترین آن‌ها مکتب یا
-          دکترین پایتون (PEP 20 - Zen of Python) و راهنمای سبک برای کد پایتون
-          (PEP 8 - Style Guide for Python Code) هستند.
-        </div>
-        <div className={"bodyText"}>
-          پایتون کار بسیار باسابقه، تیم پیترز اصول راهنمای دیکتاتور خیرخواه
-          جاویدان برای طراحی پایتون را به صورت خلاصه در قالب 20 جمله‌ی قصار بیان
-          می‌کند، که تنها 19 مورد از آنها نوشته شده است؛ بنابراین مکتب پایتون
-          عبارتست از:
-        </div>
+      <div
+        className={styles.AboutPythonSectionContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
+        <h2>{t("pages.home.aboutPython.t1")}</h2>
+        <div className={"bodyText"}>{t("pages.home.aboutPython.p1")}</div>
+        <div className={"bodyText"}>{t("pages.home.aboutPython.p2")}</div>
         <ul className={"bodyText"}>
-          <li>زیبا بهتر از زشت است.</li>
-          <li>صریح بهتر از ضمنی است.</li>
-          <li>ساده بهتر از پیچیده است.</li>
-          <li>پیچیده بهتر از بغرنج است.</li>
-          <li>تخت بهتر از تو در تو است.</li>
-          <li>پراکنده بهتر از متراکم است.</li>
-          <li>خوانایی اهمیت دارد.</li>
-          <li>موارد خاص آنقدر خاص نیستند که قوانین را در هم‌بشکنند.</li>
-          <li>گرچه عملی بودن خلوص را مغلوب می‌کند.</li>
-          <li>خطاها هرگز نباید بی‌صدا بگذرند.</li>
-          <li>مگر اینکه به طور صریح ساکت شوند.</li>
-          <li>در مواجهه با ابهام، از وسوسه حدس زدن دوری کنید.</li>
-          <li>
-            باید یک، و ترجیحا فقط یک، راه واضح برای انجام آن وجود داشته باشد.
-          </li>
-          <li>
-            اگر چه ممکن است آن راه در ابتدا واضح نباشد مگر اینکه هلندی باشید.
-          </li>
-          <li>الان بهتر از هرگز است.</li>
-          <li>اگر چه هرگز اغلب بهتر از *همین* الان است.</li>
-          <li>اگر توضیح پیاده‌سازی سخت باشد، ایده‌ی بدی است.</li>
-          <li>اگر توضیح پیاده‌سازی آسان است، ممکن است ایده‌ی خوبی باشد.</li>
-          <li>
-            فضای نام‌ها یک ایده‌ی بسیار عالی هستند، بیایید بیشتر از آن‌ها
-            استفاده کنیم!
-          </li>
+          <li>{t("pages.home.aboutPython.p3")}</li>
+          <li>{t("pages.home.aboutPython.p4")}</li>
+          <li>{t("pages.home.aboutPython.p5")}</li>
+          <li>{t("pages.home.aboutPython.p6")}</li>
+          <li>{t("pages.home.aboutPython.p7")}</li>
+          <li>{t("pages.home.aboutPython.p8")}</li>
+          <li>{t("pages.home.aboutPython.p9")}</li>
+          <li>{t("pages.home.aboutPython.p10")}</li>
+          <li>{t("pages.home.aboutPython.p11")}</li>
+          <li>{t("pages.home.aboutPython.p12")}</li>
+          <li>{t("pages.home.aboutPython.p13")}</li>
+          <li>{t("pages.home.aboutPython.p14")}</li>
+          <li>{t("pages.home.aboutPython.p15")}</li>
+          <li>{t("pages.home.aboutPython.p16")}</li>
+          <li>{t("pages.home.aboutPython.p17")}</li>
+          <li>{t("pages.home.aboutPython.p18")}</li>
+          <li>{t("pages.home.aboutPython.p19")}</li>
+          <li>{t("pages.home.aboutPython.p20")}</li>
+          <li>{t("pages.home.aboutPython.p21")}</li>
         </ul>
       </div>
     </section>

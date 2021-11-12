@@ -1,13 +1,30 @@
 import styles from "./AidPage.module.css";
 import SupportButton from "./supportButton";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function AidPage() {
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const pagelang = () => {
+    if (typeof query !== "undefined") {
+      if (query.lang == "en") {
+        return "en";
+      } else {
+        return "fa";
+      }
+    } else {
+      return "fa";
+    }
+  };
   return (
     <section>
-      <div className={styles.aidPageContainer}>
-        <h1>حمایت از کنفرانس</h1>
+      <div
+        className={styles.aidPageContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
+        <h1>{t("pages.aid.t1")}</h1>
         <div className={"bodyText"}>
-          کنفرانس{" "}
+          {t("pages.aid.p1")}
           <span>
             <a
               href="https://pycon.org/"
@@ -17,22 +34,11 @@ export default function AidPage() {
             >
               PyCon
             </a>
-          </span>{" "}
-          از معتبرترین کنفرانس‌های بین المللی در حوزه برنامه نویسی است. این
-          کنفرانس با هدف جمع کردن برنامه نویسانی که از زبان برنامه نویسی پایتون
-          استفاده می‌کنند حول یک موضوع مشترک یعنی Python به صورت سالانه در
-          کشورهای زیادی برگزار می‌شود.
+          </span>
+          {t("pages.aid.p2")}
         </div>
-        <div className={"bodyText"}>
-          خوشحالیم که در کشور عزیزمان، موفق به کسب مجوزهای مربوطه از کمیته
-          برگزارکننده کنفرانس جهت برگزاری بخش ایران این کنفرانس شده‌ایم و بیش از
-          آن از برگزاری یک دورهمی پایتونی با حضور شما برنامه نویسان خوب کشورمان
-          مسروریم.
-        </div>
-        <div className={"bodyText"}>
-          شما می‌توانید با فشردن دکمه حمایت در زیر، برای امکان ادامه فعالیت
-          کنفرانس در بهترین سطح ممکن ما را یاری نمایید.
-        </div>
+        <div className={"bodyText"}>{t("pages.aid.p3")}</div>
+        <div className={"bodyText"}>{t("pages.aid.p4")}</div>
         <SupportButton />
       </div>
     </section>

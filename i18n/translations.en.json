@@ -1,0 +1,205 @@
+{
+  "i18n": {
+    "navbar": {
+      "items": {
+        "home": { "head": "Home", "item1": "", "item2": "", "item3": "" },
+        "about": {
+          "head": "About",
+          "item1": "About PyconIr",
+          "item2": "Code of Conduct",
+          "item3": "Organizers"
+        },
+        "registration": {
+          "head": "Registration",
+          "item1": "Buy Ticket",
+          "item2": "Donate",
+          "item3": "Job Opportunities"
+        },
+        "sponsor": {
+          "head": "Sponsor",
+          "item1": "Our Sponsors",
+          "item2": "Be a Sponsor",
+          "item3": ""
+        },
+        "schedule": {
+          "head": "Program",
+          "item1": "Schedule",
+          "item2": "Speakers",
+          "item3": ""
+        },
+        "setup": { "head": "Setup", "item1": "", "item2": "", "item3": "" },
+        "become speaker": {
+          "head": "Be a Speaker",
+          "item1": "",
+          "item2": "",
+          "item3": ""
+        }
+      },
+      "buttons":{
+        "buy-donate":"Buy Ticket / Donate"
+      }
+    },
+    "footer": {},
+    "pages": {
+      "home": {
+        "callPapers": {
+          "t1": "",
+          "p1": "Call for Papers",
+          "p2": "Buy Ticket"
+        },
+        "events": {
+          "t1": "Conference News",
+          "p1": ""
+        },
+        "landing": {
+          "t1": "",
+          "p1": ""
+        },
+        "speakers": {
+          "t1": "Speakers",
+          "p1": ""
+        },
+        "sponsors": {
+          "t1": "Sponsors",
+          "p1": ""
+        },
+        "aboutPython": {
+          "t1": "Python for Everyone",
+          "p1": "One of the reasons Python is the friendliest and one of the easiest to learn programming languages, is the way people have contributed ideas to improve it. It can be done via the Python Enhancement Proposals or PEP. The most well-known ones are PEP 20 –The Zen of Python– and PEP 8 – Style Guide for Python Code.",
+          "p2": "Long-time Pythoneer Tim Peters penned down the BDFL’s [Benevolent Dictator For Life] guiding principles for Python’s design into 20 aphorisms, only 19 of which have been written down:",
+          "p3": "Beautiful is better than ugly.",
+          "p4": "Explicit is better than implicit.",
+          "p5": "Simple is better than complex.",
+          "p6": "Complex is better than complicated.",
+          "p7": "Flat is better than nested.",
+          "p8": "Sparse is better than dense.",
+          "p9": "Readability counts.",
+          "p10": "Special cases aren't special enough to break the rules.",
+          "p11": "Although practicality beats purity.",
+          "p12": "Errors should never pass silently.",
+          "p13": "Unless explicitly silenced.",
+          "p14": "In the face of ambiguity, refuse the temptation to guess.",
+          "p15": "There should be one-- and preferably only one --obvious way to do it.",
+          "p16": "Although that way may not be obvious at first unless you're Dutch.",
+          "p17": "Now is better than never.",
+          "p18": "Although never is often better than *right* now.",
+          "p19": "If the implementation is hard to explain, it's a bad idea.",
+          "p20": "If the implementation is easy to explain, it may be a good idea.",
+          "p21": "Namespaces are one honking great idea -- let's do more of those!"
+        }
+      },
+      "about": {
+        "t1": "About PyConIr Conference",
+        "p1": "Coming Soon ..."
+      },
+      "aid": {
+        "t1": "Support Conference",
+        "p1": " ",
+        "p2": " is one of the most prestigious international conferences in the field of programming. The conference aims to bring together programmers using the Python programming language around a common theme, Python, annually in many countries.",
+        "p3": "We are glad that in our country, Iran, we have succeeded in obtaining the relevant permits from the organizing committee of the conference to hold the Iranian part of this conference, and more than that, we are happy to hold a Pythonic gathering with your presence.",
+        "p4": "You can help us to continue the conference at the best possible level by pressing the support button below."
+      },
+      "becomeSpeaker": {
+        "t1": "Be a speaker",
+        "p1": "Coming Soon ..."
+      },
+      "becomeSponsor": {
+        "t1": "Be a Sponsor",
+        "p1": "The PyconIr conference offers the following benefits in return for sponsor support:",
+        "p2": "Placing the company name or brand on the front page of the conference"
+      },
+      "buyTicket": {
+        "t1": "Buy Ticket",
+        "t2": "Types of Tickets",
+        "p1": "For this year, one type of ticket is considered, which includes the use of all conference facilities. Therefore, by purchasing this ticket, access to all online offerings and workshops will be provided.",
+        "p2": "The cost of the ticket is 99 thousand tomans for each person",
+        "p3": "To register and prepare the ticket, click on the button below to be referred to the Evand website to purchase a ticket."
+      },
+      "callForPapers": {
+        "t1": "Call for Papers",
+        "p1": "Coming Soon ..."
+      },
+      "codeOfConduct": {
+        "t1": "Code of Conduct",
+        "t2": "Do:",
+        "t3": "Don't:",
+        "t4": "OUR STANDARDS",
+        "t5": "ONLINE EVENTS",
+        "t6": "CONSEQUENCES",
+        "t7": "ATTRIBUTIONS ",
+        "t8": "LICENSE",
+        "p1": "PyCon Iran is a community conference intended for networking and collaboration in the developer community.",
+        "p2": "We value the participation of each member and believe in inclusivity, kindness, and a positive community for all. ",
+        "p3": "We expect all staff, attendees, speakers, exhibitors, organizers, sponsors and volunteers of PyCon Iran to conform to a professional and respectful manner at all times. This means:",
+        "p4": "Be open to collaboration",
+        "p5": "Use welcoming and positive language",
+        "p6": "Respect others views  and experiences whether they do/don’t align with yours",
+        "p7": "Show empathy towards other community members",
+        "p8": "Be respectful of others in the public & private media",
+        "p9": "Fret and fume",
+        "p10": "Make personal or political attacks",
+        "p11": "Harass another person, whether publicly or privately in any form",
+        "p12": "Use sexualized language or make unwelcome sexual/nonsexual advances",
+        "p13": "Use another person's property whether physical or electronic, without their explicit permission",
+        "p14": "Do any other actions that is inappropriate for a professional audience  including people of many different backgrounds",
+        "p15": "Every member of our community has the right to have their identity respected. PyCon Iran is dedicated to providing a positive experience for everyone, regardless of age, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, nationality, race, or religion, education, location, technology choices, employment or socio-economic status.",
+        "p16": "The Code of Conduct applies to interactions with official event accounts on social media spaces and phone applications, including:",
+        "p17": "comments made on official conference phone apps",
+        "p18": "comments made on event video hosting services",
+        "p19": "comments made on the official event hashtag or panel hashtags",
+        "p20": "Event organizers will enforce this code throughout the event.",
+        "p21": "If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from any private, online conference platforms, the community and community events with no refund of event tickets. Thank you for helping make this a welcoming, friendly community for everyone.",
+        "p22": "We expect participants to follow these rules on all conference platforms.",
+        "p23": "Language was incorporated from the following Codes of Conduct:",
+        "p24": "PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License.",
+        "p25": "Next.js Conf Code of Conduct",
+        "p26": "This Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License."
+      },
+      "index": {},
+      "jobOpportunities": {
+        "page": {
+          "t1": "Job Opportunities",
+          "p1": "It is possible to send job opportunities to be displayed in the job fair."
+        },
+        "jobs": {
+          "job1": {
+            "description": "Job Description",
+            "payment": "Payment"
+          }
+        }
+      },
+      "organizers": {
+        "t1": "Organizers",
+        "p1": "Coming Soon ..."
+      },
+      "presentWorkshop": {
+        "t1": "Present a Workshop",
+        "p1": "Coming Soon ..."
+      },
+      "schedule": {
+        "t1": "Schedule",
+        "p1": "Coming Soon ..."
+      },
+      "setup": {
+        "t1": "Setup",
+        "p1": "Coming Soon ..."
+      },
+      "speakers": {
+        "t1": "Speakers",
+        "p1": "Coming Soon ..."
+      },
+      "sponsors": {
+        "page": {
+          "t1": "Sponsors",
+          "p1": "PyconIr Conference is proud to have the support of the sponsors provided on this page.",
+          "p2": "Platinum",
+          "p3": "Gold",
+          "p4": "Silver"
+        },
+        "sponsors": {
+          "sponsor1": {}
+        }
+      }
+    }
+  }
+}

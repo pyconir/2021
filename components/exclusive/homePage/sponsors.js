@@ -1,15 +1,39 @@
 import styles from "./Sponsors.module.css";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Sponsors() {
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const pagelang = () => {
+    if (typeof query !== "undefined") {
+      if (query.lang == "en") {
+        return "en";
+      } else {
+        return "fa";
+      }
+    } else {
+      return "fa";
+    }
+  };
   return (
     <section>
-      <div className={styles.sponsorsSectionContainer}>
+      <div
+        className={styles.sponsorsSectionContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
         <div className={styles.sectionTitleContainer}>
-          <div className={styles.sectionTitle}>اسپانسرها</div>
+          <div className={styles.sectionTitle}>
+            {t("pages.home.sponsors.t1")}
+          </div>
           <img
-            src={prefix + "/GeneralAssets/titleUnderline.png"}
+            src={
+              prefix +
+              "/GeneralAssets/titleUnderline" +
+              (pagelang() == "en" ? "Flip" : "") +
+              ".png"
+            }
             alt="titleUnderline"
           />
         </div>
