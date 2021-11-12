@@ -26,7 +26,10 @@ export default function Speakers() {
         <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitle}>{t("pages.home.speakers.t1")}</div>
           <img
-            src={prefix + "/GeneralAssets/titleUnderline.png"}
+            src={prefix +
+              "/GeneralAssets/titleUnderline" +
+              (pagelang() == "en" ? "Flip" : "") +
+              ".png"}
             alt="titleUnderline"
           />
         </div>

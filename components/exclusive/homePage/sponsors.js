@@ -19,13 +19,21 @@ export default function Sponsors() {
   };
   return (
     <section>
-      <div className={styles.sponsorsSectionContainer} style={
-          pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }
-        }>
+      <div
+        className={styles.sponsorsSectionContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
         <div className={styles.sectionTitleContainer}>
-          <div className={styles.sectionTitle}>{t("pages.home.sponsors.t1")}</div>
+          <div className={styles.sectionTitle}>
+            {t("pages.home.sponsors.t1")}
+          </div>
           <img
-            src={prefix + "/GeneralAssets/titleUnderline.png"}
+            src={
+              prefix +
+              "/GeneralAssets/titleUnderline" +
+              (pagelang() == "en" ? "Flip" : "") +
+              ".png"
+            }
             alt="titleUnderline"
           />
         </div>

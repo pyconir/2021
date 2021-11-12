@@ -1,7 +1,6 @@
 import styles from "./Events.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
-
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Events() {
@@ -20,13 +19,19 @@ export default function Events() {
   };
   return (
     <section>
-      <div className={styles.eventSectionContainer} style={
-          pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }
-        }>
+      <div
+        className={styles.eventSectionContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
         <div className={styles.sectionTitleContainer}>
           <div className={styles.sectionTitle}>{t("pages.home.events.t1")}</div>
           <img
-            src={prefix + "/GeneralAssets/titleUnderline.png"}
+            src={
+              prefix +
+              "/GeneralAssets/titleUnderline" +
+              (pagelang() == "en" ? "Flip" : "") +
+              ".png"
+            }
             alt="titleUnderline"
           />
         </div>
