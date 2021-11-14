@@ -89,8 +89,13 @@
         }
       },
       "about": {
-        "t1": "About PyConIr Conference",
-        "p1": "Coming Soon ..."
+        "t1": "About PyCon Iran",
+        "p1": "The year is half over, and most of it has passed in a blink of an eye. We have experienced many things together, fighting COVID-19 together, cheering for the athletes in the Tokyo Olympics and Wrestling World Cup, working hard for your future, and sharing your achievements with your family happily together.",
+        "p2": "In the year that winter is coming, you must have a lot of gains, and you must also have a lot of questions. You must want to have an opportunity for you and like-minded friends in the community to get together and share your experiences with each other.",
+        "p3": "So, PyCon Iran is here! We will bring you a wonderful online conference this year, let’s enjoy the joy and happiness that Python brings to us.",
+        "p4": "PyCon Iran is a gathering for the community using and developing the open-source Python programming language. PyCon Iran is dedicated to advance its mission of growing the Iranian community of Python programmers.",
+        "p5": "There is an old saying that “a conference is not a matter of one person, but a group of people,” so here we welcome everyone who loves the Python community to join us, participate in our work, and let’s make this year’s conference together a Dream Conference! Yes, we need you!",
+        "p6": "PyCon Iran is a diverse conference dedicated to providing an effective experience to everyone. Help us ensure this."
       },
       "aid": {
         "t1": "Support Conference",
