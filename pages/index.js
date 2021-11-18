@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Landing />
-        <CallPapers />
+
         <Events />
         <Speakers />
         <Sponsors />
