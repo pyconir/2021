@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
+import { CSSTransition } from "react-transition-group";
 import Link from "next/link";
 import {
   useTranslation,
@@ -8,6 +9,7 @@ import {
 } from "next-export-i18n";
 
 export default function Navbar(props) {
+  const [sideMenu, setSideMenu] = useState(false);
   const { t } = useTranslation();
   const [pageLanguage, setPageLanguage] = useState("fa");
   const [query] = useLanguageQuery();
@@ -26,17 +28,68 @@ export default function Navbar(props) {
     <div>
       <div
         className={styles.navbarContainer}
-        style={
-          pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }
-        }
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.navbarPart1}>
-          <div className={styles.menu}>
+          <div
+            className={styles.menu}
+            onClick={() => {
+              setSideMenu(!sideMenu);
+            }}
+          >
             <div className={styles.menuLine}></div>
             <div className={styles.menuLine}></div>
             <div className={styles.menuLine}></div>
           </div>
           <div className={styles.logo}>sdfلوگو</div>
+
+          {/* ///////////////////////////////////////////////////////////// */}
+          <CSSTransition
+            in={sideMenu}
+            timeout={300}
+            classNames={{
+              enter: styles.sidebarEnter,
+              enterActive: styles.sidebarEnterActive,
+              enterDone: styles.sidebarEnterDone,
+              exit: styles.sidebarExit,
+              exitActive: styles.sidebarExitActive,
+              exitDone: styles.sidebarExitDone,
+            }}
+            unmountOnExit
+          >
+            <ul className={styles.sidebarList}>
+              <NavItem
+                navName={t("navbar.items.home.head")}
+                navlink=""
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.about.head")}
+                navlink="about"
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.registration.head")}
+                navlink="buyTicket"
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.sponsor.head")}
+                navlink="sponsors"
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.schedule.head")}
+                navlink="schedule"
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.setup.head")}
+                navlink="setup"
+              ></NavItem>
+              <NavItem
+                navName={t("navbar.items.become speaker.head")}
+                navlink="becomeSpeaker"
+              ></NavItem>
+            </ul>
+          </CSSTransition>
+
+          {/* ///////////////////////////////////////////////////////////// */}
 
           <ul className={styles.navbarList}>
             <NavItem navName={t("navbar.items.home.head")} navlink=""></NavItem>
@@ -163,9 +216,10 @@ function NavItem(props) {
       }}
     >
       <Link href={{ pathname: "/" + (props.navlink || ""), query: query }}>
-        <a>{props.navName}</a>
+        <a>
+          <div style={{ width: "100%" }}>{props.navName}</div>
+        </a>
       </Link>
-      {/* <div className={styles.navbarItemsUnderline}></div> */}
       {open && props.children}
     </div>
   );

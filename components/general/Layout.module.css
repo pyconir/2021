@@ -1,3 +1,15 @@
 .layoutContainer {
-  min-width: 1340px;
+}
+
+.appear {
+  opacity: 0;
+}
+
+.activeAppear {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.doneAppear {
+  opacity: 1;
 }
