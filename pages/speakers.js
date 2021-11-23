@@ -19,6 +19,13 @@ export default function Speakers() {
           href="https://v1.fontapi.ir/css/Sahel:400;700;900"
           rel="stylesheet"
         />
+        <link href="https://v1.fontapi.ir/css/Vazir:300;400;700;900" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;1,600&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Layout>
         <SpeakersPage />

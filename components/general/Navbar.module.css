@@ -9,7 +9,7 @@
   width: 100%;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   z-index: 10;
-  font-family: "Sahel";
+  font-family: 'Fraunces','Vazir';
   transition: all 0.5s;
 }
 
@@ -47,10 +47,11 @@
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
-  color: #707070;
+  color: #9c9c9c;
   margin-left: 25px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .navbarListItem:hover {
@@ -158,6 +159,8 @@
   /* display: inline-block; */
   text-align: center;
   width: 70%;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .buyTicketButton:hover {

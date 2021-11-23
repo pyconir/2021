@@ -1,11 +1,10 @@
 .callForPapersPageContainer {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #f1fafc;
-    direction: rtl;
-    padding-left: 13vw;
-    padding-right: 13vw;
-    padding-top: 100px;
-    padding-bottom: 13vh;
-  }
-  
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1fafc;
+  direction: rtl;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 100px;
+  padding-bottom: 13vh;
+}

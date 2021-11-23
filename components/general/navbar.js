@@ -168,6 +168,8 @@ export default function Navbar(props) {
                 className={
                   styles.languageButtonItem +
                   " " +
+                  "unSelectable" +
+                  " " +
                   (pageLanguage == "en"
                     ? styles.languageButtonItemSelected
                     : "")
@@ -184,6 +186,8 @@ export default function Navbar(props) {
                 className={
                   styles.languageButtonItem +
                   " " +
+                  "unSelectable" +
+                  " " +
                   (pageLanguage == "fa"
                     ? styles.languageButtonItemSelected
                     : "")
@@ -193,7 +197,7 @@ export default function Navbar(props) {
               </div>
             </LanguageSwitcher>
           </div>
-          <div className={styles.buyTicketButton}>
+          <div className={styles.buyTicketButton + " " + "unSelectable"}>
             {t("navbar.buttons.buy-donate")}
           </div>
         </div>

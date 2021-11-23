@@ -11,29 +11,52 @@ body {
 }
 
 .bodyText {
-  font-family: "Sahel";
-  font-size: 16px;
-  line-height: 32px;
-  padding-bottom: 12px;
+  font-family: "Fraunces", 'Vazir';
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 38px;
+  padding-bottom: 32px;
+  color: #4d4d4d;
 }
 
 h1 {
-  font-family: "Sahel";
+  font-family: "Fraunces", 'Vazir';
+  font-size: 48px;
   padding-bottom: 12px;
+  color: #707070;
 }
 
 h2 {
-  font-family: "Sahel";
+  font-family: "Fraunces", 'Vazir';
+  font-size: 32px;
   padding-bottom: 6px;
+  color: #707070;
 }
 
 h3 {
-  font-family: "Sahel";
+  font-family: "Fraunces", 'Vazir';
+  font-size: 24px;
   padding-bottom: 6px;
+  color: #707070;
 }
 
 .buttonsText {
-  font-family: "Sahel";
+  font-family: 'Vazir';
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.unSelectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 @font-face {
@@ -44,3 +67,5 @@ h3 {
   font-weight: 400;
   font-display: swap;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap");
