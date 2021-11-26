@@ -1,7 +1,6 @@
 import styles from "./Landing.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
-
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Landing() {
@@ -20,11 +19,12 @@ export default function Landing() {
   };
   return (
     <section>
-      <div className={styles.landingSectionContainer} style={
-          pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }
-        }>
+      <div
+        className={styles.landingSectionContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
         <img
-          src={prefix + "/GeneralAssets/landingImage.png"}
+          src={prefix + "/GeneralAssets/LandingImage.png"}
           alt="landingImage"
           width="100%"
           height="100%"
