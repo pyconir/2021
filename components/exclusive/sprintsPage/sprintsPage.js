@@ -23,6 +23,15 @@ export default function SprintsPage() {
       >
         <h1>{t("pages.sprints.t1")}</h1>
         <div className={"bodyText"}>{t("pages.sprints.p1")}</div>
+        <div className={"bodyText"} style={{ fontWeight: "bold" }}>
+          {t("pages.sprints.p2")}
+        </div>
+        <div className={"bodyText"} style={{ fontWeight: "bold" }}>
+          {t("pages.sprints.p3")}
+        </div>
+        <h3>{t("pages.sprints.t2")}</h3>
+        <div className={"bodyText"}>{t("pages.sprints.p4")}</div>
+        <div className={"bodyText"}>{t("pages.sprints.p5")}</div>
       </div>
     </section>
   );
