@@ -7,6 +7,7 @@ import Speakers from "../components/exclusive/homePage/speakers";
 import Sponsors from "../components/exclusive/homePage/sponsors";
 import CallPapers from "../components/exclusive/homePage/callPapers";
 import AboutPython from "../components/exclusive/homePage/aboutPython";
+import AboutPyconir from "../components/exclusive/homePage/aboutPyconir";
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -24,7 +25,10 @@ export default function Home() {
           href="https://v1.fontapi.ir/css/Sahel:400;700;900"
           rel="stylesheet"
         />
-        <link href="https://v1.fontapi.ir/css/Vazir:300;400;700;900" rel="stylesheet"/>
+        <link
+          href="https://v1.fontapi.ir/css/Vazir:300;400;700;900"
+          rel="stylesheet"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -35,8 +39,7 @@ export default function Home() {
       <Layout>
         <Landing />
         <Events />
-        <Speakers />
-        <Sponsors />
+        <AboutPyconir />
         <AboutPython />
       </Layout>
     </div>
