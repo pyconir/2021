@@ -201,7 +201,36 @@
       "becomeSponsor": {
         "t1": "Be a Sponsor",
         "p1": "The PyconIr conference offers the following benefits in return for sponsor support:",
-        "p2": "Placing the company name or brand on the front page of the conference"
+        "p2": "Placing the company name or brand on the front page of the conference",
+        "p3": "Listed on the official schedule; Presenter pass not included",
+        "p4": "One full-color slide will be displayed in rotation in general session & all breakout rooms in between talks.",
+        "table": {
+          "r1c1": "Sponsorship Packages:",
+          "r1c2": "Diamond",
+          "r1c3": "Gold",
+          "r1c4": "Silver",
+          "r1c5": "Bronze",
+          "r2c1": "Logo on PyCon Iran website",
+          "r3c1": "Blurb on PyCon Iran website",
+          "r4c1": "Logo in the PyCon Iran digital program guide",
+          "r5c1": "Logo on screens during breaks",
+          "r6c1": "Social Media promotion",
+          "r7c1": "Job postings on the website",
+          "r8c1": "Promo URL on the Virtual Swag page",
+          "r9c1": "Blog posts highlighting the sponsor",
+          "r10c1": "Promo lightning video (up to 5 min)",
+          "r11c1": "Conference recordings featuring logo",
+          "r12c1": "Full-color slide",
+          "r13c1": "Advertisement in program guide",
+          "r13c2": "Double page",
+          "r13c3": "Full page",
+          "r13c4": "Half page",
+          "r13c5": "Half page",
+          "r14c1": "Sponsored talk (30min)",
+          "r15c1": "Sponsored workshop slot (1h)",
+          "r16c1": "Sponsored poster",
+          "r17c1": "Full conference attendee passes"
+        }
       },
       "buyTicket": {
         "t1": "Buy Ticket",
@@ -209,6 +238,18 @@
         "p1": "For this year, one type of ticket is considered, which includes the use of all conference facilities. Therefore, by purchasing this ticket, access to all online offerings and workshops will be provided.",
         "p2": "The cost of the ticket is 99 thousand tomans for each person",
         "p3": "To register and prepare the ticket, click on the button below to be referred to the Evand website to purchase a ticket."
+      },
+      "callForLogo": {
+        "t1": "Call for Logo Proposal",
+        "t2": "Requirements",
+        "t3": "Process",
+        "p1": "Must be licensed CC BY-NC-SA",
+        "p2": "Recommended to include some reference to the Python logo (2 snakes)",
+        "p3": "Should work in small and large scale",
+        "p4": "It must be in SVG format",
+        "p5": "Think about how it'll be used on a screen-printed t-shirt. It should be able to be reduced to 1 or 2 colors, without fine detail.",
+        "p6": "Send to us by email (team@ir.pycon.org)",
+        "p7": "Submit proposals by Tuesday December 21, 2021"
       },
       "callForPapers": {
         "t1": "Call for Papers",
@@ -294,6 +335,15 @@
         "sponsors": {
           "sponsor1": {}
         }
+      },
+      "sprints": {
+        "t1": "Sprints",
+        "t2": "What is a “Sprint”?",
+        "p1": "This year's Mentored Sprints will be run online through Zoom and Discord!",
+        "p2": "This is a great chance to get to know open source or to promote your open source project.",
+        "p3": "As is tradition, sprints are not organized by the conference organizers, but instead run by the attendees who want to put on a sprint. We only provide the virtual rooms and guidance on how to run the sprints.",
+        "p4": "Most open source software development happens on the web and developers usually communicate online only when working on projects. This usually works out fine, but the lack of live meetings can sometimes be a limiting factor in making good progress.",
+        "p5": "For this reason, a form of impromptu coding meetups called “sprints” or “hackathons” (outside the Python community, the term “hackathon” is more common) were initiated, where developers interested in a project can get together for a short period of time to make quick progress. Since conferences provide the perfect occasion to meet, sprints are made part of the conference program."
       }
     }
   }

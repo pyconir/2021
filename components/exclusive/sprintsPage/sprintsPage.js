@@ -1,8 +1,7 @@
-import styles from "./BecomeSponsorPage.module.css";
-import SponsorsPlansTable from "./sponsorsPlansTable";
+import styles from "./SprintsPage.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
-export default function BecomeSponsorPage() {
+export default function SprintsPage() {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
   const pagelang = () => {
@@ -19,12 +18,11 @@ export default function BecomeSponsorPage() {
   return (
     <section>
       <div
-        className={styles.becomeSponsorPageContainer}
+        className={styles.SprintsPageContainer}
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
-        <h1>{t("pages.becomeSponsor.t1")}</h1>
-        <div className={"bodyText"}>{t("pages.becomeSponsor.p1")}</div>
-        <SponsorsPlansTable />
+        <h1>{t("pages.sprints.t1")}</h1>
+        <div className={"bodyText"}>{t("pages.speakers.p1")}</div>
       </div>
     </section>
   );
