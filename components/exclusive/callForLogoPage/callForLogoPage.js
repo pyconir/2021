@@ -24,11 +24,11 @@ export default function CallForLogoPage() {
         <h1>{t("pages.callForLogo.t1")}</h1>
         <h3>{t("pages.callForLogo.t2")}</h3>
         <ul className={"bodyText"}>
+          <li>{t("pages.callForLogo.p1")}</li>
+          <li>{t("pages.callForLogo.p2")}</li>
+          <li>{t("pages.callForLogo.p3")}</li>
           <li>{t("pages.callForLogo.p4")}</li>
           <li>{t("pages.callForLogo.p5")}</li>
-          <li>{t("pages.callForLogo.p6")}</li>
-          <li>{t("pages.callForLogo.p7")}</li>
-          <li>{t("pages.callForLogo.p8")}</li>
         </ul>
         <h3>{t("pages.callForLogo.t3")}</h3>
         <div className={"bodyText"}>{t("pages.callForLogo.p6")}</div>
