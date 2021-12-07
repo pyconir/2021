@@ -22,7 +22,7 @@ export default function SprintsPage() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <h1>{t("pages.sprints.t1")}</h1>
-        <div className={"bodyText"}>{t("pages.speakers.p1")}</div>
+        <div className={"bodyText"}>{t("pages.sprints.p1")}</div>
       </div>
     </section>
   );

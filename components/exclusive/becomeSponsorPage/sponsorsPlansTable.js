@@ -171,27 +171,28 @@ export default function SponsorsPlansTable() {
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
                 />
+                <div>2</div>
               </td>
               <td className={styles.tableItems}>
                 <img
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                />
+                /><div>2</div>
               </td>
               <td className={styles.tableItems}>
                 <img
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                />
+                /><div>1</div>
               </td>
               <td className={styles.tableItems}>
                 <img
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                />
+                /><div>1</div>
               </td>
             </tr>
             <tr className={styles.tableDarkRows}>
