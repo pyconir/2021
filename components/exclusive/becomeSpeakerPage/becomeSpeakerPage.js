@@ -27,7 +27,7 @@ export default function BecomeSpeakerPage() {
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p3")}</div>
         <h2>{t("pages.becomeSpeaker.t2")}</h2>
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p4")}</div>
-        <ul className={"bodyText"}>
+        <ul className={"bodyText"} style={{ fontWeight: "bold" }}>
           <li>{t("pages.becomeSpeaker.p5")}</li>
           <li>{t("pages.becomeSpeaker.p6")}</li>
           <li>{t("pages.becomeSpeaker.p7")}</li>
@@ -129,6 +129,7 @@ export default function BecomeSpeakerPage() {
         <h2>{t("pages.becomeSpeaker.t12")}</h2>
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p79")}</div>
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p80")}</div>
+        <div className={"bodyText"}>{t("pages.becomeSpeaker.p81")}</div>
       </div>
     </section>
   );

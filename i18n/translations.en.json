@@ -120,10 +120,10 @@
         "p1": "We are very excited to be gathering online for PyCon Iran! PyCon Iran is seeking speakers of all experience levels and backgrounds to contribute to our conference program! If you use Python professionally, as a hobbyist, or are just excited about Python or programming and open source communities, we’d love to hear from you. All speakers will be presenting their topics online this year.",
         "p2": "Everyone is encouraged to submit a proposal, regardless of experience level. We're looking for proposals on every aspect of Python: programming from novice to advanced levels, applications and frameworks, or how you have been involved in introducing Python into your organization.",
         "p3": "Please also forward this Call for Proposals to anyone that you feel may be interested.",
-        "p4": "This is the conference structure for the online PyCon Iran 2021 taking place from … to ....",
-        "p5": "tutorials / workshops",
-        "p6": "keynotes, talks, lightning talks, poster session",
-        "p7": "code sprints / hackathons",
+        "p4": "This is the conference structure for the online PyCon Iran 2021 taking place from January 19 to January 21",
+        "p5": "Wednesday January 19: tutorials / workshops",
+        "p6": "Thursday January 20: keynotes, talks, lightning talks, poster session",
+        "p7": "Friday January 21: code sprints / hackathons",
         "p8": "We will accept a broad range of presentations, from reports on academic and commercial projects to case studies. As long as the presentation is interesting and potentially useful to the Python community, it will be considered for inclusion in the program.",
         "p9": "Can you show something new and useful? Can you show the attendees how to use a module? Explore a Python language feature? Package an application? If so, please consider submitting a talk.",
         "p10": "There are multiple kinds of contributions that you can present at PyCon Iran; Before writing up a proposal, read the following descriptions of the five kinds of presentations at PyCon Iran — Talks, Tutorials / Workshops, Posters, Lightning Talks, and Sprints — and follow the individual guidelines for the proposal kind that best suits your topic.",
@@ -196,10 +196,11 @@
         "p77": "allow the PyCon Iran to make the talk recordings and uploaded materials available under a CC BY-NC-SA license",
         "p78": "To simplify the organization, we ask all speakers to accept the video recording and publishing of their session. All talks will be recorded.Talk slides will be made available on the PyCon Iran website. Talk video recordings will be uploaded to the PyCon Iran YouTube channel and other platforms.",
         "p79": "As with all proposal types, we are really looking to you to talk about what’s going on in this community and tell everyone where it is going. If you are doing something awesome, share it!",
-        "p80": "Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible. For further questions and finally submitting your proposal, feel free to contact us via …. ."
+        "p80": "Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible. For further questions and finally submitting your proposal, feel free to contact us via …. .",
+        "p81": "feel free to contact us via email, team@ir.pycon.org until Saturday December 25."
       },
       "becomeSponsor": {
-        "t1": "Be a Sponsor",
+        "t1": "Become a Sponsor",
         "p1": "The PyconIr conference offers the following benefits in return for sponsor support:",
         "p2": "Placing the company name or brand on the front page of the conference",
         "p3": "Listed on the official schedule; Presenter pass not included",
@@ -230,7 +231,8 @@
           "r15c1": "Sponsored workshop slot (1h)",
           "r16c1": "Sponsored poster",
           "r17c1": "Full conference attendee passes"
-        }
+        },
+        "button": "Email us to get started"
       },
       "buyTicket": {
         "t1": "Buy Ticket",
@@ -249,7 +251,7 @@
         "p4": "It must be in SVG format",
         "p5": "Think about how it'll be used on a screen-printed t-shirt. It should be able to be reduced to 1 or 2 colors, without fine detail.",
         "p6": "Send to us by email (team@ir.pycon.org)",
-        "p7": "Submit proposals by Tuesday December 21, 2021"
+        "p7": "Submit proposals by Saturday December 25, 2021"
       },
       "callForPapers": {
         "t1": "Call for Papers",
@@ -345,7 +347,7 @@
         "p4": "Most open source software development happens on the web and developers usually communicate online only when working on projects. This usually works out fine, but the lack of live meetings can sometimes be a limiting factor in making good progress.",
         "p5": "For this reason, a form of impromptu coding meetups called “sprints” or “hackathons” (outside the Python community, the term “hackathon” is more common) were initiated, where developers interested in a project can get together for a short period of time to make quick progress. Since conferences provide the perfect occasion to meet, sprints are made part of the conference program."
       },
-      "startups":{
+      "startups": {
         "t1": "Startup Row",
         "t2": "Does your startup qualify? Here are the criteria:",
         "t3": "Process",
@@ -356,7 +358,7 @@
         "p5": "You have 15 or fewer full-time employees, including founders, at the time of applying",
         "p6": "PyCon Iran 2021 Startup Row applications are open!",
         "p7": "Good luck! We look forward to reviewing your application.",
-        "p8": "Please submit applications by Friday December 17, 2021 via email (team@ir.pycon.org).",
+        "p8": "Please submit applications by Saturday December 25, 2021 via email (team@ir.pycon.org).",
         "p9": "The technological landscape of tomorrow will be formed by companies like your startup. Therefore, do not hesitate to participate."
       }
     }

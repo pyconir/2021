@@ -9,7 +9,7 @@ export default function Startups() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Startups</title>
+        <title>Startup Row</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href={prefix + "/favicon.ico"} />

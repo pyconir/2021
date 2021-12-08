@@ -1,5 +1,6 @@
 import styles from "./BecomeSponsorPage.module.css";
 import SponsorsPlansTable from "./sponsorsPlansTable";
+import BeSponsorButton from "./beSponsorButton";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function BecomeSponsorPage() {
@@ -25,6 +26,7 @@ export default function BecomeSponsorPage() {
         <h1>{t("pages.becomeSponsor.t1")}</h1>
         <div className={"bodyText"}>{t("pages.becomeSponsor.p1")}</div>
         <SponsorsPlansTable />
+        <BeSponsorButton />
       </div>
     </section>
   );

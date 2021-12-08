@@ -41,7 +41,7 @@ export default function Navbar(props) {
             <div className={styles.menuLine}></div>
             <div className={styles.menuLine}></div>
           </div>
-          <div className={styles.logo}>sdfلوگو</div>
+          <div className={styles.logo}>لوگو</div>
 
           {/* ///////////////////////////////////////////////////////////// */}
           <CSSTransition
@@ -84,7 +84,7 @@ export default function Navbar(props) {
               ></NavItem>
               <NavItem
                 navName={t("navbar.items.become speaker.head")}
-                navlink="becomeSpeaker"
+                navlink="speak-in-pycon"
               ></NavItem>
             </ul>
           </CSSTransition>
@@ -99,7 +99,7 @@ export default function Navbar(props) {
                   { name: t("navbar.items.about.item1"), link: "about" },
                   {
                     name: t("navbar.items.about.item2"),
-                    link: "codeOfConduct",
+                    link: "code-of-conduct",
                   },
                   { name: t("navbar.items.about.item3"), link: "organizers" },
                 ]}
@@ -132,7 +132,7 @@ export default function Navbar(props) {
                   { name: t("navbar.items.sponsor.item1"), link: "sponsors" },
                   {
                     name: t("navbar.items.sponsor.item2"),
-                    link: "becomeSponsor",
+                    link: "become-a-sponsor",
                   },
                 ]}
               />
@@ -154,7 +154,7 @@ export default function Navbar(props) {
             ></NavItem>
             <NavItem
               navName={t("navbar.items.become speaker.head")}
-              navlink="becomeSpeaker"
+              navlink="speak-in-pycon"
             ></NavItem>
           </ul>
         </div>
