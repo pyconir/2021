@@ -24,7 +24,7 @@ export default function Landing() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <img
-          src={prefix + "/GeneralAssets/landingImg.png"}
+          src={prefix + "/GeneralAssets/landingImage.png"}
           alt="landingImage"
           width="100%"
           height="100%"
