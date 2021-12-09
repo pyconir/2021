@@ -23,17 +23,17 @@ export default function Landing() {
         className={styles.landingSectionContainer}
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
-        <picture>
+        {/* <picture>
           <source
             srcset={prefix + "/GeneralAssets/landingImage-small.png"}
             media="(max-width: 760px)"
-          />
-          <img
-            src={prefix + "/GeneralAssets/landingImage-large.png"}
-            alt="landingImage"
-            width="100%"
-          />
-        </picture>
+          /> */}
+        <img
+          src={prefix + "/GeneralAssets/landingImage-large.png"}
+          alt="landingImage"
+          width="100%"
+        />
+        {/* </picture> */}
       </div>
     </section>
   );
