@@ -11,7 +11,7 @@ body {
 }
 
 .bodyText {
-  font-family: "Fraunces", 'Vazir';
+  font-family: "Fraunces", "Vazir";
   font-weight: 300;
   font-size: 21px;
   line-height: 38px;
@@ -20,28 +20,28 @@ body {
 }
 
 h1 {
-  font-family: "Fraunces", 'Vazir';
+  font-family: "Fraunces", "Vazir";
   font-size: 48px;
-  padding-bottom: 12px;
+  margin-bottom: 20px;
   color: #707070;
 }
 
 h2 {
-  font-family: "Fraunces", 'Vazir';
+  font-family: "Fraunces", "Vazir";
   font-size: 32px;
   padding-bottom: 6px;
   color: #707070;
 }
 
 h3 {
-  font-family: "Fraunces", 'Vazir';
+  font-family: "Fraunces", "Vazir";
   font-size: 24px;
   padding-bottom: 6px;
   color: #707070;
 }
 
 .buttonsText {
-  font-family: 'Vazir';
+  font-family: "Vazir";
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -69,3 +69,18 @@ h3 {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap");
+
+@media screen and (max-width: 760px){
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  .bodyText{
+    font-size: 18px;
+  }
+}

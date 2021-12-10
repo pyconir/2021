@@ -24,7 +24,7 @@ export default function Events() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.sectionTitleContainer}>
-          <div className={styles.sectionTitle}>{t("pages.home.events.t1")}</div>
+          <h1>{t("pages.home.events.t1")}</h1>
           <img
             src={
               prefix +
@@ -33,6 +33,8 @@ export default function Events() {
               ".png"
             }
             alt="titleUnderline"
+            style={{marginBottom:"30px"}}
+            className={styles.underLineImage}
           />
         </div>
       </div>

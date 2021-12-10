@@ -8,3 +8,10 @@
   padding-top: 100px;
   padding-bottom: 13vh;
 }
+
+@media screen and (max-width: 760px) {
+  .SprintsPageContainer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}

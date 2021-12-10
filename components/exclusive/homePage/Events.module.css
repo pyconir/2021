@@ -3,8 +3,8 @@
   min-height: 100vh;
   background-color: #f1fafc;
   direction: rtl;
-  padding-left: 13vw;
-  padding-right: 13vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   padding-top: 40px;
 }
 
@@ -13,9 +13,19 @@
 }
 
 .sectionTitle {
-  font-family: 'Fraunces','Vazir';
+  font-family: "Fraunces", "Vazir";
   font-weight: 700;
   font-size: 56px;
   margin-bottom: 7px;
   color: #707070;
+}
+
+@media screen and (max-width: 760px) {
+  .eventSectionContainer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .underLineImage {
+    width: 200px;
+  }
 }
