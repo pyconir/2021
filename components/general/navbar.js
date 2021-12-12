@@ -8,6 +8,8 @@ import {
   LanguageSwitcher,
 } from "next-export-i18n";
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Navbar(props) {
   const [sideMenu, setSideMenu] = useState(false);
   const { t } = useTranslation();
@@ -41,7 +43,13 @@ export default function Navbar(props) {
             <div className={styles.menuLine}></div>
             <div className={styles.menuLine}></div>
           </div>
-          <div className={styles.logo}>لوگو</div>
+          <div className={styles.logo}>
+            <img
+              src={prefix + `/GeneralAssets/logo-${pagelang()}.png`}
+              alt="logo-image"
+              className={styles.logoImage}
+            />
+          </div>
 
           {/* ///////////////////////////////////////////////////////////// */}
           <CSSTransition
