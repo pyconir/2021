@@ -5,9 +5,24 @@ const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function SponsorsPlansTable() {
   const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const pagelang = () => {
+    if (typeof query !== "undefined") {
+      if (query.lang == "en") {
+        return "en";
+      } else {
+        return "fa";
+      }
+    } else {
+      return "fa";
+    }
+  };
   return (
     <div>
-      <div className={styles.plansTableContainer}>
+      <div
+        className={styles.plansTableContainer}
+        style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
+      >
         <table className={styles.table}>
           <thead>
             <tr className={styles.tableDarkRows}>
@@ -178,21 +193,24 @@ export default function SponsorsPlansTable() {
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                /><div>2</div>
+                />
+                <div>2</div>
               </td>
               <td className={styles.tableItems}>
                 <img
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                /><div>1</div>
+                />
+                <div>1</div>
               </td>
               <td className={styles.tableItems}>
                 <img
                   className={styles.marks}
                   src={prefix + "/GeneralAssets/check.png"}
                   alt="check"
-                /><div>1</div>
+                />
+                <div>1</div>
               </td>
             </tr>
             <tr className={styles.tableDarkRows}>

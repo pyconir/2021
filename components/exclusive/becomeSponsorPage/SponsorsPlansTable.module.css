@@ -1,5 +1,5 @@
 .plansTableContainer {
-  direction: ltr;
+  direction: rtl;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -26,7 +26,7 @@
 .tableHeaders {
 }
 
-.tableFirstColumn{
+.tableFirstColumn {
   font-size: 17px;
   padding: 15px;
 }
@@ -41,10 +41,10 @@
   width: 25px;
 }
 
-.exmark{
+.exmark {
   width: 20px;
 }
 
-.middle{
+.middle {
   text-align: center;
 }
