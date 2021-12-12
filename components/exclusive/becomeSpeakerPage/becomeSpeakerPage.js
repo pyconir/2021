@@ -129,7 +129,6 @@ export default function BecomeSpeakerPage() {
         <h2>{t("pages.becomeSpeaker.t12")}</h2>
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p79")}</div>
         <div className={"bodyText"}>{t("pages.becomeSpeaker.p80")}</div>
-        <div className={"bodyText"}>{t("pages.becomeSpeaker.p81")}</div>
       </div>
     </section>
   );
