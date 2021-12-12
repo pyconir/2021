@@ -5,10 +5,12 @@ export default function BeSponsorButton() {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
   return (
-    <div style={{ display:'flex', justifyContent: "center" }}>
-      <div className={styles.beSponsorButton + " " + "unSelectable"}>
-        {t("pages.becomeSponsor.button")}
-      </div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <a style={{textDecoration:"none"}} href="mailto:team@ir.pycon.org">
+        <div className={styles.beSponsorButton + " " + "unSelectable"}>
+          {t("pages.becomeSponsor.button")}
+        </div>
+      </a>
     </div>
   );
 }
