@@ -205,9 +205,11 @@ export default function Navbar(props) {
               </div>
             </LanguageSwitcher>
           </div>
-          <div className={styles.buyTicketButton + " " + "unSelectable"}>
-            {t("navbar.buttons.buy-donate")}
-          </div>
+          <Link href={{ pathname: "/buyTicket", query: query }}>
+            <div className={styles.buyTicketButton + " " + "unSelectable"}>
+              {t("navbar.buttons.buy-donate")}
+            </div>
+          </Link>
         </div>
       </div>
     </div>
