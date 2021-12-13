@@ -20,6 +20,7 @@ export default function BuyTicketButton() {
       href="https://evand.com/events/pycon-iran-2021"
       style={{ textDecoration: "none" }}
       target="_blank"
+      rel="noreferrer nofollow"
     >
       <div className={styles.BuyTicketButtonContainer + " " + "buttonsText"}>
         <div>{t("pages.buyTicket.button")}</div>
