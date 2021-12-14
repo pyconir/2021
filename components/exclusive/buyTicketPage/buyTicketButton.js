@@ -16,15 +16,15 @@ export default function BuyTicketButton() {
     }
   };
   return (
-    <a
-      href="https://evand.com/events/pycon-iran-2021"
-      style={{ textDecoration: "none" }}
-      target="_blank"
-      rel="noreferrer nofollow"
-    >
-      <div className={styles.BuyTicketButtonContainer + " " + "buttonsText"}>
+    <div>
+      <a
+        className={styles.BuyTicketButtonContainer + " " + "buttonsText"}
+        href="https://evand.com/events/pycon-iran-2021"
+        target="_blank"
+        rel="noreferrer nofollow"
+      >
         <div>{t("pages.buyTicket.button")}</div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }

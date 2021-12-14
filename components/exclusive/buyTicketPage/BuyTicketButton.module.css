@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Fraunces", "Vazir";
+  text-decoration: none;
 }
 
 .BuyTicketButtonContainer:hover {
