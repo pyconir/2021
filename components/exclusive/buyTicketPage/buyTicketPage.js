@@ -30,6 +30,7 @@ export default function BuyTicketPage() {
           <li>{t("pages.buyTicket.p2")}</li>
         </ul>
         <div className={"bodyText"}>{t("pages.buyTicket.p3")}</div>
+        <div className={"bodyText"}>{t("pages.buyTicket.p4")}</div>
         <BuyTicketButton />
       </div>
     </section>
