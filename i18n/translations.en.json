@@ -39,7 +39,14 @@
         "buy-donate": "Buy Ticket / Donate"
       }
     },
-    "footer": {},
+    "footer": {
+      "items": {
+        "footerItem1": "About PyCon",
+        "footerItem2": "Code of conduct",
+        "footerEmailcontact": "Contact PyCon Iran by : ",
+        "footerEmail": "team@ir.pycon.org"
+      }
+    },
     "pages": {
       "home": {
         "callPapers": {

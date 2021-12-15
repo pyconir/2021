@@ -39,7 +39,14 @@
         "buy-donate": "خرید بلیت/حمایت از کنفرانس"
       }
     },
-    "footer": {},
+    "footer": {
+      "items": {
+        "footerItem1": "درباره پایکون",
+        "footerItem2": "مرام نامه",
+        "footerEmailcontact": "تماس با پایکون ایران از طریق : ",
+        "footerEmail": "team@ir.pycon.org"
+      }
+    },
     "pages": {
       "home": {
         "callPapers": {
