@@ -56,10 +56,11 @@ export default function Events() {
               {t("pages.home.events.date2")}
             </span>
             {t("pages.home.events.news2")}
-            <a style={{textDecoration:"none"}}
+            <a
+              style={{ textDecoration: "none" }}
               href="https://discord.gg/Z48FsGfhmv"
               target="_blank"
-              rel="noreferrer nofollow"
+              rel="noreferrer nofollow noopener"
             >
               <span
                 className={styles.newsButtonContainer + " " + "unSelectable"}
