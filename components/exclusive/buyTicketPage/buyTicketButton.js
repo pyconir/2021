@@ -21,7 +21,7 @@ export default function BuyTicketButton() {
         className={styles.BuyTicketButtonContainer + " " + "buttonsText"}
         href="https://evand.com/events/pycon-iran-2021"
         target="_blank"
-        rel="noreferrer nofollow"
+        rel="noreferrer nofollow noopener"
       >
         <div>{t("pages.buyTicket.button")}</div>
       </a>
