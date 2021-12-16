@@ -56,7 +56,14 @@
         },
         "events": {
           "t1": "Conference News",
-          "p1": ""
+          "date1": "December 11 ",
+          "date2": "December 10 ",
+          "date3": "November 17 ",
+          "date4": "November 16 ",
+          "news1": "PyCon Iran Conference supports start-ups",
+          "news2": "Discord server launched. Some parts of the conference are organized inside Discord. Please join the server",
+          "news3": "The call for proposals is open and you can send your proposals until December 25",
+          "news4": "The Pycon Iran Conference will be held from January 19 to January 21. You can register now"
         },
         "landing": {
           "t1": "",
