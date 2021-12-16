@@ -56,7 +56,7 @@ export default function Events() {
               {t("pages.home.events.date2")}
             </span>
             {t("pages.home.events.news2")}
-            <a
+            <a style={{textDecoration:"none"}}
               href="https://discord.gg/Z48FsGfhmv"
               target="_blank"
               rel="noreferrer nofollow"
