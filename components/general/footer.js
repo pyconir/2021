@@ -45,7 +45,12 @@ export default function Footer() {
           </div>
           <div className={styles.footerNav}>
             <div className={styles.socialsContainer}>
-              <a href="">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://discord.gg/Z48FsGfhmv"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
                 <img
                   className={styles.socialImage}
                   src={prefix + `/GeneralAssets/discord.svg`}
@@ -66,14 +71,31 @@ export default function Footer() {
                   alt="twitter-icon"
                 />
               </a>
-              <a href="">
+              {/* <a href="">
                 <img
                   className={styles.socialImage}
                   src={prefix + `/GeneralAssets/youtube.svg`}
                   alt="youtube-icon"
                 />
+              </a> */}
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://instagram.com/pyconir/"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <img
+                  className={styles.socialImage}
+                  src={prefix + `/GeneralAssets/instagram.svg`}
+                  alt="instagram-icon"
+                />
               </a>
-              <a href="">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://github.com/pyconir"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
                 <img
                   className={styles.socialImage}
                   src={prefix + `/GeneralAssets/github.svg`}
