@@ -64,7 +64,12 @@ export default function Footer() {
                   alt="linkedin-icon"
                 />
               </a>
-              <a href="">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://twitter.com/pyconir"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
                 <img
                   className={styles.socialImage}
                   src={prefix + `/GeneralAssets/twitter.svg`}
