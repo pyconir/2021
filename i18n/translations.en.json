@@ -62,7 +62,7 @@
           "date4": "November 16 ",
           "news1": "PyCon Iran Conference supports start-ups",
           "news2": "Discord server launched. Some parts of the conference are organized inside Discord. Please join the server",
-          "news3": "The call for proposals is open and you can send your proposals until December 25",
+          "news3": "The call for proposals is open and you can send your proposals until January 5",
           "news4": "The Pycon Iran Conference will be held from January 19 to January 21. You can register now"
         },
         "landing": {
@@ -266,7 +266,7 @@
         "p4": "It must be in SVG format",
         "p5": "Think about how it'll be used on a screen-printed t-shirt. It should be able to be reduced to 1 or 2 colors, without fine detail.",
         "p6": "Send to us by email (team@ir.pycon.org)",
-        "p7": "Submit proposals by Saturday December 25, 2021"
+        "p7": "Submit proposals by Wednesday January 5, 2022"
       },
       "callForPapers": {
         "t1": "Call for Papers",
@@ -373,7 +373,7 @@
         "p5": "You have 15 or fewer full-time employees, including founders, at the time of applying",
         "p6": "PyCon Iran 2021 Startup Row applications are open!",
         "p7": "Good luck! We look forward to reviewing your application.",
-        "p8": "Please submit applications by Saturday December 25, 2021 via email (team@ir.pycon.org).",
+        "p8": "Please submit applications by Wednesday January 5, 2022 via email (team@ir.pycon.org).",
         "p9": "The technological landscape of tomorrow will be formed by companies like your startup. Therefore, do not hesitate to participate."
       }
     }
