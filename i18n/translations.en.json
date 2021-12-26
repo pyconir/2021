@@ -7,13 +7,15 @@
           "head": "About",
           "item1": "About PyconIr",
           "item2": "Code of Conduct",
-          "item3": "Organizers"
+          "item3": "Organizers",
+          "item4": "Call for Logo"
         },
         "registration": {
           "head": "Registration",
           "item1": "Buy Ticket",
           "item2": "Donate",
-          "item3": "Job Opportunities"
+          "item3": "Job Opportunities",
+          "item4": "Startup Row"
         },
         "sponsor": {
           "head": "Sponsor",

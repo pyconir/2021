@@ -110,6 +110,7 @@ export default function Navbar(props) {
                     link: "code-of-conduct",
                   },
                   { name: t("navbar.items.about.item3"), link: "organizers" },
+                  { name: t("navbar.items.about.item4"), link: "call-for-logo" }
                 ]}
               />
             </NavItem>
@@ -127,6 +128,10 @@ export default function Navbar(props) {
                   {
                     name: t("navbar.items.registration.item3"),
                     link: "jobOpportunities",
+                  },
+                  {
+                    name: t("navbar.items.registration.item4"),
+                    link: "startup-row",
                   },
                 ]}
               />
