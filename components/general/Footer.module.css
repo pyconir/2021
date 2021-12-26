@@ -137,3 +137,21 @@
     transform: scale(1);
   }
 }
+
+@media all and (max-width: 540px) {
+  .footerDownContainer{
+    flex-direction: column;
+  }
+  .footerNav {
+    width: 100%;
+    padding-top: 20vw;
+  }
+  .socialsContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .socialImage {
+    height: 11vw;
+  }
+}
