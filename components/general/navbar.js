@@ -110,7 +110,10 @@ export default function Navbar(props) {
                     link: "code-of-conduct",
                   },
                   { name: t("navbar.items.about.item3"), link: "organizers" },
-                  { name: t("navbar.items.about.item4"), link: "call-for-logo" }
+                  {
+                    name: t("navbar.items.about.item4"),
+                    link: "call-for-logo",
+                  },
                 ]}
               />
             </NavItem>
@@ -228,10 +231,10 @@ function NavItem(props) {
     <div
       className={styles.navbarListItem}
       onMouseEnter={() => {
-        setOpen(!open);
+        setOpen(true);
       }}
       onMouseLeave={() => {
-        setOpen(!open);
+        setOpen(false);
       }}
     >
       <Link href={{ pathname: "/" + (props.navlink || ""), query: query }}>
