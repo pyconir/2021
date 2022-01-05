@@ -26,7 +26,7 @@ export default function SponsorsPage() {
         <h1>{t("pages.sponsors.page.t1")}</h1>
         <div className={"bodyText"}>{t("pages.sponsors.page.p1")}</div>
         <BecomeSponserButton />
-        <SponsorsContainer
+        {/* <SponsorsContainer
           plan={t("pages.sponsors.page.p2")}
           color={"linear-gradient(to right, white , #D6D5D3 , #D6D5D3 )"}
         >
@@ -43,7 +43,7 @@ export default function SponsorsPage() {
           color={"linear-gradient(to right, white , #757573 , #757573)"}
         >
           در حال تکمیل
-        </SponsorsContainer>
+        </SponsorsContainer> */}
       </div>
     </section>
   );

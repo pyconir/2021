@@ -346,6 +346,7 @@
       "sponsors": {
         "page": {
           "t1": "Sponsors",
+          "button": "Become Sponsor",
           "p1": "PyconIr Conference is proud to have the support of the sponsors provided on this page.",
           "p2": "Platinum",
           "p3": "Gold",

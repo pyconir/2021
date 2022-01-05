@@ -41,7 +41,10 @@ h3 {
 }
 
 .buttonsText {
-  font-family: "Vazir";
+  text-align: center;
+  font-family: "Fraunces", "Vazir";
+  font-weight: 600;
+  letter-spacing: 1px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
