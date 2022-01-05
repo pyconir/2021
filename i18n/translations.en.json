@@ -314,6 +314,7 @@
       "jobOpportunities": {
         "page": {
           "t1": "Job Opportunities",
+          "button": "Submit a job",
           "p1": "It is possible to send job opportunities to be displayed in the job fair."
         },
         "jobs": {
