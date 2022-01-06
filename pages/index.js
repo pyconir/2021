@@ -8,15 +8,29 @@ import Sponsors from "../components/exclusive/homePage/sponsors";
 import CallPapers from "../components/exclusive/homePage/callPapers";
 import AboutPython from "../components/exclusive/homePage/aboutPython";
 import AboutPyconir from "../components/exclusive/homePage/aboutPyconir";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
+  const pagelang = () => {
+    if (typeof query !== "undefined") {
+      if (query.lang == "en") {
+        return "en";
+      } else {
+        return "fa";
+      }
+    } else {
+      return "fa";
+    }
+  };
   return (
     <div className={styles.container}>
       <Head>
         <title>PyCon 2021 Welcome to PyCon Iran 2021</title>
-        <meta name="description" content="" />
+        <meta name="description" content={t("pages.home.description")} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href={prefix + "/favicon.ico"} />
         <link rel="preconnect" href="//fdn.fontcdn.ir" />

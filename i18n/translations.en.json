@@ -51,6 +51,7 @@
     },
     "pages": {
       "home": {
+        "description": "PyCon Iran is a gathering for the community using and developing the open-source Python programming language. PyCon Iran is dedicated to advance its mission of growing the Iranian community of Python programmers.",
         "callPapers": {
           "t1": "",
           "p1": "Call for Papers",
@@ -105,6 +106,7 @@
         }
       },
       "about": {
+        "description": "",
         "t1": "About PyCon Iran",
         "p1": "The year is half over, and most of it has passed in a blink of an eye. We have experienced many things together, fighting COVID-19 together, cheering for the athletes in the Tokyo Olympics and Wrestling World Cup, working hard for your future, and sharing your achievements with your family happily together.",
         "p2": "In the year that winter is coming, you must have a lot of gains, and you must also have a lot of questions. You must want to have an opportunity for you and like-minded friends in the community to get together and share your experiences with each other.",
@@ -114,6 +116,7 @@
         "p6": "PyCon Iran is a diverse conference dedicated to providing an effective experience to everyone. Help us ensure this."
       },
       "aid": {
+        "description": "",
         "t1": "Support Conference",
         "button": "Donate",
         "p1": " ",
@@ -122,6 +125,7 @@
         "p4": "You can help us to continue the conference at the best possible level by pressing the support button below."
       },
       "becomeSpeaker": {
+        "description": "",
         "t1": "Speak in PyCon ",
         "t2": "Conference Structure",
         "t3": "Guidelines for Proposal Submission",
@@ -216,6 +220,7 @@
         "p80": "Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible. For further questions and finally submitting your proposal, feel free to contact us via email, team@ir.pycon.org until Wednesday January 5."
       },
       "becomeSponsor": {
+        "description": "",
         "t1": "Become a Sponsor",
         "p1": "The PyconIr conference offers the following benefits in return for sponsor support:",
         "p2": "Placing the company name or brand on the front page of the conference",
@@ -251,6 +256,7 @@
         "button": "Email us to get started"
       },
       "buyTicket": {
+        "description": "",
         "t1": "Buy Ticket",
         "t2": "Types of Tickets",
         "p1": "For this year, one type of ticket is considered, which includes the use of all conference facilities. Therefore, by purchasing this ticket, access to all online offerings and workshops will be provided.",
@@ -260,6 +266,7 @@
         "button": "Buy Ticket"
       },
       "callForLogo": {
+        "description": "",
         "t1": "Call for Logo Proposal",
         "t2": "Requirements",
         "t3": "Process",
@@ -272,10 +279,12 @@
         "p7": "Submit proposals by Wednesday January 5, 2022"
       },
       "callForPapers": {
+        "description": "",
         "t1": "Call for Papers",
         "p1": "Coming Soon ..."
       },
       "codeOfConduct": {
+        "description": "",
         "t1": "Code of Conduct",
         "t2": "Do:",
         "t3": "Don't:",
@@ -313,6 +322,7 @@
       },
       "index": {},
       "jobOpportunities": {
+        "description": "",
         "page": {
           "t1": "Job Opportunities",
           "button": "Submit a job",
@@ -326,26 +336,32 @@
         }
       },
       "organizers": {
+        "description": "",
         "t1": "Organizers",
         "p1": "Coming Soon ..."
       },
       "presentWorkshop": {
+        "description": "",
         "t1": "Present a Workshop",
         "p1": "Coming Soon ..."
       },
       "schedule": {
+        "description": "",
         "t1": "Schedule",
         "p1": "Coming Soon ..."
       },
       "setup": {
+        "description": "",
         "t1": "Setup",
         "p1": "Coming Soon ..."
       },
       "speakers": {
+        "description": "",
         "t1": "Speakers",
         "p1": "Coming Soon ..."
       },
       "sponsors": {
+        "description": "",
         "page": {
           "t1": "Sponsors",
           "button": "Become Sponsor",
@@ -359,6 +375,7 @@
         }
       },
       "sprints": {
+        "description": "",
         "t1": "Sprints",
         "t2": "What is a “Sprint”?",
         "p1": "This year's Mentored Sprints will be run online through Zoom and Discord!",
@@ -368,6 +385,7 @@
         "p5": "For this reason, a form of impromptu coding meetups called “sprints” or “hackathons” (outside the Python community, the term “hackathon” is more common) were initiated, where developers interested in a project can get together for a short period of time to make quick progress. Since conferences provide the perfect occasion to meet, sprints are made part of the conference program."
       },
       "startups": {
+        "description": "",
         "t1": "Startup Row",
         "t2": "Does your startup qualify? Here are the criteria:",
         "t3": "Process",
