@@ -53,6 +53,7 @@ export default function Home() {
       <Layout>
         <Landing />
         <Events />
+        <Speakers />
         <AboutPyconir />
         <AboutPython />
       </Layout>
