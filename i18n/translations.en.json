@@ -63,10 +63,14 @@
           "date2": "December 10 ",
           "date3": "November 17 ",
           "date4": "November 16 ",
+          "date5": "January 9 ",
+          "date6": "January 11 ",
           "news1": "PyCon Iran Conference supports start-ups",
           "news2": "Discord server launched. Some parts of the conference are organized inside Discord. Please join the server",
           "news3": "The call for proposals is open and you can send your proposals until January 5",
-          "news4": "The Pycon Iran Conference will be held from January 19 to January 21. You can register now"
+          "news4": "The PyCon Iran Conference will be held from January 19 to January 21. You can register now",
+          "news5": "The date of PyCon conference was changed. Iran PyCon will be held from February 16 to February 18",
+          "news6": "The call for proposals extended to February 4"
         },
         "landing": {
           "t1": "",
@@ -191,10 +195,10 @@
         "p1": "We are very excited to be gathering online for PyCon Iran! PyCon Iran is seeking speakers of all experience levels and backgrounds to contribute to our conference program! If you use Python professionally, as a hobbyist, or are just excited about Python or programming and open source communities, we’d love to hear from you. All speakers will be presenting their topics online this year.",
         "p2": "Everyone is encouraged to submit a proposal, regardless of experience level. We're looking for proposals on every aspect of Python: programming from novice to advanced levels, applications and frameworks, or how you have been involved in introducing Python into your organization.",
         "p3": "Please also forward this Call for Proposals to anyone that you feel may be interested.",
-        "p4": "This is the conference structure for the online PyCon Iran 2021 taking place from January 19 to January 21",
-        "p5": "Wednesday January 19: tutorials / workshops",
-        "p6": "Thursday January 20: keynotes, talks, lightning talks, poster session",
-        "p7": "Friday January 21: code sprints / hackathons",
+        "p4": "This is the conference structure for the online PyCon Iran 2021 taking place from February 16 to February 18",
+        "p5": "Wednesday February 16: tutorials / workshops",
+        "p6": "Thursday February 17: keynotes, talks, lightning talks, poster session",
+        "p7": "Friday February 18: code sprints / hackathons",
         "p8": "We will accept a broad range of presentations, from reports on academic and commercial projects to case studies. As long as the presentation is interesting and potentially useful to the Python community, it will be considered for inclusion in the program.",
         "p9": "Can you show something new and useful? Can you show the attendees how to use a module? Explore a Python language feature? Package an application? If so, please consider submitting a talk.",
         "p10": "There are multiple kinds of contributions that you can present at PyCon Iran; Before writing up a proposal, read the following descriptions of the five kinds of presentations at PyCon Iran — Talks, Tutorials / Workshops, Posters, Lightning Talks, and Sprints — and follow the individual guidelines for the proposal kind that best suits your topic.",
@@ -267,7 +271,7 @@
         "p77": "allow the PyCon Iran to make the talk recordings and uploaded materials available under a CC BY-NC-SA license",
         "p78": "To simplify the organization, we ask all speakers to accept the video recording and publishing of their session. All talks will be recorded.Talk slides will be made available on the PyCon Iran website. Talk video recordings will be uploaded to the PyCon Iran YouTube channel and other platforms.",
         "p79": "As with all proposal types, we are really looking to you to talk about what’s going on in this community and tell everyone where it is going. If you are doing something awesome, share it!",
-        "p80": "Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible. For further questions and finally submitting your proposal, feel free to contact us via email, team@ir.pycon.org until Wednesday January 5."
+        "p80": "Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible. For further questions and finally submitting your proposal, feel free to contact us via email, team@ir.pycon.org until Friday February 4."
       },
       "becomeSponsor": {
         "description": "",

@@ -38,6 +38,25 @@ export default function Events() {
         />
 
         <ul className={"bodyText"} style={{ marginBottom: "0px" }}>
+        <li className={"bodyText"}>
+            <span className={styles.newsDate}>
+              {t("pages.home.events.date6")}
+            </span>
+            {t("pages.home.events.news6")}
+            <Link href={{ pathname: "/speak-in-pycon", query: query }}>
+              <span
+                className={styles.newsButtonContainer + " " + "unSelectable"}
+              >
+                {">"}
+              </span>
+            </Link>
+          </li>
+        <li className={"bodyText"}>
+            <span className={styles.newsDate}>
+              {t("pages.home.events.date5")}
+            </span>
+            {t("pages.home.events.news5")}
+          </li>
           <li className={"bodyText"}>
             <span className={styles.newsDate}>
               {t("pages.home.events.date1")}
