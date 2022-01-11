@@ -103,9 +103,11 @@ export default function Speakers() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.sectionTitleContainer}>
-          <div className={styles.sectionTitle}>
+          <h1>
             {t("pages.home.speakers.t1")}
-          </div>
+            <div style={{fontSize:"16px"}}>{t("pages.home.speakers.t1-1")}</div>
+          </h1>
+
           <img
             src={
               prefix +
@@ -114,6 +116,8 @@ export default function Speakers() {
               ".png"
             }
             alt="titleUnderline"
+            style={{ marginBottom: "30px" }}
+            className={styles.underLineImage}
           />
         </div>
         <div className={styles.speakersContainer}>
@@ -159,7 +163,10 @@ export default function Speakers() {
             social={true}
             github={{ valid: false, link: "" }}
             twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: true, link: "https://www.linkedin.com/in/alireza-zolanvari" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/alireza-zolanvari",
+            }}
           />
           <SpeakerCard
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker5.jpg"}
@@ -170,7 +177,10 @@ export default function Speakers() {
             social={true}
             github={{ valid: true, link: "https://github.com/sadrasabouri" }}
             twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: true, link: "https://www.linkedin.com/in/sadra-sabouri-136354170" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/sadra-sabouri-136354170",
+            }}
           />
           <SpeakerCard
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker6.jpg"}
@@ -203,7 +213,10 @@ export default function Speakers() {
             social={true}
             github={{ valid: true, link: "https://github.com/AFanaei" }}
             twitter={{ valid: true, link: "https://twitter.com/AhmadFanaei" }}
-            linkedin={{ valid: true, link: "https://www.linkedin.com/in/ahmad-fanaei-408b19128/" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/ahmad-fanaei-408b19128/",
+            }}
           />
         </div>
       </div>

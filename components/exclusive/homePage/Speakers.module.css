@@ -119,4 +119,16 @@
     margin-right: 10px;
     margin-left: 10px;
   }
+  .underLineImage {
+    width: 200px;
+  }
+  .speakersSectionContainer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .speakerCardContainer {
+    min-width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

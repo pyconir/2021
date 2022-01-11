@@ -78,7 +78,8 @@
         },
         "speakers": {
           "t1": "Speakers",
-          "p1": "",
+          "t1-1":"completing",
+          "p1": " ",
           "speakers": {
             "speaker1": {
               "name": "Sepand Haghighi",
