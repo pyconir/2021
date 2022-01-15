@@ -64,16 +64,40 @@ h3 {
 
 @font-face {
   font-family: "BKoodak_Bold";
-  /* src: url("/2021/fonts/bkoodak/bkoodak.TTF"); */
   src: url("/fonts/bkoodak/bkoodak.TTF");
   font-style: bold;
   font-weight: 400;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/vazir/Vazir-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/vazir/Vazir-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/vazir/Vazir-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/vazir/Vazir-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap");
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
   h1 {
     font-size: 30px;
   }
@@ -83,7 +107,7 @@ h3 {
   h3 {
     font-size: 21px;
   }
-  .bodyText{
+  .bodyText {
     font-size: 18px;
   }
 }
