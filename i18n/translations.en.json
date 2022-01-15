@@ -78,7 +78,7 @@
         },
         "speakers": {
           "t1": "Speakers",
-          "t1-1":"completing",
+          "t1-1": "completing",
           "p1": " ",
           "speakers": {
             "speaker1": {
@@ -114,19 +114,19 @@
             "speaker6": {
               "name": "Sebastiaan Zeeff",
               "title": "Software Engineer for the Ordina Pythoneers and a Fellow of the Python Software Foundation",
-              "about": "As a Python enthusiast, he loves discussing the inner workings of the language and coaching others to become better developers. In 2021, Sebastiaan gave talks at various conferences, including PyCon, EuroPython, FOSDEM, PyCon Indonesia, Pyjamas, and PyGrunn. He is also active in the Python community, as an owner of Python Discord, an open-source contributor, and as a Python educator.",
+              "about": "In 2021, Sebastiaan gave talks at various conferences, including PyCon, EuroPython, FOSDEM, PyCon Indonesia, Pyjamas, and PyGrunn. He is also owner of Python Discord server.",
               "talkTitle": "Title : Introducing Asynchronous SQLAlchemy"
             },
             "speaker7": {
               "name": "Soroush Mousapour",
               "title": "CTO of Kayoosh academy",
-              "about": "Active in software development, analysis and development of various information security and reverse engineering tools with different programming languages, strongly opposed to object-oriented programming (except when using Django framework), believes in test-driven development, interested in periodic optimization! Soroush thinks that when a program is written, the optimization of the program (speed and resource consumption) and its proper functioning is more important than the tools and language in which the program is written, OOP and inheritance generally complicate the program, and Tensorflow is better than Pytorch!",
+              "about": "Active in software development, analysis and development of various information security and reverse engineering tools with different programming languages.",
               "talkTitle": "Deep learning in practice"
             },
             "speaker8": {
               "name": "Ahmad Fanaei",
               "title": "Manager of Backend and Data team at Torob",
-              "about": "He started programming in high school with C ++ language and two-dimensional football simulation. He studied computer science at Sharif University of Technology. During his B.Sc, he became interested in the development of web-based software, especially Django. In 2014, he started a virtual reality project with a number of his friends in Sharif University of Technology’s accelerator, which unfortunately failed for some reasons, but he also got acquainted with Torob startup. Ahmed was hired by Torob Company in 2016 as a software engineer and is currently the Torob’s manager of Backend and Data team.",
+              "about": "He studied computer science at Sharif University of Technology. Ahmed was hired by Torob Company in 2016 as a software engineer and is currently the Torob’s manager of Backend and Data team.",
               "talkTitle": "Performance improvement strategies for PostgreSQL database in Django"
             }
           }
