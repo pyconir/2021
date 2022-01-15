@@ -105,7 +105,9 @@ export default function Speakers() {
         <div className={styles.sectionTitleContainer}>
           <h1>
             {t("pages.home.speakers.t1")}
-            <div style={{fontSize:"16px"}}>{t("pages.home.speakers.t1-1")}</div>
+            <div style={{ fontSize: "16px" }}>
+              {t("pages.home.speakers.t1-1")}
+            </div>
           </h1>
 
           <img
@@ -216,6 +218,20 @@ export default function Speakers() {
             linkedin={{
               valid: true,
               link: "https://www.linkedin.com/in/ahmad-fanaei-408b19128/",
+            }}
+          />
+          <SpeakerCard
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker9.jpg"}
+            name={t("pages.home.speakers.speakers.speaker9.name")}
+            title={t("pages.home.speakers.speakers.speaker9.title")}
+            about={t("pages.home.speakers.speakers.speaker9.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker9.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: false,
+              link: "",
             }}
           />
         </div>

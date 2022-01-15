@@ -109,25 +109,31 @@
               "name": "Sadra Sabouri",
               "title": "BSc student in Electrical Engineering and Computer Science, Sharif University of Technology",
               "about": "Python Open Source Developer",
-              "talkTitle": "Samila, Generative Art"
+              "talkTitle": "Title: Samila, Generative Art"
             },
             "speaker6": {
               "name": "Sebastiaan Zeeff",
               "title": "Software Engineer for the Ordina Pythoneers and a Fellow of the Python Software Foundation",
               "about": "In 2021, Sebastiaan gave talks at various conferences, including PyCon, EuroPython, FOSDEM, PyCon Indonesia, Pyjamas, and PyGrunn. He is also owner of Python Discord server.",
-              "talkTitle": "Title : Introducing Asynchronous SQLAlchemy"
+              "talkTitle": "Title: Introducing Asynchronous SQLAlchemy"
             },
             "speaker7": {
               "name": "Soroush Mousapour",
               "title": "CTO of Kayoosh academy",
               "about": "Active in software development, analysis and development of various information security and reverse engineering tools with different programming languages.",
-              "talkTitle": "Deep learning in practice"
+              "talkTitle": "Title: Deep learning in practice"
             },
             "speaker8": {
               "name": "Ahmad Fanaei",
               "title": "Manager of Backend and Data team at Torob",
               "about": "He studied computer science at Sharif University of Technology. Ahmed was hired by Torob Company in 2016 as a software engineer and is currently the Torob’s manager of Backend and Data team.",
-              "talkTitle": "Performance improvement strategies for PostgreSQL database in Django"
+              "talkTitle": "Title: Performance improvement strategies for PostgreSQL database in Django"
+            },
+            "speaker9": {
+              "name": "Hassan Nouri",
+              "title": "CTO and co-founder of Formaloo",
+              "about": "Since 2016, as the Chief Technology Officer at Idearun Studio Startup, he has worked with many startup teams. Since starting Formaloo, as chief technology officer and software architect, he is engaged in the rapid advancement of a growing product.",
+              "talkTitle": "Title: Please stay away from microservices!"
             }
           }
         },
