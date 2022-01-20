@@ -1,5 +1,6 @@
 import styles from "./Speakers.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
+import Link from "next/link";
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -20,14 +21,23 @@ function SpeakerCard(props) {
   return (
     <>
       <div className={styles.speakerCardContainer}>
-        <div className={styles.speakerImageContainer}>
-          <img
-            src={props.imageUrl}
-            alt="speaker-image"
-            className={styles.speakerImage}
-          />
-        </div>
-        <div className={styles.speakerName}>{props.name}</div>
+        <Link
+          href={{ pathname: "/speakers-detail/" + props.speaker, query: query }}
+        >
+          <div className={styles.speakerImageContainer}>
+            <img
+              src={props.imageUrl}
+              alt="speaker-image"
+              className={styles.speakerImage}
+            />
+          </div>
+        </Link>
+        <Link
+          href={{ pathname: "/speakers-detail/" + props.speaker, query: query }}
+        >
+          <div className={styles.speakerName}>{props.name}</div>
+        </Link>
+
         <div className={styles.spkeakerTitle}>{props.title}</div>
         <div className={styles.aboutSpeaker}>{props.about}</div>
         <div className={styles.speakerTalkTitle}>{props.talkTitle}</div>
@@ -124,6 +134,7 @@ export default function Speakers() {
         </div>
         <div className={styles.speakersContainer}>
           <SpeakerCard
+            speaker={"speaker1"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker1.jpg"}
             name={t("pages.home.speakers.speakers.speaker1.name")}
             title={t("pages.home.speakers.speakers.speaker1.title")}
@@ -135,6 +146,7 @@ export default function Speakers() {
             linkedin={{ valid: false, link: "" }}
           />
           <SpeakerCard
+            speaker={"speaker2"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker2.jpg"}
             name={t("pages.home.speakers.speakers.speaker2.name")}
             title={t("pages.home.speakers.speakers.speaker2.title")}
@@ -146,6 +158,7 @@ export default function Speakers() {
             linkedin={{ valid: false, link: "" }}
           />
           <SpeakerCard
+            speaker={"speaker3"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker3.jpg"}
             name={t("pages.home.speakers.speakers.speaker3.name")}
             title={t("pages.home.speakers.speakers.speaker3.title")}
@@ -157,6 +170,7 @@ export default function Speakers() {
             linkedin={{ valid: false, link: "" }}
           />
           <SpeakerCard
+            speaker={"speaker4"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker4.jpg"}
             name={t("pages.home.speakers.speakers.speaker4.name")}
             title={t("pages.home.speakers.speakers.speaker4.title")}
@@ -171,6 +185,7 @@ export default function Speakers() {
             }}
           />
           <SpeakerCard
+            speaker={"speaker5"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker5.jpg"}
             name={t("pages.home.speakers.speakers.speaker5.name")}
             title={t("pages.home.speakers.speakers.speaker5.title")}
@@ -185,6 +200,7 @@ export default function Speakers() {
             }}
           />
           <SpeakerCard
+            speaker={"speaker6"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker6.jpg"}
             name={t("pages.home.speakers.speakers.speaker6.name")}
             title={t("pages.home.speakers.speakers.speaker6.title")}
@@ -196,6 +212,7 @@ export default function Speakers() {
             linkedin={{ valid: false, link: "" }}
           />
           <SpeakerCard
+            speaker={"speaker7"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker7.jpg"}
             name={t("pages.home.speakers.speakers.speaker7.name")}
             title={t("pages.home.speakers.speakers.speaker7.title")}
@@ -207,6 +224,7 @@ export default function Speakers() {
             linkedin={{ valid: false, link: "" }}
           />
           <SpeakerCard
+            speaker={"speaker8"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker8.jpg"}
             name={t("pages.home.speakers.speakers.speaker8.name")}
             title={t("pages.home.speakers.speakers.speaker8.title")}
@@ -221,6 +239,7 @@ export default function Speakers() {
             }}
           />
           <SpeakerCard
+            speaker={"speaker9"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker9.jpg"}
             name={t("pages.home.speakers.speakers.speaker9.name")}
             title={t("pages.home.speakers.speakers.speaker9.title")}

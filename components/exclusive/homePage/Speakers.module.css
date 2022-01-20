@@ -54,6 +54,12 @@
   border-radius: 28px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.16);
   margin-bottom: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.speakerImage:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.6);
 }
 
 .speakerName {
@@ -63,6 +69,12 @@
   color: #36554e;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.speakerName:hover {
+  cursor: pointer;
+  color: #3e9c86;
 }
 
 .spkeakerTitle {
