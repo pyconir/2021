@@ -44,25 +44,29 @@ export default function SpeakerPage(props) {
         <div className={styles.speakDetails}>
           {Object.entries(
             t("pages.speakers.speakers." + props.speaker + ".talkDetail")
-          ).map((text) => {
+          ).map((text, index) => {
             if (text[0].startsWith("p")) {
-              return <div className={styles.speakerDetailsParagraphs}>{text[1]}</div>;
+              return (
+                <div className={styles.speakerDetailsParagraphs} key={index}>
+                  {text[1]}
+                </div>
+              );
             } else if (text[0].startsWith("ul")) {
               return (
                 <ul>
-                  {Object.entries(text[1]).map((list) => {
+                  {Object.entries(text[1]).map((list, index2) => {
                     if (list[0].startsWith("li")) {
-                      return <li>{list[1]}</li>;
+                      return <li key={index2}>{list[1]}</li>;
                     } else if (list[0].startsWith("ul")) {
                       return (
                         <ul>
-                          {Object.entries(list[1]).map((listInList) => {
-                            return <li>{listInList[1]}</li>;
+                          {Object.entries(list[1]).map((listInList, index3) => {
+                            return <li key={index3}>{listInList[1]}</li>;
                           })}
                         </ul>
                       );
                     } else if (list[0].startsWith("p")) {
-                      return <div>{list[1]}</div>;
+                      return <div key={index2}>{list[1]}</div>;
                     }
                   })}
                 </ul>
