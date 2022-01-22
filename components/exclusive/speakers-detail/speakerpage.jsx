@@ -41,7 +41,35 @@ export default function SpeakerPage(props) {
         <h3 className={styles.speakTitle}>
           {t("pages.speakers.speakers." + props.speaker + ".talkTitle")}
         </h3>
-        <div className={styles.speakDetails}>{t("pages.speakers.speakers." + props.speaker + ".talkDetail")}</div>
+        <div className={styles.speakDetails}>
+          {Object.entries(
+            t("pages.speakers.speakers." + props.speaker + ".talkDetail")
+          ).map((text) => {
+            if (text[0].startsWith("p")) {
+              return <div className={styles.speakerDetailsParagraphs}>{text[1]}</div>;
+            } else if (text[0].startsWith("ul")) {
+              return (
+                <ul>
+                  {Object.entries(text[1]).map((list) => {
+                    if (list[0].startsWith("li")) {
+                      return <li>{list[1]}</li>;
+                    } else if (list[0].startsWith("ul")) {
+                      return (
+                        <ul>
+                          {Object.entries(list[1]).map((listInList) => {
+                            return <li>{listInList[1]}</li>;
+                          })}
+                        </ul>
+                      );
+                    } else if (list[0].startsWith("p")) {
+                      return <div>{list[1]}</div>;
+                    }
+                  })}
+                </ul>
+              );
+            }
+          })}
+        </div>
       </div>
     </section>
   );

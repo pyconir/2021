@@ -61,6 +61,10 @@
   color: #3a3a3a;
 }
 
+.speakerDetailsParagraphs{
+  margin-bottom: 18px;
+}
+
 @media screen and (max-width: 760px) {
   .speakerPageContainer {
     padding-left: 5vw;

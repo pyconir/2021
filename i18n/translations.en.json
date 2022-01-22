@@ -426,7 +426,9 @@
             "about": "Master's degree in Computer Engineering from Sharif University of Technology and Open source programmer, developer of art and PyCM libraries.",
             "talkTitle": "Title: art library in 5 minutes!",
             "type": "lightning talk",
-            "talkDetail": "ASCII Art is a type of graphic design that is produced using a computer and putting ASCII characters together. One of the applications of this method in the world of programming is to adorn programs including a command-line interface (CLI). The art library makes this possible in the Python programming language, and we'll cover that in this lightning talk."
+            "talkDetail": {
+              "p1": "ASCII Art is a type of graphic design that is produced using a computer and putting ASCII characters together. One of the applications of this method in the world of programming is to adorn programs including a command-line interface (CLI). The art library makes this possible in the Python programming language, and we'll cover that in this lightning talk."
+            }
           },
           "speaker2": {
             "name": "Yashar Shahinzadeh",
@@ -434,7 +436,9 @@
             "about": "researcher and application layer bug hunter",
             "talkTitle": "Title: A Security vulnerability in the Django framework",
             "type": "45-minute talk",
-            "talkDetail": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
+            "talkDetail": {
+              "p1": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
+            }
           },
           "speaker3": {
             "name": "Amir Mohammad Safari",
@@ -442,7 +446,9 @@
             "about": "pupil and application layer bug hunter",
             "talkTitle": "Title: A Security vulnerability in the Django framework",
             "type": "45-minute talk",
-            "talkDetail": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
+            "talkDetail": {
+              "p1": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
+            }
           },
           "speaker4": {
             "name": "Alireza Zolanvari",
@@ -450,7 +456,9 @@
             "about": "PhD student in data science, University of Groningen and PyCM Library Developer",
             "talkTitle": "Title: Post-processing of machine learning algorithms in Python",
             "type": "30-minute talk",
-            "talkDetail": "One of the significant steps in machine learning is to evaluate the performance of the algorithm after achieving the results and outputs. To this end, many methods have been proposed, depending on the type of problem as well as the study data. The purpose of this presentation is to introduce and review strategies for evaluating the performance of machine learning algorithms and how to implement them in Python using the PyCM library."
+            "talkDetail": {
+              "p1": "One of the significant steps in machine learning is to evaluate the performance of the algorithm after achieving the results and outputs. To this end, many methods have been proposed, depending on the type of problem as well as the study data. The purpose of this presentation is to introduce and review strategies for evaluating the performance of machine learning algorithms and how to implement them in Python using the PyCM library."
+            }
           },
           "speaker5": {
             "name": "Sadra Sabouri",
@@ -458,7 +466,9 @@
             "about": "BSc student in Electrical Engineering and Computer Science, Sharif University of Technology and Python Open Source Developer",
             "talkTitle": "Title: Samila, Generative Art",
             "type": "lightning talk",
-            "talkDetail": "Generative Art refers to an art work that is generated in whole or in part by an autonomous system. We will create these generative arts through the use of Python programming language and Samila Library."
+            "talkDetail": {
+              "p1": "Generative Art refers to an art work that is generated in whole or in part by an autonomous system. We will create these generative arts through the use of Python programming language and Samila Library."
+            }
           },
           "speaker6": {
             "name": "Sebastiaan Zeeff",
@@ -466,7 +476,10 @@
             "about": "Sebastiaan is a Software Engineer for the Ordina Pythoneers and a Fellow of the Python Software Foundation. As a Python enthusiast, he loves discussing the inner workings of the language and coaching others to become better developers. In 2021, Sebastiaan gave talks at various conferences, including PyCon, EuroPython, FOSDEM, PyCon Indonesia, Pyjamas, and PyGrunn. He is also active in the Python community, as an owner of Python Discord, an open-source contributor, and as a Python educator.",
             "talkTitle": "Title: Introducing Asynchronous SQLAlchemy",
             "type": "30-minute talk",
-            "talkDetail": "Driven by the immense popularity of asynchronous frameworks, such as FastAPI, asynchronous database support suddenly became a hot topic in the Python community. As talking to your database often forms a significant portion of the input and output of your application, it's important to do that asynchronously as well. With the release of version 1.4, SQLAlchemy added support for Asynchronous I/O for both its core and ORM features. This means that you can now use the popular SQL toolkit for Python in your asynchronous applications. In my talk, I will introduce you to the newly added support for asyncio in SQLAlchemy. I will go over how easy it is to set up the new AsyncEngine, point you to some of the differences with synchronous SQLAlchemy, and show you some of the pitfalls to avoid. In addition, I will also show you how you can run your existing synchronous SQLAlchemy code asynchronously to help you transition to a fully asynchronous application. By the end of my talk, you should know enough to start your own asynchronous SQLAlchemy adventure."
+            "talkDetail": {
+              "p1": "Driven by the immense popularity of asynchronous frameworks, such as FastAPI, asynchronous database support suddenly became a hot topic in the Python community. As talking to your database often forms a significant portion of the input and output of your application, it's important to do that asynchronously as well. With the release of version 1.4, SQLAlchemy added support for Asynchronous I/O for both its core and ORM features. This means that you can now use the popular SQL toolkit for Python in your asynchronous applications.",
+              "p2": "In my talk, I will introduce you to the newly added support for asyncio in SQLAlchemy. I will go over how easy it is to set up the new AsyncEngine, point you to some of the differences with synchronous SQLAlchemy, and show you some of the pitfalls to avoid. In addition, I will also show you how you can run your existing synchronous SQLAlchemy code asynchronously to help you transition to a fully asynchronous application. By the end of my talk, you should know enough to start your own asynchronous SQLAlchemy adventure."
+            }
           },
           "speaker7": {
             "name": "Soroush Mousapour",
@@ -474,7 +487,10 @@
             "about": "Active in software development, analysis and development of various information security and reverse engineering tools with different programming languages, strongly opposed to object-oriented programming (except when using Django framework), believes in test-driven development, interested in periodic optimization! Soroush thinks that when a program is written, the optimization of the program (speed and resource consumption) and its proper functioning is more important than the tools and language in which the program is written, OOP and inheritance generally complicate the program, and Tensorflow is better than Pytorch!",
             "talkTitle": "Title: Deep learning in practice",
             "type": "workshop",
-            "talkDetail": "Are you also interested in how deep learning empowers intelligent applications? How do self-drivig cars, virtual assistants, face recognition devices, and chat bots process complex information? Whether you are familiar with machine learning or just starting out, this workshop will help you understand deep learning. In this workshop, we first investigate the relationship between machine learning, deep learning and artificial intelligence, and learn about the structure of the second version of Tensorflow. Next, we get to know the structure of neural networks and perceptrons, then we look at computer vision and get acquainted with convolutional neural networks, in the next step we go over text processing and use recursive neural networks, then we use GAN networks to create images. Finally, we examine the problem of implementing the model as a service and write various tests to review and implement it."
+            "talkDetail": {
+              "p1": "Are you also interested in how deep learning empowers intelligent applications? How do self-drivig cars, virtual assistants, face recognition devices, and chat bots process complex information? Whether you are familiar with machine learning or just starting out, this workshop will help you understand deep learning.",
+              "p2": "In this workshop, we first investigate the relationship between machine learning, deep learning and artificial intelligence, and learn about the structure of the second version of Tensorflow. Next, we get to know the structure of neural networks and perceptrons, then we look at computer vision and get acquainted with convolutional neural networks, in the next step we go over text processing and use recursive neural networks, then we use GAN networks to create images. Finally, we examine the problem of implementing the model as a service and write various tests to review and implement it."
+            }
           },
           "speaker8": {
             "name": "Ahmad Fanaei",
@@ -482,7 +498,28 @@
             "about": "He started programming in high school with C ++ language and two-dimensional football simulation. He studied computer science at Sharif University of Technology. During his B.Sc, he became interested in the development of web-based software, especially Django. In 2014, he started a virtual reality project with a number of his friends in Sharif University of Technology’s accelerator, which unfortunately failed for some reasons, but he also got acquainted with Torob startup. Ahmed was hired by Torob Company in 2016 as a software engineer and is currently the Torob’s manager of Backend and Data team.",
             "talkTitle": "Title: Performance improvement strategies for PostgreSQL database in Django",
             "type": "45-minute talk",
-            "talkDetail": ""
+            "talkDetail": {
+              "p1": "Which tools can be used to find database performance problems in the development and production cycle of a Django application?",
+              "ul1": {
+                "li1": "Use django_debug_toolbar during Local environment",
+                "li2": "Use assertNumQueries during Test environment",
+                "li3": "Use squawk in the Deployment environment",
+                "li4": "Use pg_stat_statment in the Production environment"
+              },
+              "p2": "What are the serious performance issues of Django applications?",
+              "ul2": {
+                "li1": "Lack of proper use of select_related and prefetch_related",
+                "li2": "Not restricting fields that must be returned from the database (the lack of only or values)",
+                "li3": "Executing freezing migrations, such as adding new indexes to large tables",
+                "li4": "Pagination",
+                "ul1": {
+                  "li1": "Django default pagination (limit - offset)",
+                  "li2": "Keyset pagination",
+                  "li3": "Keyset range pagination"
+                },
+                "li5": "Finding slow queries using pg_stat_statment and troubleshooting problems by checking the output of Explain command"
+              }
+            }
           },
           "speaker9": {
             "name": "Hassan Nouri",
@@ -490,7 +527,9 @@
             "about": "Since 2016, as the Chief Technology Officer at Idearun Studio Startup, he has worked with many startup teams to develop their technical products and has been closely involved in the right and wrong methods of many novice startups to advance their technical products. Since starting Formaloo, as chief technology officer and software architect, he is engaged in the rapid advancement of a growing product. With a combination of technical and directorial background, he always strives to strike a balance between the technical ideals and the business facts of a startup.",
             "talkTitle": "Title: Please stay away from microservices!",
             "type": "30-minute talk",
-            "talkDetail": "In the world of technology, two things are relatively easy: following new trends, and rejecting new trends. But to do the right work in most cases, you have to choose a middle way. When and to what extent we should use new trends. To expand our services, we started a way that we could approach microservices step by step, but not in too big a step."
+            "talkDetail": {
+              "p1": "In the world of technology, two things are relatively easy: following new trends, and rejecting new trends. But to do the right work in most cases, you have to choose a middle way. When and to what extent we should use new trends. To expand our services, we started a way that we could approach microservices step by step, but not in too big a step."
+            }
           }
         }
       },
