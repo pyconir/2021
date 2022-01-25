@@ -134,6 +134,18 @@
               "title": "CTO and co-founder of Formaloo",
               "about": "Since 2016, as the Chief Technology Officer at Idearun Studio Startup, he has worked with many startup teams. Since starting Formaloo, as chief technology officer and software architect, he is engaged in the rapid advancement of a growing product.",
               "talkTitle": "Title: Please stay away from microservices!"
+            },
+            "speaker10": {
+              "name": "David Tischler",
+              "title": "Developer Advocate at Balena",
+              "about": "David is a Developer Advocate at balena, where he helps show IoT Developers how to easily build and manage fleets of connected devices.",
+              "talkTitle": "Title: Scaling Python Apps at the Edge"
+            },
+            "speaker11": {
+              "name": "Gajendra Deshpande",
+              "title": "Assistant Professor, CSE at KLS.GIT",
+              "about": "Gajendra is a well known speaker with a rich record, including talks at well known python conferences, such as PyData Global, EuroPython. He uses Python to develop prototypes in the field of Cyber Security.",
+              "talkTitle": "Title: Security considerations in Python Packaging"
             }
           }
         },
@@ -529,6 +541,37 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "In the world of technology, two things are relatively easy: following new trends, and rejecting new trends. But to do the right work in most cases, you have to choose a middle way. When and to what extent we should use new trends. To expand our services, we started a way that we could approach microservices step by step, but not in too big a step."
+            }
+          },
+          "speaker10": {
+            "name": "David Tischler",
+            "title": "Developer Advocate at Balena",
+            "about": "David is a Developer Advocate at balena, where he helps show IoT Developers how to easily build and manage fleets of connected devices.  He spends time thinking about how technologies built for the cloud are now leaving the datacenter, and are instead being run at the Edge and on small IoT devices instead.  An Arm Innovator, obsessed with tiny computers and energy-efficient processing.",
+            "talkTitle": "Title: Scaling Python Apps at the Edge",
+            "type": "Workshop",
+            "talkDetail": {
+              "p1": "Python applications bring lots of flexibility and capability to IoT and Edge devices, but how do you deploy your Python code to devices that might be located across the country or across the world?  In this talk, we will demonstrate how to containerize your Python, then use balenaCloud to orchestrate pushing that container onto a device like a Raspberry Pi, no matter where it is located.  This same deployment method can be used across entire fleets of devices as well, saving developers’ time and effort when maintaining large fleets of IoT devices.  This talk will focus on constructing a small temperature sensor, but the concept presented can be replicated for any Python application.",
+              "p2": "No hardware is needed to attend the workshop, but if you would like to follow along and build the project at home, then a Raspberry Pi, SD Card, and BME280 temperature sensor will be necessary."
+            }
+          },
+          "speaker11": {
+            "name": "Gajendra Deshpande",
+            "title": "Assistant Professor, CSE at KLS.GIT",
+            "about": "Gajendra uses Python extensively for teaching and research, and is a well known speaker with a rich record, including talks at well known python conferences, such as PyData Global, EuroPython, PyCon India, SciPy India, PyCon FR, and JuliaCon. Gajendra uses Python to develop prototypes in the field of Cyber Security, and he leads the PyData and the OWASP developers’ communities in Belagavi, India. Gajendra loves to mentor and to volunteer at Free and Open Source events.",
+            "talkTitle": "Title: Security considerations in Python Packaging",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Popular programming language index websites (TIOBE index) and developer surveys (Stack Overflow) place Python as one of the fastest-growing programming languages. However, this popularity also puts in the target range of attackers. The attackers perform malicious dependency attacks and use misconfiguration tools to reveal confidential information. Jukka Ruohonen, Kalle Hjerppe, and Kalle Rindell in their research paper “A Large-Scale Security-Oriented Static Analysis of Python Packages in PyPI” claimed that they scanned PyPI for security issues in Python packages and found the presence of at least one security issue in about 46% of the Python packages. In addition, security vulnerabilities can be present in the source code of the package. In this talk, we will address the security issues related to python packaging and possible solutions to make python packages secure. The talk begins with the importance of a secure package and vulnerabilities in the Python package index. Then, I will discuss Python packages such as Bandit for identifying common security issues in Python code and “safety” for dependency check. Next, I will discuss verifying and signing Python packages using GPG and semgrep static analyser. Finally, I will discuss general guidelines for secure coding practices in Python.",
+              "p2": "Outline:",
+              "ul1": {
+                "li1": "Importance of a secure package and vulnerabilities in python package index. (04 Minutes)",
+                "li2": "Bandit for identifying common security issues in Python code (06 Minutes)",
+                "li3": "Safety for dependency check (06 Minutes)",
+                "li4": "Verifying and signing PyPI and conda packages using GPG and Twine (04 Minutes)",
+                "li5": "semgrep static analyser (04 Minutes)",
+                "li6": "General guidelines for secure coding practices in Python (04 Minutes)",
+                "li7": "Summary and Questions (02 Minute)"
+              }
             }
           }
         }

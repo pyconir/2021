@@ -134,6 +134,90 @@ export default function Speakers() {
         </div>
         <div className={styles.speakersContainer}>
           <SpeakerCard
+            speaker={"speaker7"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker7.jpg"}
+            name={t("pages.home.speakers.speakers.speaker7.name")}
+            title={t("pages.home.speakers.speakers.speaker7.title")}
+            about={t("pages.home.speakers.speakers.speaker7.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker7.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{ valid: false, link: "" }}
+          />
+          <SpeakerCard
+            speaker={"speaker8"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker8.jpg"}
+            name={t("pages.home.speakers.speakers.speaker8.name")}
+            title={t("pages.home.speakers.speakers.speaker8.title")}
+            about={t("pages.home.speakers.speakers.speaker8.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker8.talkTitle")}
+            social={true}
+            github={{ valid: true, link: "https://github.com/AFanaei" }}
+            twitter={{ valid: true, link: "https://twitter.com/AhmadFanaei" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/ahmad-fanaei-408b19128/",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker9"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker9.jpg"}
+            name={t("pages.home.speakers.speakers.speaker9.name")}
+            title={t("pages.home.speakers.speakers.speaker9.title")}
+            about={t("pages.home.speakers.speakers.speaker9.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker9.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: false,
+              link: "",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker10"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker10.jpg"}
+            name={t("pages.home.speakers.speakers.speaker10.name")}
+            title={t("pages.home.speakers.speakers.speaker10.title")}
+            about={t("pages.home.speakers.speakers.speaker10.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker10.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: false,
+              link: "",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker11"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker11.jpg"}
+            name={t("pages.home.speakers.speakers.speaker11.name")}
+            title={t("pages.home.speakers.speakers.speaker11.title")}
+            about={t("pages.home.speakers.speakers.speaker11.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker11.talkTitle")}
+            social={true}
+            github={{ valid: true, link: "https://github.com/gcdeshpande" }}
+            twitter={{ valid: true, link: "https://twitter.com/gcdeshpande" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/gajendradeshpande/",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker6"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker6.jpg"}
+            name={t("pages.home.speakers.speakers.speaker6.name")}
+            title={t("pages.home.speakers.speakers.speaker6.title")}
+            about={t("pages.home.speakers.speakers.speaker6.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker6.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{ valid: false, link: "" }}
+          />
+          <SpeakerCard
             speaker={"speaker1"}
             imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker1.jpg"}
             name={t("pages.home.speakers.speakers.speaker1.name")}
@@ -197,60 +281,6 @@ export default function Speakers() {
             linkedin={{
               valid: true,
               link: "https://www.linkedin.com/in/sadra-sabouri-136354170",
-            }}
-          />
-          <SpeakerCard
-            speaker={"speaker6"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker6.jpg"}
-            name={t("pages.home.speakers.speakers.speaker6.name")}
-            title={t("pages.home.speakers.speakers.speaker6.title")}
-            about={t("pages.home.speakers.speakers.speaker6.about")}
-            talkTitle={t("pages.home.speakers.speakers.speaker6.talkTitle")}
-            social={false}
-            github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: false, link: "" }}
-          />
-          <SpeakerCard
-            speaker={"speaker7"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker7.jpg"}
-            name={t("pages.home.speakers.speakers.speaker7.name")}
-            title={t("pages.home.speakers.speakers.speaker7.title")}
-            about={t("pages.home.speakers.speakers.speaker7.about")}
-            talkTitle={t("pages.home.speakers.speakers.speaker7.talkTitle")}
-            social={false}
-            github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: false, link: "" }}
-          />
-          <SpeakerCard
-            speaker={"speaker8"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker8.jpg"}
-            name={t("pages.home.speakers.speakers.speaker8.name")}
-            title={t("pages.home.speakers.speakers.speaker8.title")}
-            about={t("pages.home.speakers.speakers.speaker8.about")}
-            talkTitle={t("pages.home.speakers.speakers.speaker8.talkTitle")}
-            social={true}
-            github={{ valid: true, link: "https://github.com/AFanaei" }}
-            twitter={{ valid: true, link: "https://twitter.com/AhmadFanaei" }}
-            linkedin={{
-              valid: true,
-              link: "https://www.linkedin.com/in/ahmad-fanaei-408b19128/",
-            }}
-          />
-          <SpeakerCard
-            speaker={"speaker9"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker9.jpg"}
-            name={t("pages.home.speakers.speakers.speaker9.name")}
-            title={t("pages.home.speakers.speakers.speaker9.title")}
-            about={t("pages.home.speakers.speakers.speaker9.about")}
-            talkTitle={t("pages.home.speakers.speakers.speaker9.talkTitle")}
-            social={false}
-            github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{
-              valid: false,
-              link: "",
             }}
           />
         </div>
