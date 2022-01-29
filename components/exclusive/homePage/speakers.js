@@ -113,24 +113,12 @@ export default function Speakers() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.sectionTitleContainer}>
-          <h1>
+          <h2 style={{textAlign:"center"}}>
             {t("pages.home.speakers.t1")}
             <div style={{ fontSize: "16px" }}>
               {t("pages.home.speakers.t1-1")}
             </div>
-          </h1>
-
-          <img
-            src={
-              prefix +
-              "/GeneralAssets/titleUnderline" +
-              (pagelang() == "en" ? "Flip" : "") +
-              ".png"
-            }
-            alt="titleUnderline"
-            style={{ marginBottom: "30px" }}
-            className={styles.underLineImage}
-          />
+          </h2>
         </div>
         <div className={styles.speakersContainer}>
           <SpeakerCard

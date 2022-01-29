@@ -23,6 +23,8 @@ export default function SpeakersPage() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <h1 style={{paddingBottom:"50px"}}>{t("pages.speakers.t1")}</h1>
+        <SpeakerCard speaker="keySpeaker1" />
+        <SpeakerCard speaker="keySpeaker2" />
         <SpeakerCard speaker="speaker6" />
         <SpeakerCard speaker="speaker7" />
         <SpeakerCard speaker="speaker8" />

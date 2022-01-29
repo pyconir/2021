@@ -79,6 +79,7 @@
         "speakers": {
           "t1": "Speakers",
           "t1-1": "completing",
+          "t2": "Keynote Speakers",
           "p1": " ",
           "speakers": {
             "speaker1": {
@@ -146,6 +147,18 @@
               "title": "Assistant Professor, CSE at KLS.GIT",
               "about": "Gajendra is a well known speaker with a rich record, including talks at well known python conferences, such as PyData Global, EuroPython. He uses Python to develop prototypes in the field of Cyber Security.",
               "talkTitle": "Title: Security considerations in Python Packaging"
+            },
+            "keySpeaker1": {
+              "name": "Trent McConaghy",
+              "title": "Co-Founder of Ocean Protocol",
+              "about": "He co-founded Ocean Protocol, building decentralized tools to level the playing field for AI and data. He has worked on AI since the mid 90s, Python since the early 2000s, and blockchain since 2013.",
+              "talkTitle": "Title: Smart contract development with TokenSPICE & Brownie"
+            },
+            "keySpeaker2": {
+              "name": "Thierry Carrez",
+              "title": "The Vice-President of Engineering at the Open Infrastructure Foundation",
+              "about": "He is the Vice-President of Engineering at the Open Infrastructure Foundation. A systems engineer by trade, he was involved in the inception of the OpenStack project, and still contributes to its governance and release management.",
+              "talkTitle": "Title: A Python-powered open source cloud: history and future of OpenStack"
             }
           }
         },
@@ -572,6 +585,26 @@
                 "li6": "General guidelines for secure coding practices in Python (04 Minutes)",
                 "li7": "Summary and Questions (02 Minute)"
               }
+            }
+          },
+          "keySpeaker1": {
+            "name": "Trent McConaghy",
+            "title": "Co-Founder of Ocean Protocol",
+            "about": "He co-founded Ocean Protocol, building decentralized tools to level the playing field for AI and data. He has worked on AI since the mid 90s, Python since the early 2000s, and blockchain since 2013.",
+            "talkTitle": "Title: Smart contract development with TokenSPICE & Brownie",
+            "type": "Keynote",
+            "talkDetail": {
+              "p1": "This talk describes how to leverage Python and data science skills for design and verification of Solidity smart contracts for Ethereum Virtual Machine (EVM). It will discuss how Brownie treats Solidity objects as Python objects, enabling more Python-based development flows. Then it describes how to use TokenSPICE to verify a contract via time-domain simulations involving many interacting agents, also in a Python data science oriented flow."
+            }
+          },
+          "keySpeaker2": {
+            "name": "Thierry Carrez",
+            "title": "The Vice-President of Engineering at the Open Infrastructure Foundation",
+            "about": "Thierry Carrez is the Vice-President of Engineering at the Open Infrastructure Foundation. A systems engineer by trade, he was involved in the inception of the OpenStack project, and still contributes to its governance and release management. With a personal interest in the intersection of sociology and technology, Thierry spoke about open innovation and open source at various conferences around the world, including OSCON, LinuxCon, and FOSDEM. He currently serves as Secretary and Director for the Open Source Initiative. He was recognized as a Python Software Foundation fellow in 2012, and previously worked as the Technical lead for Ubuntu Server at Canonical, an operational manager for the Gentoo Linux Security Team, and an IT manager in various companies.",
+            "talkTitle": "Title: A Python-powered open source cloud: history and future of OpenStack",
+            "type": "Keynote",
+            "talkDetail": {
+              "p1": "The OpenStack project was started in 2010 to create a ubiquitous, open source cloud computing solution. Twelve years later, where are we? Is OpenStack still relevant? What lessons do we have for Python and open source? In this keynote talk, we will look back at the history of the OpenStack project, present lessons learned, and discuss its future."
             }
           }
         }
