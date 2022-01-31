@@ -55,6 +55,11 @@ export default function CodeOfConductText() {
         <h3>{t("pages.codeOfConduct.t6")}</h3>
         <div className={"bodyText"}>{t("pages.codeOfConduct.p21")}</div>
         <div className={"bodyText"}>{t("pages.codeOfConduct.p22")}</div>
+        <h3>{t("pages.codeOfConduct.t9")}</h3>
+        <div className={"bodyText"}>{t("pages.codeOfConduct.p27")}</div>
+        <ul className={"bodyText"}>
+          <li>{t("pages.codeOfConduct.p28")}</li>
+        </ul>
         <h3>{t("pages.codeOfConduct.t7")}</h3>
         <div className={"bodyText"}>{t("pages.codeOfConduct.p23")}</div>
         <ul className={"bodyText"}>
@@ -63,11 +68,6 @@ export default function CodeOfConductText() {
         </ul>
         <h3>{t("pages.codeOfConduct.t8")}</h3>
         <div className={"bodyText"}>{t("pages.codeOfConduct.p26")}</div>
-        <h3>{t("pages.codeOfConduct.t9")}</h3>
-        <div className={"bodyText"}>{t("pages.codeOfConduct.p27")}</div>
-        <ul className={"bodyText"}>
-          <li>{t("pages.codeOfConduct.p28")}</li>
-        </ul>
       </div>
     </section>
   );
