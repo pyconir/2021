@@ -385,6 +385,7 @@
         "t6": "CONSEQUENCES",
         "t7": "ATTRIBUTIONS ",
         "t8": "LICENSE",
+        "t9":"CONTACT INFORMATION",
         "p1": "PyCon Iran is a community conference intended for networking and collaboration in the developer community.",
         "p2": "We value the participation of each member and believe in inclusivity, kindness, and a positive community for all. ",
         "p3": "We expect all staff, attendees, speakers, exhibitors, organizers, sponsors and volunteers of PyCon Iran to conform to a professional and respectful manner at all times. This means:",
@@ -410,7 +411,9 @@
         "p23": "Language was incorporated from the following Codes of Conduct:",
         "p24": "PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License.",
         "p25": "Next.js Conf Code of Conduct",
-        "p26": "This Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License."
+        "p26": "This Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License.",
+        "p27":"If you believe that someone is violating the code of conduct, or have any other concerns, please contact a member of the event stated below, immediately.",
+        "p28":"Bardia Habibi : pyconforall@protonmail.com"
       },
       "index": {},
       "jobOpportunities": {

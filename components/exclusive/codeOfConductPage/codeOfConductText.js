@@ -63,6 +63,11 @@ export default function CodeOfConductText() {
         </ul>
         <h3>{t("pages.codeOfConduct.t8")}</h3>
         <div className={"bodyText"}>{t("pages.codeOfConduct.p26")}</div>
+        <h3>{t("pages.codeOfConduct.t9")}</h3>
+        <div className={"bodyText"}>{t("pages.codeOfConduct.p27")}</div>
+        <ul className={"bodyText"}>
+          <li>{t("pages.codeOfConduct.p28")}</li>
+        </ul>
       </div>
     </section>
   );
