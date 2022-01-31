@@ -113,7 +113,7 @@ export default function Speakers() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.sectionTitleContainer}>
-          <h2 style={{textAlign:"center"}}>
+          <h2 style={{ textAlign: "center" }}>
             {t("pages.home.speakers.t1")}
             <div style={{ fontSize: "16px" }}>
               {t("pages.home.speakers.t1-1")}
@@ -176,6 +176,21 @@ export default function Speakers() {
             linkedin={{
               valid: false,
               link: "",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker12"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker12.jpg"}
+            name={t("pages.home.speakers.speakers.speaker12.name")}
+            title={t("pages.home.speakers.speakers.speaker12.title")}
+            about={t("pages.home.speakers.speakers.speaker12.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker12.talkTitle")}
+            social={true}
+            github={{ valid: true, link: "https://github.com/parulnith" }}
+            twitter={{ valid: true, link: "https://twitter.com/pandeyparul" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/parulpandeyindia/",
             }}
           />
           <SpeakerCard

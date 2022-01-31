@@ -28,6 +28,7 @@ export default function SpeakersPage() {
         <SpeakerCard speaker="speaker6" />
         <SpeakerCard speaker="speaker7" />
         <SpeakerCard speaker="speaker8" />
+        <SpeakerCard speaker="speaker12" />
         <SpeakerCard speaker="speaker10" />
         <SpeakerCard speaker="speaker9" />
         <SpeakerCard speaker="speaker11" />

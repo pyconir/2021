@@ -148,6 +148,12 @@
               "about": "Gajendra is a well known speaker with a rich record, including talks at well known python conferences, such as PyData Global, EuroPython. He uses Python to develop prototypes in the field of Cyber Security.",
               "talkTitle": "Title: Security considerations in Python Packaging"
             },
+            "speaker12": {
+              "name": "Parul Pandey",
+              "title": "Machine Learning Engineer at Weight & Biases",
+              "about": "Parul is a Machine Learning Engineer at Weight & Biases. Prior to that, she was a Data Scientist at H2O.ai, where she combines data science and developer advocacy in her work.",
+              "talkTitle": "Title: An effort towards understanding our model's predictions"
+            },
             "keySpeaker1": {
               "name": "Trent McConaghy",
               "title": "Co-Founder of Ocean Protocol",
@@ -585,6 +591,16 @@
                 "li6": "General guidelines for secure coding practices in Python (04 Minutes)",
                 "li7": "Summary and Questions (02 Minute)"
               }
+            }
+          },
+          "speaker12": {
+            "name": "Parul Pandey ",
+            "title": "Machine Learning Engineer at Weight & Biases",
+            "about": "Parul Pandey works as a Machine Learning Engineer at Weight & Biases. Prior to that, she was a Data Scientist at H2O.ai, where she combines data science and developer advocacy in her work. She is also a Kaggle Grandmaster in the notebooks category and was one of Linkedin’s Top Voice in the Software Development category in 2019. Parul has written multiple articles focused on Data Science and Software development for various publications and mentors, speaks, and delivers workshops on topics related to data science. Parul has a background in Electrical Engineering and was previously associated with Tata Power India.",
+            "talkTitle": "Title: An effort towards understanding our model's predictions",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Machine learning models are making predictions that affect people’s lives, so ensuring that they’re fair and unbiased must be an industry imperative. One way to ensure fairness is to discover a model’s mispredictions and analyze and fix the underlying causes. In this talk, we'll look at ways and try to understand the decisions of these models to ensure responsible machine learning. Additionally, we'll examine the vulnerabilities and shortcomings of these methods and discuss the road ahead. After all, it is not only enough to get accurate predictions but predictions that are fair and not discriminating."  
             }
           },
           "keySpeaker1": {
