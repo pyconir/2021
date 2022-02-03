@@ -131,7 +131,7 @@
               "talkTitle": "Title: Performance improvement strategies for PostgreSQL database in Django"
             },
             "speaker9": {
-              "name": "Hassan Nouri",
+              "name": "Hasan Noori",
               "title": "CTO and co-founder of Formaloo",
               "about": "Since 2016, as the Chief Technology Officer at Idearun Studio Startup, he has worked with many startup teams. Since starting Formaloo, as chief technology officer and software architect, he is engaged in the rapid advancement of a growing product.",
               "talkTitle": "Title: Please stay away from microservices!"
@@ -385,7 +385,7 @@
         "t6": "CONSEQUENCES",
         "t7": "ATTRIBUTIONS ",
         "t8": "LICENSE",
-        "t9":"CONTACT INFORMATION",
+        "t9": "CONTACT INFORMATION",
         "p1": "PyCon Iran is a community conference intended for networking and collaboration in the developer community.",
         "p2": "We value the participation of each member and believe in inclusivity, kindness, and a positive community for all. ",
         "p3": "We expect all staff, attendees, speakers, exhibitors, organizers, sponsors and volunteers of PyCon Iran to conform to a professional and respectful manner at all times. This means:",
@@ -412,8 +412,8 @@
         "p24": "PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License.",
         "p25": "Next.js Conf Code of Conduct",
         "p26": "This Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License.",
-        "p27":"If you believe that someone is violating the code of conduct, or have any other concerns, please contact a member of the event stated below, immediately.",
-        "p28":"Bardia Habibi : pyconforall@protonmail.com"
+        "p27": "If you believe that someone is violating the code of conduct, or have any other concerns, please contact a member of the event stated below, immediately.",
+        "p28": "Bardia Habibi : pyconforall@protonmail.com"
       },
       "index": {},
       "jobOpportunities": {
@@ -556,7 +556,7 @@
             }
           },
           "speaker9": {
-            "name": "Hassan Nouri",
+            "name": "Hasan Noori",
             "title": "CTO and co-founder of Formaloo",
             "about": "Since 2016, as the Chief Technology Officer at Idearun Studio Startup, he has worked with many startup teams to develop their technical products and has been closely involved in the right and wrong methods of many novice startups to advance their technical products. Since starting Formaloo, as chief technology officer and software architect, he is engaged in the rapid advancement of a growing product. With a combination of technical and directorial background, he always strives to strike a balance between the technical ideals and the business facts of a startup.",
             "talkTitle": "Title: Please stay away from microservices!",
@@ -603,7 +603,7 @@
             "talkTitle": "Title: An effort towards understanding our model's predictions",
             "type": "30-minute talk",
             "talkDetail": {
-              "p1": "Machine learning models are making predictions that affect people’s lives, so ensuring that they’re fair and unbiased must be an industry imperative. One way to ensure fairness is to discover a model’s mispredictions and analyze and fix the underlying causes. In this talk, we'll look at ways and try to understand the decisions of these models to ensure responsible machine learning. Additionally, we'll examine the vulnerabilities and shortcomings of these methods and discuss the road ahead. After all, it is not only enough to get accurate predictions but predictions that are fair and not discriminating."  
+              "p1": "Machine learning models are making predictions that affect people’s lives, so ensuring that they’re fair and unbiased must be an industry imperative. One way to ensure fairness is to discover a model’s mispredictions and analyze and fix the underlying causes. In this talk, we'll look at ways and try to understand the decisions of these models to ensure responsible machine learning. Additionally, we'll examine the vulnerabilities and shortcomings of these methods and discuss the road ahead. After all, it is not only enough to get accurate predictions but predictions that are fair and not discriminating."
             }
           },
           "keySpeaker1": {
