@@ -31,8 +31,20 @@ export default function BuyTicketPage() {
         </ul>
         <div className={"bodyText"}>{t("pages.buyTicket.p3")}</div>
         <div className={"bodyText"}>{t("pages.buyTicket.p4")}</div>
-        <ul style={{direction:"ltr"}}>
+        <ul style={{ direction: "ltr" }}>
           <li className={"bodyText"}>{t("pages.buyTicket.p5")}</li>
+
+          <li className={"bodyText"}>
+            <a
+              style={{ textDecoration: "none" }}
+              className={styles.links}
+              href="https://discord.gg/Z48FsGfhmv"
+              target="_blank"
+              rel="noreferrer nofollow noopener"
+            >
+              {t("pages.buyTicket.p6")}
+            </a>
+          </li>
         </ul>
         <BuyTicketButton />
       </div>
