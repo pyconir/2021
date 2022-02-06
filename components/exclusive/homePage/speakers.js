@@ -155,12 +155,12 @@ export default function Speakers() {
             title={t("pages.home.speakers.speakers.speaker9.title")}
             about={t("pages.home.speakers.speakers.speaker9.about")}
             talkTitle={t("pages.home.speakers.speakers.speaker9.talkTitle")}
-            social={false}
+            social={true}
             github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/hasanoori" }}
             linkedin={{
-              valid: false,
-              link: "",
+              valid: true,
+              link: "https://ir.linkedin.com/in/xishma",
             }}
           />
           <SpeakerCard
@@ -215,10 +215,16 @@ export default function Speakers() {
             title={t("pages.home.speakers.speakers.speaker6.title")}
             about={t("pages.home.speakers.speakers.speaker6.about")}
             talkTitle={t("pages.home.speakers.speakers.speaker6.talkTitle")}
-            social={false}
+            social={true}
             github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: false, link: "" }}
+            twitter={{
+              valid: true,
+              link: "https://twitter.com/SebastiaanZeeff",
+            }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/sebastiaanzeeff/",
+            }}
           />
           <SpeakerCard
             speaker={"speaker1"}
@@ -227,10 +233,13 @@ export default function Speakers() {
             title={t("pages.home.speakers.speakers.speaker1.title")}
             about={t("pages.home.speakers.speakers.speaker1.about")}
             talkTitle={t("pages.home.speakers.speakers.speaker1.talkTitle")}
-            social={false}
+            social={true}
             github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/sepkjaer20" }}
+            linkedin={{
+              valid: true,
+              link: "https://ir.linkedin.com/in/sepand-haghighi-b0293b22",
+            }}
           />
           <SpeakerCard
             speaker={"speaker2"}
@@ -239,10 +248,13 @@ export default function Speakers() {
             title={t("pages.home.speakers.speakers.speaker2.title")}
             about={t("pages.home.speakers.speakers.speaker2.about")}
             talkTitle={t("pages.home.speakers.speakers.speaker2.talkTitle")}
-            social={false}
+            social={true}
             github={{ valid: false, link: "" }}
-            twitter={{ valid: false, link: "" }}
-            linkedin={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/voorivex" }}
+            linkedin={{
+              valid: true,
+              link: "https://ir.linkedin.com/in/yasharshahinzadeh",
+            }}
           />
           <SpeakerCard
             speaker={"speaker3"}
@@ -280,7 +292,7 @@ export default function Speakers() {
             talkTitle={t("pages.home.speakers.speakers.speaker5.talkTitle")}
             social={true}
             github={{ valid: true, link: "https://github.com/sadrasabouri" }}
-            twitter={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/sadrasabouri" }}
             linkedin={{
               valid: true,
               link: "https://www.linkedin.com/in/sadra-sabouri-136354170",
