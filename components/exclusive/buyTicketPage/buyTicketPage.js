@@ -31,6 +31,9 @@ export default function BuyTicketPage() {
         </ul>
         <div className={"bodyText"}>{t("pages.buyTicket.p3")}</div>
         <div className={"bodyText"}>{t("pages.buyTicket.p4")}</div>
+        <ul style={{direction:"ltr"}}>
+          <li className={"bodyText"}>{t("pages.buyTicket.p5")}</li>
+        </ul>
         <BuyTicketButton />
       </div>
     </section>

@@ -354,7 +354,8 @@
         "p1": "For this year, one type of ticket is considered, which includes the use of all conference facilities. Therefore, by purchasing this ticket, access to all online offerings and workshops will be provided.",
         "p2": "The cost of the ticket is 99 thousand tomans for each person",
         "p3": "To register and prepare the ticket, click on the button below to be referred to the Evand website to purchase a ticket.",
-        "p4": "In case of any problems or questions in the ticket preparation process, please contact us through the Discord Conference channel or the conference email.",
+        "p4": "In case of any problems or questions in the ticket preparation process, please contact us through the Discord Conference channel or the conference email:",
+        "p5": "team@ir.pycon.org",
         "button": "Buy Ticket"
       },
       "callForLogo": {
