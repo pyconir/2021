@@ -71,6 +71,12 @@ export default function SpeakerPage(props) {
                   })}
                 </ul>
               );
+            } else if (text[0].startsWith("h3")) {
+              return (
+                <h3 className={styles.speakTitle} key={index}>
+                  {text[1]}
+                </h3>
+              );
             }
           })}
         </div>

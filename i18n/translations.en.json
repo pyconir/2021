@@ -154,6 +154,30 @@
               "about": "Parul is a Machine Learning Engineer at Weight & Biases. Prior to that, she was a Data Scientist at H2O.ai, where she combines data science and developer advocacy in her work.",
               "talkTitle": "Title: An effort towards understanding our model's predictions"
             },
+            "speaker13": {
+              "name": "S Anand",
+              "title": "Co-Founder of Gramener",
+              "about": "Anand is a co-founder of Gramener, a data science company. He leads a team that tells visual stories from data. He is recognized as one of India’s top 10 scientists, and is a regular TEDx speaker.",
+              "talkTitle": "Title: Programming Minecraft with Websockets"
+            },
+            "speaker14": {
+              "name": "Shayegan Hooshyari",
+              "title": "Data Engineer at DataChef",
+              "about": "Shayegan is a data engineer at DataChef and an open-source contributor. He currently focuses on building data platforms for companies on AWS.",
+              "talkTitle": "Title: Step by step: code against code, or how to guarantee it actually works?!"
+            },
+            "speaker15": {
+              "name": "Mohammad Hassanzadeh",
+              "title": "Enterprise Solutions Unit Manager of Artarad",
+              "about": "Mohammad is the enterprise solutions unit manager of Artarad",
+              "talkTitle": "Title: Introduction of Odoo software"
+            },
+            "speaker16": {
+              "name": "Richard Blythman",
+              "title": "Algovera Founder",
+              "about": "Richard is a machine learning engineer with a research background, and experience in Big Tech and startups.",
+              "talkTitle": "Title: A community of data scientists making it easier to build decentralized AI apps in Web3"
+            },
             "keySpeaker1": {
               "name": "Trent McConaghy",
               "title": "Co-Founder of Ocean Protocol",
@@ -606,6 +630,55 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Machine learning models are making predictions that affect people’s lives, so ensuring that they’re fair and unbiased must be an industry imperative. One way to ensure fairness is to discover a model’s mispredictions and analyze and fix the underlying causes. In this talk, we'll look at ways and try to understand the decisions of these models to ensure responsible machine learning. Additionally, we'll examine the vulnerabilities and shortcomings of these methods and discuss the road ahead. After all, it is not only enough to get accurate predictions but predictions that are fair and not discriminating."
+            }
+          },
+          "speaker13": {
+            "name": "S Anand",
+            "title": "Co-Founder of Gramener",
+            "about": "Anand is a co-founder of Gramener, a data science company. He leads a team that tells visual stories from data. He is recognized as one of India’s top 10 scientists, and is a regular TEDx speaker. Anand is a gold medallist from IIM Bangalore and an alumnus of IIT Madras, London Business School, IBM, Infosys Consulting, Lehman Brothers, and BCG. More importantly, he has hand-transcribed every Calvin & Hobbes strip ever, is addicted to Minecraft (thanks to his daughter), and dreams of watching every film on the IMDb Top 250 (except The Shining). He blogs at s-anand.net. His talks are at bit.ly/anandtalks.",
+            "talkTitle": "Title: Programming Minecraft with Websockets",
+            "type": "30-minute talk & Workshop",
+            "talkDetail": {
+              "p1": "Minecraft is the best-selling video game of all time, with 200 million copies sold. It's a full-fledged 3D construction environment. It looks blocky at first, but you can create beautiful worlds.",
+              "p2": "It turns out that Minecraft is quite programmable. You can send messages using WebSockets that can place blocks, create mobs, get information, and more.",
+              "p3": "Unfortunately, this is not officially documented. This talk is a guide to the reverse-engineered Minecraft WebSocket protocol, and how to control the system using Python.",
+              "h3": "Workshop : Exploring Network Clusters in Python",
+              "p4": "Network clustering is a powerful way of exploring social networks.",
+              "p5": "Take any social network. Say actors who act together. Or words that are similar. Or people who email each other. Or products that are bought together.",
+              "p6": "Clustering the network gives us sub-groups within the network -- like actors who generally act together, products that are often bought together, etc.",
+              "p7": "This workshop explores popular network clustering algorithms (using the scikit-network and networkx Python libraries) on real-world movie datasets -- letting you discover insights such as what it takes to connect two actors, and how Iranian and Turkish actors are far removed from Hollywood but close to each other."
+            }
+          },
+          "speaker14": {
+            "name": "Shayegan Hooshyari",
+            "title": "Data Engineer at DataChef",
+            "about": "Shayegan is a data engineer at DataChef and an open-source contributor. He currently focuses on building data platforms for companies on AWS. In the past, he’s worked on developing web applications and APIs. He graduated from the University of Tehran with a Bachelor's Degree in Applied Mathematics. He loves helping people become better at crafting software and has mentored many fellows by guiding them to turn their academic knowledge into real-world practices.",
+            "talkTitle": "Title: Step by step: code against code, or how to guarantee it actually works?!",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Not every piece of code is bug-free. This presentation will focus on writing test cases in Python and show how to have enough confidence in our code. It will also address the TDD (Test Driven Development) concept and explain how writing tests ahead of actual development could help have readable and less buggy code. Although writing [unit] tests might sound like a slowing factor, it is not! In this presentation, you will see how to split the process of writing tests into simpler chunks and use the PyTest library to write effective [unit] tests."
+            }
+          },
+          "speaker15": {
+            "name": "Mohammad Hassanzadeh",
+            "title": "Enterprise Solutions Unit Manager of Artarad",
+            "about": "Mohammad is the enterprise solutions unit manager of Artarad",
+            "talkTitle": "Title: Introduction of Odoo software",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Odoo is an open source, versatile business management software that meets the major needs of organizations seamlessly. Odoo ERP is great for small and medium-sized businesses, but large organizations are also interested in. The reason for the large organizations’ interest is the very dynamic and modern infrastructure and framework of Odoo that can be used as the infrastructure and custom production framework for these organizations. Logically, the framework and architecture, which has more than 80 applications and more than 25,000 modules and has more than 8 million online users, has passed the test, and it is much more reliable and favored by organizations than the frameworks that are just created and there is not enough experience in implementing numerous applications with many users on them. Today, many large companies and organizations use this software platform to produce the specialized and required software.",
+              "p2": "Odoo ERP is a system that is capable of meeting all the needs of businesses, including customer relationship management, purchasing, sales, accounting, personnel information, presence and absence, leave, salary, production, maintenance and repairs, costs, warehousing, website management and e-commerce, internal communications, messaging, etc. in a fully integrated manner.",
+              "p3": "Odoo has been the fastest growing enterprise software in the world for the past few years. This powerful software enables you to have quality software products tailored to your organizational needs in the shortest time and at a low cost."
+            }
+          },
+          "speaker16": {
+            "name": "Richard Blythman",
+            "title": "Algovera Founder",
+            "about": "Richard is a machine learning engineer with a research background, and experience in Big Tech and startups. He became disillusioned with increasing centralization of the power of AI in the hands of a few big companies, and started Algovera to build tools to empower independent data scientists and AI startups.",
+            "talkTitle": "Title: A community of data scientists making it easier to build decentralized AI apps in Web3",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Web3 introduces many new tools such as data infrastructures and marketplaces, private AI technologies, tokenization and NFTs, DeFi and DAO tooling. This changes the workflow for AI practitioners quite significantly, as well as how they organize and collaborate. In this talk, we will explore how Algovera is making it easier for distributed communities of data scientists to come together online and build useful decentralized AI apps."
             }
           },
           "keySpeaker1": {

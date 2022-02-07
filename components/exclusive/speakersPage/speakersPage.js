@@ -30,11 +30,15 @@ export default function SpeakersPage() {
         <SpeakerCard speaker="speaker8" />
         <SpeakerCard speaker="speaker12" />
         <SpeakerCard speaker="speaker10" />
+        <SpeakerCard speaker="speaker13" />
         <SpeakerCard speaker="speaker9" />
         <SpeakerCard speaker="speaker11" />
         <SpeakerCard speaker="speaker1" />
+        <SpeakerCard speaker="speaker16" />
         <SpeakerCard speaker="speaker2" />
+        <SpeakerCard speaker="speaker14" />
         <SpeakerCard speaker="speaker3" />
+        <SpeakerCard speaker="speaker15" />
         <SpeakerCard speaker="speaker4" />
         <SpeakerCard speaker="speaker5" />
       </div>
