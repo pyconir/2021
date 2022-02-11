@@ -22,7 +22,7 @@ export default function SpeakersPage() {
         className={styles.speakersPageContainer}
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
-        <h1 style={{paddingBottom:"50px"}}>{t("pages.speakers.t1")}</h1>
+        <h1 style={{ paddingBottom: "50px" }}>{t("pages.speakers.t1")}</h1>
         <SpeakerCard speaker="keySpeaker1" />
         <SpeakerCard speaker="keySpeaker2" />
         <SpeakerCard speaker="speaker6" />
@@ -41,6 +41,10 @@ export default function SpeakersPage() {
         <SpeakerCard speaker="speaker15" />
         <SpeakerCard speaker="speaker4" />
         <SpeakerCard speaker="speaker5" />
+        <SpeakerCard speaker="speaker17" />
+        <SpeakerCard speaker="speaker18" />
+        <SpeakerCard speaker="speaker19" />
+        <SpeakerCard speaker="speaker20" />
       </div>
     </section>
   );

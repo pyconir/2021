@@ -39,7 +39,7 @@ function SpeakerCard(props) {
         </Link>
 
         <div className={styles.spkeakerTitle}>{props.title}</div>
-        <div className={styles.aboutSpeaker}>{props.about}</div>
+        {/* <div className={styles.aboutSpeaker}>{props.about}</div> */}
         <div className={styles.speakerTalkTitle}>{props.talkTitle}</div>
         {props.social && (
           <div className={styles.speakerContactsContainer}>
@@ -296,6 +296,129 @@ export default function Speakers() {
             linkedin={{
               valid: true,
               link: "https://www.linkedin.com/in/sadra-sabouri-136354170",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker13"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker13.jpg"}
+            name={t("pages.home.speakers.speakers.speaker13.name")}
+            title={t("pages.home.speakers.speakers.speaker13.title")}
+            about={t("pages.home.speakers.speakers.speaker13.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker13.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/sanand0" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/sanand0/",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker14"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker14.jpg"}
+            name={t("pages.home.speakers.speakers.speaker14.name")}
+            title={t("pages.home.speakers.speakers.speaker14.title")}
+            about={t("pages.home.speakers.speakers.speaker14.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker14.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: true, link: "https://twitter.com/glyphack" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/shayegan-hooshyari/",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker15"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker15.jpg"}
+            name={t("pages.home.speakers.speakers.speaker15.name")}
+            title={t("pages.home.speakers.speakers.speaker15.title")}
+            about={t("pages.home.speakers.speakers.speaker15.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker15.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/mohammadhassanzadeh",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker16"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker16.jpg"}
+            name={t("pages.home.speakers.speakers.speaker16.name")}
+            title={t("pages.home.speakers.speakers.speaker16.title")}
+            about={t("pages.home.speakers.speakers.speaker16.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker16.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{
+              valid: true,
+              link: "https://twitter.com/richardblythman",
+            }}
+            linkedin={{
+              valid: true,
+              link: "https://ie.linkedin.com/in/richard-blythman-64b2b948",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker17"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker17.jpg"}
+            name={t("pages.home.speakers.speakers.speaker17.name")}
+            title={t("pages.home.speakers.speakers.speaker17.title")}
+            about={t("pages.home.speakers.speakers.speaker17.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker17.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{
+              valid: true,
+              link: "https://twitter.com/padmaja_bhagwat",
+            }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/padmajavb/",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker18"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker18.jpg"}
+            name={t("pages.home.speakers.speakers.speaker18.name")}
+            title={t("pages.home.speakers.speakers.speaker18.title")}
+            about={t("pages.home.speakers.speakers.speaker18.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker18.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: true,
+              link: "https://ir.linkedin.com/in/pouya-malekinejad",
+            }}
+          />
+          <SpeakerCard
+            speaker={"speaker19"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker19.jpg"}
+            name={t("pages.home.speakers.speakers.speaker19.name")}
+            title={t("pages.home.speakers.speakers.speaker19.title")}
+            about={t("pages.home.speakers.speakers.speaker19.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker19.talkTitle")}
+            social={false}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{ valid: false, link: "" }}
+          />
+          <SpeakerCard
+            speaker={"speaker20"}
+            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker20.jpg"}
+            name={t("pages.home.speakers.speakers.speaker20.name")}
+            title={t("pages.home.speakers.speakers.speaker20.title")}
+            about={t("pages.home.speakers.speakers.speaker20.about")}
+            talkTitle={t("pages.home.speakers.speakers.speaker20.talkTitle")}
+            social={true}
+            github={{ valid: false, link: "" }}
+            twitter={{ valid: false, link: "" }}
+            linkedin={{
+              valid: true,
+              link: "https://www.linkedin.com/in/rohollah-alamalhoda-38b809228",
             }}
           />
         </div>

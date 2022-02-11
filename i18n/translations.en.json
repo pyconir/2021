@@ -178,6 +178,30 @@
               "about": "Richard is a machine learning engineer with a research background, and experience in Big Tech and startups.",
               "talkTitle": "Title: A community of data scientists making it easier to build decentralized AI apps in Web3"
             },
+            "speaker17": {
+              "name": "Padmaja Bhagwat",
+              "title": "Data Scientist at Glance",
+              "about": " ",
+              "talkTitle": "Title: Churn Analysis: Let's act before it's too late"
+            },
+            "speaker18": {
+              "name": "Pouya Malekinejad",
+              "title": "Software Developer at Odoo S.A",
+              "about": " ",
+              "talkTitle": "Title: Odoo, open source platform of business!"
+            },
+            "speaker19": {
+              "name": "Xiaojian Wang",
+              "title": "Frontend and Machine Learning Engineer at Alibaba-inc",
+              "about": " ",
+              "talkTitle": "Title: How We Build AI Libraries for Front-end Developers and Use AI in Front-end Area"
+            },
+            "speaker20": {
+              "name": "Rohollah Alamalhoda",
+              "title": "Software Expert",
+              "about": " ",
+              "talkTitle": "Title: Graphene in Django"
+            },
             "keySpeaker1": {
               "name": "Trent McConaghy",
               "title": "Co-Founder of Ocean Protocol",
@@ -679,6 +703,57 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Web3 introduces many new tools such as data infrastructures and marketplaces, private AI technologies, tokenization and NFTs, DeFi and DAO tooling. This changes the workflow for AI practitioners quite significantly, as well as how they organize and collaborate. In this talk, we will explore how Algovera is making it easier for distributed communities of data scientists to come together online and build useful decentralized AI apps."
+            }
+          },
+          "speaker17": {
+            "name": "Padmaja Bhagwat",
+            "title": "Data Scientist at Glance",
+            "about": "Padmaja is a Data Scientist working at Glance. Her focus is on enhancing customer serviceability by using machine learning. In the past, she has used Deep Learning for automatic music generation and natural language understanding. She has given talks at PyCon India, PyCon US and DevConf India. She has a strong passion for dance and loves going on adventurous trips.",
+            "talkTitle": "Title: Churn Analysis: Let's act before it's too late",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Small businesses have limited purchasing spend and are limited in their choices for tools. The current economic situation accelerated due to COVID-19, has made retaining existing customers a much bigger priority than acquiring new ones.",
+              "p2": "I, just using the Python ecosystem, built a no-code tool to help small businesses identify customers who have churned and are at-risk of churning. The merchants (the users of the system) can either connect their sales system or upload a CSV - and the relevant insights and analytics are provided to them.",
+              "p3": "In this talk, I show how to build such a tool only using Python and discuss the design choices and challenges I faced when building such a system and talk on how to solve it.",
+              "p4": "The core machine learning part of the tool was to identify customers who are at-risk of churning. At-risk customers are identified using Survival analysis models. They predict the probability that a specific customer might churn, at various time intervals. I used PySurvival and Lifelines Python packages to predict churn. They provide a blend of standard/traditional survival analysis models as well as the ability to incorporate modern deep learning architectures using PyTorch models.",
+              "p5": "I built the front-end of the system using the Streamlit Python package. Streamlit is targeted towards data scientists to rapidly build UI and deploy the Machine Learning models, just using Python (No knowledge of HTML, CSS, and Javascript needed)."
+            }
+          },
+          "speaker18": {
+            "name": "Pouya Malekinejad",
+            "title": "Software Developer at Odoo S.A",
+            "about": "Works on Odoo implementation and development since 2013, as CTO and co-founder of Kenevist, ERP manager of Ariabeniz and CTO of Assanidea, he is currently working for Odoo S.A. in R&D.",
+            "talkTitle": "Title: Odoo, open source platform of business!",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "In this presentation I will talk about what Odoo is, how it has become the fastest growing software company in Europe and how to use it for business application development. Codewise, Odoo has a great ORM and it is very flexible with a modular architecture. You are free to change it in any way you want, and 80% of the code is open source. I will make a quick application to see how fast it is to make any web based application."
+            }
+          },
+          "speaker19": {
+            "name": "Xiaojian Wang",
+            "title": "Frontend and Machine Learning Engineer at Alibaba-inc",
+            "about": "Xiaojian Wang is currently a frontend and machine learning engineer at Alibaba-inc. As the developer of datacook.js, she is now focusing on bringing mahcine learning to the front-end area. Prior to that, she received her master degree on Statistics in Purdue University and co-founded online learning platform ZhidaoRenwen.",
+            "talkTitle": "Title: How We Build AI Libraries for Front-end Developers and Use AI in Front-end Area",
+            "type": "30-minute talk",
+            "talkDetail": {
+              "p1": "Nowadays, machine learning has been widely used in many areas. To identify what is the most popular programming language for AI and neural network, Python has taken a big lead with lots of outstanding libraries. However, the whole AI ecosystem is not friendly to web developers with different tech stack. In order to enable front-end developers to understand big data and build/train AI models easily, we develop Datacook, a machine learning and data analysis library in JavaScript. Meanwhile, to make this work applied in real production environment, we build Pipcook, a JavaScript end-to-end platform for building production ML pipelines based on Tensorflow.js. This talk will focus on thoughts behind Datacook/Pipcook and how we use them to apply AI in front-end area."
+            }
+          },
+          "speaker20": {
+            "name": "Rohollah Alamalhoda",
+            "title": "Software Expert",
+            "about": "Software expert and interested in Python and Django based development",
+            "talkTitle": "Title: Graphene in Django",
+            "type": "Workshop",
+            "talkDetail": {
+              "p1": "Since 2015, when GRAPHQL was published by Facebook as open source, it has been well received so far. Many large and reputable businesses and websites use GRAPHQL to serve.",
+              "p2": "GRAPHQL will be comparable to REST with a slight omission. This is a big claim, but maybe in the future GRAPHQL will replace REST.",
+              "p3": "For me as an API developer, GRAPHQL has many benefits, including the fact that I develop a very large portion of the required APIs very quickly and the user uses them as needed. This means that I do not have to hard code all the requirements on the server; I create a platform that covers a very large part of the requirements.",
+              "p4": "On the other hand, the user-side developer is no longer waiting for me to do a new server-side development for every need. He himself can cover a large part of his needs from the provided platform.",
+              "p5": "Another advantage is that GRAPHQL solves the problem of OVER-FETCHING and UNDER-FETCHING.",
+              "p6": "UNDER-FETCHING occurs when the server-side developer does not send all the data to save resources, especially the data that is sent from the server, and saves on sending data.",
+              "p7": "OVER-FETCHING occurs when the server-side developer for various reasons, including a decrease in the number of queries from the client, sends large amounts of data in one call. Using GRAPHQL, each client identifies exactly what data it needs and receives exactly the same data from the server. ",
+              "p8": "GRAPHQL is a new way of developing an API that will bring many benefits. In addition, security issues must be considered. This workshop also tries to address some of the security concerns."
             }
           },
           "keySpeaker1": {
