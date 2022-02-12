@@ -23,27 +23,24 @@ export default function Sponsors() {
         className={styles.sponsorsSectionContainer}
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
-        <div className={styles.sectionTitleContainer}>
-          <div className={styles.sectionTitle}>
-            {t("pages.home.sponsors.t1")}
+        <h1>{t("pages.home.sponsors.t1")}</h1>
+        <img
+          src={
+            prefix +
+            "/GeneralAssets/titleUnderline" +
+            (pagelang() == "en" ? "Flip" : "") +
+            ".png"
+          }
+          alt="titleUnderline"
+        />
+        <div className={styles.sponsorsLogosContainer}>
+          <div className={styles.logoContainer}>
+            <img
+              src={prefix + "ExclusiveAssets/sponsors/sponsor2.png"}
+              alt="sponsor2-Logo"
+              className={styles.sponsorsLogo}
+            />
           </div>
-          <img
-            src={
-              prefix +
-              "/GeneralAssets/titleUnderline" +
-              (pagelang() == "en" ? "Flip" : "") +
-              ".png"
-            }
-            alt="titleUnderline"
-          />
-        </div>
-        <div className={styles.onProcessImageContainer}>
-          <img
-            src={prefix + "/GeneralAssets/onProcess.png"}
-            alt="onProcess"
-            width="200"
-            height="172"
-          />
         </div>
       </div>
     </section>

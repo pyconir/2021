@@ -6,7 +6,7 @@ import Events from "../components/exclusive/homePage/events";
 import Speakers from "../components/exclusive/homePage/speakers";
 import Sponsors from "../components/exclusive/homePage/sponsors";
 import CallPapers from "../components/exclusive/homePage/callPapers";
-import KeySpeakers from "../components/exclusive/homePage/keySpeakers"
+import KeySpeakers from "../components/exclusive/homePage/keySpeakers";
 import AboutPython from "../components/exclusive/homePage/aboutPython";
 import AboutPyconir from "../components/exclusive/homePage/aboutPyconir";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
@@ -56,6 +56,7 @@ export default function Home() {
         <Events />
         <KeySpeakers />
         <Speakers />
+        <Sponsors />
         <AboutPyconir />
         <AboutPython />
       </Layout>
