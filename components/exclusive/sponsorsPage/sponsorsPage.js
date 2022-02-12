@@ -3,6 +3,8 @@ import SponsorsContainer from "./sponsorsContainer";
 import BecomeSponserButton from "./becomeSponserButton";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function SponsorsPage() {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
@@ -26,24 +28,54 @@ export default function SponsorsPage() {
         <h1>{t("pages.sponsors.page.t1")}</h1>
         <div className={"bodyText"}>{t("pages.sponsors.page.p1")}</div>
         <BecomeSponserButton />
-        {/* <SponsorsContainer
-          plan={t("pages.sponsors.page.p2")}
-          color={"linear-gradient(to right, white , #D6D5D3 , #D6D5D3 )"}
-        >
-          در حال تکمیل
-        </SponsorsContainer>
-        <SponsorsContainer
-          plan={t("pages.sponsors.page.p3")}
-          color={"linear-gradient(to right, white , #D29A50 , #D29A50 )"}
-        >
-          در حال تکمیل
-        </SponsorsContainer>
-        <SponsorsContainer
-          plan={t("pages.sponsors.page.p4")}
-          color={"linear-gradient(to right, white , #757573 , #757573)"}
-        >
-          در حال تکمیل
-        </SponsorsContainer> */}
+        <div className={styles.sponsorsDescriptionsContainer}>
+          <div className={styles.sponsorCard}>
+            <div className={styles.sponsorLogoContainer}>
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://datachef.co/"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <img
+                  src={prefix + "ExclusiveAssets/sponsors/sponsor1.svg"}
+                  alt="sponsor1-Logo"
+                  className={styles.sponsorLogo}
+                />
+              </a>
+            </div>
+            <div className={styles.sponsorDescription}>
+              <span>{t("pages.sponsors.sponsors.sponsor1.span1")}</span>
+              <span
+                style={
+                  pagelang() == "en" ? { textDecoration: "line-through" } : {}
+                }
+              >
+                {t("pages.sponsors.sponsors.sponsor1.span2")}
+              </span>
+              <span>{t("pages.sponsors.sponsors.sponsor1.span3")}</span>
+            </div>
+          </div>
+          <div className={styles.sponsorCard}>
+            <div className={styles.sponsorLogoContainer}>
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://www.pythonanywhere.com/"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <img
+                  src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
+                  alt="sponsor1-Logo"
+                  className={styles.sponsorLogo}
+                />
+              </a>
+            </div>
+            <div className={styles.sponsorDescription}>
+              <p>{t("pages.sponsors.sponsors.sponsor2.p1")}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
