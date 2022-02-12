@@ -36,7 +36,14 @@ export default function Sponsors() {
         <div className={styles.sponsorsLogosContainer}>
           <div className={styles.logoContainer}>
             <img
-              src={prefix + "ExclusiveAssets/sponsors/sponsor2.png"}
+              src={prefix + "ExclusiveAssets/sponsors/sponsor1.svg"}
+              alt="sponsor1-Logo"
+              className={styles.sponsorsLogo}
+            />
+          </div>
+          <div className={styles.logoContainer}>
+            <img
+              src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
               alt="sponsor2-Logo"
               className={styles.sponsorsLogo}
             />
