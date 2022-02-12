@@ -33,11 +33,16 @@
   margin: 50px 15px;
   max-width: 350px;
   min-width: 40%;
+  transition: all 0.1s ease-in-out;
 }
 
 .sponsorsLogo {
   width: 100%;
-  
+}
+
+.logoContainer:hover {
+  cursor: pointer;
+  border: solid 4px #acffdf;
 }
 
 @media screen and (max-width: 760px) {

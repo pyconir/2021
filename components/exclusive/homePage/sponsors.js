@@ -34,20 +34,34 @@ export default function Sponsors() {
           alt="titleUnderline"
         />
         <div className={styles.sponsorsLogosContainer}>
-          <div className={styles.logoContainer}>
-            <img
-              src={prefix + "ExclusiveAssets/sponsors/sponsor1.svg"}
-              alt="sponsor1-Logo"
-              className={styles.sponsorsLogo}
-            />
-          </div>
-          <div className={styles.logoContainer}>
-            <img
-              src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
-              alt="sponsor2-Logo"
-              className={styles.sponsorsLogo}
-            />
-          </div>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://datachef.co/"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+          >
+            <div className={styles.logoContainer}>
+              <img
+                src={prefix + "ExclusiveAssets/sponsors/sponsor1.svg"}
+                alt="sponsor1-Logo"
+                className={styles.sponsorsLogo}
+              />
+            </div>
+          </a>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://www.pythonanywhere.com/"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+          >
+            <div className={styles.logoContainer}>
+              <img
+                src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
+                alt="sponsor2-Logo"
+                className={styles.sponsorsLogo}
+              />
+            </div>
+          </a>
         </div>
       </div>
     </section>
