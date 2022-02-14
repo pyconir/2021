@@ -497,7 +497,145 @@
       "schedule": {
         "description": "",
         "t1": "Schedule",
-        "p1": "Coming Soon ..."
+        "p0": "Not fixed yet",
+        "p1": "February 16",
+        "p2": "February 17",
+        "talks": {
+          "talk1": {
+            "title": "Smart contract development with TokenSPICE & Brownie",
+            "speaker": "Trent McConaghy",
+            "time": " ",
+            "page-url": "keySpeaker1"
+          },
+          "talk2": {
+            "title": "A Python-powered open source cloud: history and future of OpenStack",
+            "speaker": "Thierry Carrez",
+            "time": " ",
+            "page-url": "keySpeaker2"
+          },
+          "talk3": {
+            "title": "Introducing Asynchronous SQLAlchemy",
+            "speaker": "Sebastiaan Zeeff",
+            "time": " ",
+            "page-url": "speaker6"
+          },
+          "talk4": {
+            "title": "Performance improvement strategies for PostgreSQL database in Django",
+            "speaker": "Ahmad Fanaei",
+            "time": " ",
+            "page-url": "speaker8"
+          },
+          "talk5": {
+            "title": "An effort towards understanding our model's predictions",
+            "speaker": "Parul Pandey",
+            "time": " ",
+            "page-url": "speaker12"
+          },
+          "talk6": {
+            "title": "Programming Minecraft with Websockets",
+            "speaker": "S Anand",
+            "time": " ",
+            "page-url": "speaker13"
+          },
+          "talk7": {
+            "title": "Please stay away from microservices!",
+            "speaker": "Hasan Noori",
+            "time": " ",
+            "page-url": "speaker9"
+          },
+          "talk8": {
+            "title": "Security considerations in Python Packaging",
+            "speaker": "Gajendra Deshpande",
+            "time": " ",
+            "page-url": "speaker11"
+          },
+          "talk9": {
+            "title": "art library in 5 minutes!",
+            "speaker": "Sepand Haghighi",
+            "time": " ",
+            "page-url": "speaker1"
+          },
+          "talk10": {
+            "title": "A community of data scientists making it easier to build decentralized AI apps in Web3",
+            "speaker": "Richard Blythman",
+            "time": " ",
+            "page-url": "speaker16"
+          },
+          "talk11": {
+            "title": "A Security vulnerability in the Django framework",
+            "speaker": "Yashar Shahinzadeh & Amir Mohammad Safari",
+            "time": " ",
+            "page-url": "speaker2"
+          },
+          "talk12": {
+            "title": "Step by step: code against code, or how to guarantee it actually works?!",
+            "speaker": "Shayegan Hooshyari",
+            "time": " ",
+            "page-url": "speaker14"
+          },
+          "talk13": {
+            "title": "Introduction of Odoo software",
+            "speaker": "Mohammad Hassanzadeh",
+            "time": " ",
+            "page-url": "speaker15"
+          },
+          "talk14": {
+            "title": "Post-processing of machine learning algorithms in Python",
+            "speaker": "Alireza Zolanvari",
+            "time": " ",
+            "page-url": "speaker4"
+          },
+          "talk15": {
+            "title": "Samila, Generative Art",
+            "speaker": "Sadra Sabouri",
+            "time": " ",
+            "page-url": "speaker5"
+          },
+          "talk16": {
+            "title": "Churn Analysis: Let's act before it's too late",
+            "speaker": "Padmaja Bhagwat",
+            "time": " ",
+            "page-url": "speaker17"
+          },
+          "talk17": {
+            "title": "Odoo, open source platform of business!",
+            "speaker": "Pouya Malekinejad",
+            "time": " ",
+            "page-url": "speaker18"
+          },
+          "talk18": {
+            "title": "How We Build AI Libraries for Front-end Developers and Use AI in Front-end Area",
+            "speaker": "Xiaojian Wang",
+            "time": " ",
+            "page-url": "speaker19"
+          }
+        },
+        "workshops": {
+          "workshop1": {
+            "title": "Deep learning in practice",
+            "speaker": "Soroush Mousapour",
+            "time": " ",
+            "page-url": "speaker7"
+          },
+          "workshop2": {
+            "title": "Scaling Python Apps at the Edge",
+            "speaker": "David Tischler",
+            "time": " ",
+            "page-url": "speaker10"
+          },
+          "workshop3": {
+            "title": "Exploring Network Clusters in Python",
+            "speaker": "S Anand",
+            "time": " ",
+            "page-url": "speaker13"
+          },
+          "workshop4": {
+            "title": "Graphene in Django",
+            "speaker": "Rohollah Alamalhoda",
+            "time": " ",
+            "page-url": "speaker20"
+          }
+        }
       },
       "setup": {
         "description": "",

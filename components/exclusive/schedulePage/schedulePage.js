@@ -1,4 +1,5 @@
 import styles from "./SchedulePage.module.css";
+import Calendar from "./calendar.js";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function SchedulePage() {
@@ -22,7 +23,8 @@ export default function SchedulePage() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <h1>{t("pages.schedule.t1")}</h1>
-        <div className={"bodyText"}>{t("pages.schedule.p1")}</div>
+        <div className="bodyText">{t("pages.schedule.p0")}</div>
+        <Calendar />
       </div>
     </section>
   );
