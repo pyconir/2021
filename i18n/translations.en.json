@@ -475,8 +475,12 @@
         },
         "jobs": {
           "job1": {
-            "description": "Job Description",
-            "payment": "Payment"
+            "description": {
+              "p1": "Opportunity to join the DataChef team"
+            },
+            "payment": {
+              "p1": "Click for more details"
+            }
           }
         }
       },
@@ -790,12 +794,12 @@
         },
         "sponsors": {
           "sponsor1": {
-            "span1":" For our 26 ",
-            "span2":"employees",
-            "span3":" chefs, we are a safe home with a trust-all, trust-by-default, inclusive, and international culture, and we’re investing in a very long inter-team relationship. We demand all chefs joining us to come with an owner mindset and have a voice in building DataChef together. People who choose DataChef are not resources, FTEs, or billable hours machines; they are talented humans who decided to spend the best hours of life with us. We’re wholeheartedly grateful for that decision, and we make their physical health, mental tranquillity, and financial gain our priority."
+            "span1": " For our 26 ",
+            "span2": "employees",
+            "span3": " chefs, we are a safe home with a trust-all, trust-by-default, inclusive, and international culture, and we’re investing in a very long inter-team relationship. We demand all chefs joining us to come with an owner mindset and have a voice in building DataChef together. People who choose DataChef are not resources, FTEs, or billable hours machines; they are talented humans who decided to spend the best hours of life with us. We’re wholeheartedly grateful for that decision, and we make their physical health, mental tranquillity, and financial gain our priority."
           },
-          "sponsor2":{
-            "p1":"Host, run, and code Python in the cloud: PythonAnywhere"
+          "sponsor2": {
+            "p1": "Host, run, and code Python in the cloud: PythonAnywhere"
           }
         }
       },

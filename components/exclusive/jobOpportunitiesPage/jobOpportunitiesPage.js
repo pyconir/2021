@@ -1,6 +1,6 @@
 import styles from "./JobOpportunitiesPage.module.css";
 import SendJobButton from "./sendJobButton";
-import JobItem from "./jobItem";
+import JobItem1 from "./jobItem1";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function JobOpportunitiesPage() {
@@ -26,7 +26,7 @@ export default function JobOpportunitiesPage() {
         <h1>{t("pages.jobOpportunities.page.t1")}</h1>
         <div className={"bodyText"}>{t("pages.jobOpportunities.page.p1")}</div>
         <SendJobButton />
-        <JobItem number={1} />
+        <JobItem1 />
       </div>
     </section>
   );
