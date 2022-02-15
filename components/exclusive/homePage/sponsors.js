@@ -68,7 +68,7 @@ export default function Sponsors() {
             target="_blank"
             rel="noreferrer nofollow noopener"
           >
-            <div className={styles.logoContainer}>
+            <div className={styles.logoContainer} style={{ maxWidth: "230px" }}>
               <img
                 src={prefix + "ExclusiveAssets/sponsors/sponsor3.png"}
                 alt="sponsor3-Logo"
