@@ -481,6 +481,14 @@
             "payment": {
               "p1": "Click for more details"
             }
+          },
+          "job2": {
+            "description": {
+              "p1": "Opportunity to join Pythonanywhere"
+            },
+            "payment": {
+              "p1": "Click for more details"
+            }
           }
         }
       },
