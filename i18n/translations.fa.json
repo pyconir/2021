@@ -516,7 +516,7 @@
           "talk3": {
             "title": "معرفی SQLAlchemy آسنکرون",
             "speaker": "سباستین زیف",
-            "time": " ",
+            "time": "17:15-17:45",
             "page-url": "speaker6"
           },
           "talk4": {
@@ -528,7 +528,7 @@
           "talk5": {
             "title": "تلاشی در جهت درک پیش‌بینی‌های مدل",
             "speaker": "پارول پاندی",
-            "time": " ",
+            "time": "16:30-17",
             "page-url": "speaker12"
           },
           "talk6": {
@@ -614,25 +614,25 @@
           "workshop1": {
             "title": "یادگیری عمیق در عمل",
             "speaker": "سروش موسی‌پور",
-            "time": " ",
+            "time": "9-10:30",
             "page-url": "speaker7"
           },
           "workshop2": {
             "title": "مقیاس (اسکیل) کردن برنامه‌های پایتون در لبه",
             "speaker": "دیوید تیشلر",
-            "time": " ",
+            "time": "10:45-12:15",
             "page-url": "speaker10"
           },
           "workshop3": {
             "title": "کاوش خوشه‌های (کلاستر) شبکه در پایتون",
             "speaker": "اس آناند",
-            "time": " ",
+            "time": "13-14:30",
             "page-url": "speaker13"
           },
           "workshop4": {
             "title": "Graphene در جنگو",
             "speaker": "روح الله علم الهدی",
-            "time": " ",
+            "time": "14:45-16:15",
             "page-url": "speaker20"
           }
         }

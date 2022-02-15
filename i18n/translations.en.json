@@ -516,7 +516,7 @@
           "talk3": {
             "title": "Introducing Asynchronous SQLAlchemy",
             "speaker": "Sebastiaan Zeeff",
-            "time": " ",
+            "time": "13:45-14:15 UTC",
             "page-url": "speaker6"
           },
           "talk4": {
@@ -528,7 +528,7 @@
           "talk5": {
             "title": "An effort towards understanding our model's predictions",
             "speaker": "Parul Pandey",
-            "time": " ",
+            "time": "13-13:30 UTC",
             "page-url": "speaker12"
           },
           "talk6": {
@@ -614,25 +614,25 @@
           "workshop1": {
             "title": "Deep learning in practice",
             "speaker": "Soroush Mousapour",
-            "time": " ",
+            "time": "5:30-7 UTC",
             "page-url": "speaker7"
           },
           "workshop2": {
             "title": "Scaling Python Apps at the Edge",
             "speaker": "David Tischler",
-            "time": " ",
+            "time": "7:15-8:45 UTC",
             "page-url": "speaker10"
           },
           "workshop3": {
             "title": "Exploring Network Clusters in Python",
             "speaker": "S Anand",
-            "time": " ",
+            "time": "9:30-11 UTC",
             "page-url": "speaker13"
           },
           "workshop4": {
             "title": "Graphene in Django",
             "speaker": "Rohollah Alamalhoda",
-            "time": " ",
+            "time": "11:15-12:45 UTC",
             "page-url": "speaker20"
           }
         }
