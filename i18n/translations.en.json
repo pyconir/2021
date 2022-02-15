@@ -470,6 +470,7 @@
         "description": "",
         "page": {
           "t1": "Job Opportunities",
+          "t2":"Startups Jobs",
           "button": "Submit a job",
           "p1": "It is possible to send job opportunities to be displayed in the job fair."
         },
@@ -485,6 +486,14 @@
           "job2": {
             "description": {
               "p1": "Opportunity to join Pythonanywhere"
+            },
+            "payment": {
+              "p1": "Click for more details"
+            }
+          },
+          "job3": {
+            "description": {
+              "p1": "Opportunity to join Algovera"
             },
             "payment": {
               "p1": "Click for more details"
