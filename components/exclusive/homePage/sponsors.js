@@ -62,6 +62,20 @@ export default function Sponsors() {
               />
             </div>
           </a>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://parscoders.com/"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+          >
+            <div className={styles.logoContainer}>
+              <img
+                src={prefix + "ExclusiveAssets/sponsors/sponsor3.png"}
+                alt="sponsor3-Logo"
+                className={styles.sponsorsLogo}
+              />
+            </div>
+          </a>
         </div>
       </div>
     </section>

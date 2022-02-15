@@ -66,13 +66,32 @@ export default function SponsorsPage() {
               >
                 <img
                   src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
-                  alt="sponsor1-Logo"
+                  alt="sponsor2-Logo"
                   className={styles.sponsorLogo}
                 />
               </a>
             </div>
             <div className={styles.sponsorDescription}>
               <p>{t("pages.sponsors.sponsors.sponsor2.p1")}</p>
+            </div>
+          </div>
+          <div className={styles.sponsorCard}>
+            <div className={styles.sponsorLogoContainer} style={{maxWidth:"200px"}}>
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://parscoders.com/"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <img
+                  src={prefix + "ExclusiveAssets/sponsors/sponsor3.png"}
+                  alt="sponsor3-Logo"
+                  className={styles.sponsorLogo}
+                />
+              </a>
+            </div>
+            <div className={styles.sponsorDescription}>
+            <p>{t("pages.sponsors.sponsors.sponsor3.p1")}</p>
             </div>
           </div>
         </div>
