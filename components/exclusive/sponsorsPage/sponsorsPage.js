@@ -105,6 +105,28 @@ export default function SponsorsPage() {
               <p>{t("pages.sponsors.sponsors.sponsor3.p1")}</p>
             </div>
           </div>
+          <div className={styles.sponsorCard}>
+            <div
+              className={styles.sponsorLogoContainer}
+              style={{ maxWidth: "200px" }}
+            >
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://www.iranserver.com/"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <img
+                  src={prefix + "ExclusiveAssets/sponsors/sponsor4.png"}
+                  alt="sponsor4-Logo"
+                  className={styles.sponsorLogo}
+                />
+              </a>
+            </div>
+            <div className={styles.sponsorDescription}>
+              <p>{t("pages.sponsors.sponsors.sponsor4.p1")}</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

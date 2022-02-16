@@ -470,7 +470,7 @@
         "description": "",
         "page": {
           "t1": "Job Opportunities",
-          "t2":"Startups Jobs",
+          "t2": "Startups Jobs",
           "button": "Submit a job",
           "p1": "It is possible to send job opportunities to be displayed in the job fair."
         },
@@ -962,13 +962,16 @@
             "span3": " chefs, we are a safe home with a trust-all, trust-by-default, inclusive, and international culture, and we’re investing in a very long inter-team relationship. We demand all chefs joining us to come with an owner mindset and have a voice in building DataChef together. People who choose DataChef are not resources, FTEs, or billable hours machines; they are talented humans who decided to spend the best hours of life with us. We’re wholeheartedly grateful for that decision, and we make their physical health, mental tranquillity, and financial gain our priority.",
             "span4": "We are eager to with talented software developers from Iran, particularly those with a background in Data. Please take a look at the ",
             "span5": "“Job Opportunities page”",
-            "span6":" ."
+            "span6": " ."
           },
           "sponsor2": {
             "p1": "Host, run, and code Python in the cloud: PythonAnywhere"
           },
           "sponsor3": {
             "p1": "Parscoders is the first freelancing platform in Iran"
+          },
+          "sponsor4": {
+            "p1": "Nearly 180,000 webmasters, programmers and IT managers are customers of IranServer, who have entrusted their most important asset, their business, to IranServer. The requests of this number of customers are managed by a team of 270 people. By a simple search on the Internet, you will find that the brand has made positive efforts to satisfy its customers and has been very successful. Implementing the latest agile management methods and using the latest tools and technologies, including artificial intelligence, are the reasons for this success. It does not matter if you are the owner of a small startup, network manager or manager of a large organization, IranServer will be your host and supporter until you achieve your dreams."
           }
         }
       },
