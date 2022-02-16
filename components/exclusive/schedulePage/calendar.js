@@ -163,25 +163,6 @@ export default function SchedulePage() {
         <Link
           href={{
             pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk1.page-url"),
-            query: query,
-          }}
-        >
-          <div className={styles.talk}>
-            <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk1.title")}
-            </div>
-            <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk1.speaker")}
-            </div>
-            <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk1.time")}
-            </div>
-          </div>
-        </Link>
-        <Link
-          href={{
-            pathname:
               "/speakers-detail/" + t("pages.schedule.talks.talk2.page-url"),
             query: query,
           }}
@@ -217,23 +198,22 @@ export default function SchedulePage() {
             </div>
           </div>
         </Link>
-
         <Link
           href={{
             pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk6.page-url"),
+              "/speakers-detail/" + t("pages.schedule.talks.talk12.page-url"),
             query: query,
           }}
         >
           <div className={styles.talk}>
             <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk6.title")}
+              {t("pages.schedule.talks.talk12.title")}
             </div>
             <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk6.speaker")}
+              {t("pages.schedule.talks.talk12.speaker")}
             </div>
             <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk6.time")}
+              {t("pages.schedule.talks.talk12.time")}
             </div>
           </div>
         </Link>
@@ -256,7 +236,6 @@ export default function SchedulePage() {
             </div>
           </div>
         </Link>
-
         <Link
           href={{
             pathname:
@@ -279,57 +258,19 @@ export default function SchedulePage() {
         <Link
           href={{
             pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk10.page-url"),
+              "/speakers-detail/" + t("pages.schedule.talks.talk1.page-url"),
             query: query,
           }}
         >
           <div className={styles.talk}>
             <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk10.title")}
+              {t("pages.schedule.talks.talk1.title")}
             </div>
             <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk10.speaker")}
+              {t("pages.schedule.talks.talk1.speaker")}
             </div>
             <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk10.time")}
-            </div>
-          </div>
-        </Link>
-        <Link
-          href={{
-            pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk11.page-url"),
-            query: query,
-          }}
-        >
-          <div className={styles.talk}>
-            <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk11.title")}
-            </div>
-            <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk11.speaker")}
-            </div>
-            <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk11.time")}
-            </div>
-          </div>
-        </Link>
-        <Link
-          href={{
-            pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk12.page-url"),
-            query: query,
-          }}
-        >
-          <div className={styles.talk}>
-            <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk12.title")}
-            </div>
-            <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk12.speaker")}
-            </div>
-            <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk12.time")}
+              {t("pages.schedule.talks.talk1.time")}
             </div>
           </div>
         </Link>
@@ -393,6 +334,25 @@ export default function SchedulePage() {
         <Link
           href={{
             pathname:
+              "/speakers-detail/" + t("pages.schedule.talks.talk11.page-url"),
+            query: query,
+          }}
+        >
+          <div className={styles.talk}>
+            <div className={styles.talkTitle}>
+              {t("pages.schedule.talks.talk11.title")}
+            </div>
+            <div className={styles.speaker}>
+              {t("pages.schedule.talks.talk11.speaker")}
+            </div>
+            <div className={styles.speakeTime}>
+              {t("pages.schedule.talks.talk11.time")}
+            </div>
+          </div>
+        </Link>
+        <Link
+          href={{
+            pathname:
               "/speakers-detail/" + t("pages.schedule.talks.talk16.page-url"),
             query: query,
           }}
@@ -406,6 +366,25 @@ export default function SchedulePage() {
             </div>
             <div className={styles.speakeTime}>
               {t("pages.schedule.talks.talk16.time")}
+            </div>
+          </div>
+        </Link>
+        <Link
+          href={{
+            pathname:
+              "/speakers-detail/" + t("pages.schedule.talks.talk6.page-url"),
+            query: query,
+          }}
+        >
+          <div className={styles.talk}>
+            <div className={styles.talkTitle}>
+              {t("pages.schedule.talks.talk6.title")}
+            </div>
+            <div className={styles.speaker}>
+              {t("pages.schedule.talks.talk6.speaker")}
+            </div>
+            <div className={styles.speakeTime}>
+              {t("pages.schedule.talks.talk6.time")}
             </div>
           </div>
         </Link>
@@ -444,6 +423,26 @@ export default function SchedulePage() {
             </div>
             <div className={styles.speakeTime}>
               {t("pages.schedule.talks.talk18.time")}
+            </div>
+          </div>
+        </Link>
+
+        <Link
+          href={{
+            pathname:
+              "/speakers-detail/" + t("pages.schedule.talks.talk10.page-url"),
+            query: query,
+          }}
+        >
+          <div className={styles.talk}>
+            <div className={styles.talkTitle}>
+              {t("pages.schedule.talks.talk10.title")}
+            </div>
+            <div className={styles.speaker}>
+              {t("pages.schedule.talks.talk10.speaker")}
+            </div>
+            <div className={styles.speakeTime}>
+              {t("pages.schedule.talks.talk10.time")}
             </div>
           </div>
         </Link>
