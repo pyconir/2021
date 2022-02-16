@@ -2,6 +2,7 @@ import styles from "./SponsorsPage.module.css";
 import SponsorsContainer from "./sponsorsContainer";
 import BecomeSponserButton from "./becomeSponserButton";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
+import Link from "next/dist/client/link";
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -54,6 +55,13 @@ export default function SponsorsPage() {
                 {t("pages.sponsors.sponsors.sponsor1.span2")}
               </span>
               <span>{t("pages.sponsors.sponsors.sponsor1.span3")}</span>
+              <span>{t("pages.sponsors.sponsors.sponsor1.span4")}</span>
+              <Link href={{ pathname: "/jobOpportunities", query: query }}>
+                <span style={{ cursor: "pointer", color: "#5999b3" }}>
+                  {t("pages.sponsors.sponsors.sponsor1.span5")}
+                </span>
+              </Link>
+              <span>{t("pages.sponsors.sponsors.sponsor1.span6")}</span>
             </div>
           </div>
           <div className={styles.sponsorCard}>
@@ -76,7 +84,10 @@ export default function SponsorsPage() {
             </div>
           </div>
           <div className={styles.sponsorCard}>
-            <div className={styles.sponsorLogoContainer} style={{maxWidth:"200px"}}>
+            <div
+              className={styles.sponsorLogoContainer}
+              style={{ maxWidth: "200px" }}
+            >
               <a
                 style={{ textDecoration: "none" }}
                 href="https://parscoders.com/"
@@ -91,7 +102,7 @@ export default function SponsorsPage() {
               </a>
             </div>
             <div className={styles.sponsorDescription}>
-            <p>{t("pages.sponsors.sponsors.sponsor3.p1")}</p>
+              <p>{t("pages.sponsors.sponsors.sponsor3.p1")}</p>
             </div>
           </div>
         </div>
