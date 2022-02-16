@@ -3,6 +3,7 @@ import SendJobButton from "./sendJobButton";
 import JobItem1 from "./jobItem1";
 import JobItem2 from "./jobItem2";
 import JobItem3 from "./jobItem3";
+import JobItem4 from "./jobItem4";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function JobOpportunitiesPage() {
@@ -30,6 +31,7 @@ export default function JobOpportunitiesPage() {
         <SendJobButton />
         <JobItem1 />
         <JobItem2 />
+        <JobItem4 />
         <br />
         <h3>{t("pages.jobOpportunities.page.t2")}</h3>
         <JobItem3 />
