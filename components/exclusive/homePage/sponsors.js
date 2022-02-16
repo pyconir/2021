@@ -76,6 +76,20 @@ export default function Sponsors() {
               />
             </div>
           </a>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://www.iranserver.com/"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+          >
+            <div className={styles.logoContainer} style={{ maxWidth: "230px" }}>
+              <img
+                src={prefix + "ExclusiveAssets/sponsors/sponsor4.png"}
+                alt="sponsor4-Logo"
+                className={styles.sponsorsLogo}
+              />
+            </div>
+          </a>
         </div>
       </div>
     </section>
