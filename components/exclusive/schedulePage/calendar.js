@@ -138,6 +138,25 @@ export default function SchedulePage() {
             </div>
           </div>
         </Link>
+        <Link
+          href={{
+            pathname:
+              "/speakers-detail/" + t("pages.schedule.talks.talk8.page-url"),
+            query: query,
+          }}
+        >
+          <div className={styles.talk}>
+            <div className={styles.talkTitle}>
+              {t("pages.schedule.talks.talk8.title")}
+            </div>
+            <div className={styles.speaker}>
+              {t("pages.schedule.talks.talk8.speaker")}
+            </div>
+            <div className={styles.speakeTime}>
+              {t("pages.schedule.talks.talk8.time")}
+            </div>
+          </div>
+        </Link>
       </div>
       <h3 className={styles.dayTitle}>{t("pages.schedule.p2")}</h3>
       <div className={styles.dayContainer}>
@@ -237,25 +256,7 @@ export default function SchedulePage() {
             </div>
           </div>
         </Link>
-        <Link
-          href={{
-            pathname:
-              "/speakers-detail/" + t("pages.schedule.talks.talk8.page-url"),
-            query: query,
-          }}
-        >
-          <div className={styles.talk}>
-            <div className={styles.talkTitle}>
-              {t("pages.schedule.talks.talk8.title")}
-            </div>
-            <div className={styles.speaker}>
-              {t("pages.schedule.talks.talk8.speaker")}
-            </div>
-            <div className={styles.speakeTime}>
-              {t("pages.schedule.talks.talk8.time")}
-            </div>
-          </div>
-        </Link>
+
         <Link
           href={{
             pathname:
