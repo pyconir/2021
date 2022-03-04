@@ -33,7 +33,7 @@ export default function Home() {
         <title>PyCon 2021 Welcome to PyCon Iran 2021</title>
         <meta name="description" content={t("pages.home.description")} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href={prefix + "/favicon.ico"} />
+        <link rel="icon" href={prefix + "/favicon1.ico"} />
         <link rel="preconnect" href="//fdn.fontcdn.ir" />
         <link rel="preconnect" href="//v1.fontapi.ir" />
         <link
