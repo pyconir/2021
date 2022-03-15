@@ -115,9 +115,6 @@ export default function Speakers() {
         <div className={styles.sectionTitleContainer}>
           <h2 style={{ textAlign: "center" }}>
             {t("pages.home.speakers.t1")}
-            <div style={{ fontSize: "16px" }}>
-              {t("pages.home.speakers.t1-1")}
-            </div>
           </h2>
         </div>
         <div className={styles.speakersContainer}>
