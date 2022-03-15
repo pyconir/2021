@@ -1,5 +1,6 @@
 import styles from "./speakerPage.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
+import ReactPlayer from "react-player/youtube";
 
 export default function SpeakerPage(props) {
   const { t } = useTranslation();
@@ -34,6 +35,16 @@ export default function SpeakerPage(props) {
             alt={props.speaker + "-image"}
             className={styles.speakerImage}
           />
+        </div>
+        <div className={styles.videoContainer}>
+          <div className={styles.videosWrapper}>
+            <ReactPlayer
+              url={t("pages.speakers.speakers." + props.speaker + ".video-url")}
+              width="100%"
+              height="100%"
+              controls="true"
+            />
+          </div>
         </div>
         <div className={styles.aboutSpeaker}>
           {t("pages.speakers.speakers." + props.speaker + ".about")}

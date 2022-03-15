@@ -679,7 +679,8 @@
             "type": "lightning talk",
             "talkDetail": {
               "p1": "ASCII Art is a type of graphic design that is produced using a computer and putting ASCII characters together. One of the applications of this method in the world of programming is to adorn programs including a command-line interface (CLI). The art library makes this possible in the Python programming language, and we'll cover that in this lightning talk."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=-D91UyyY738"
           },
           "speaker2": {
             "name": "Yashar Shahinzadeh",
@@ -689,7 +690,8 @@
             "type": "45-minute talk",
             "talkDetail": {
               "p1": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=xHWI4a3osWc"
           },
           "speaker3": {
             "name": "Amir Mohammad Safari",
@@ -699,7 +701,8 @@
             "type": "45-minute talk",
             "talkDetail": {
               "p1": "The Django framework has a potential security vulnerability that becomes a dangerous one in certain circumstances. In this presentation, we will first define a series of concepts, then explain the Django security vulnerability, and finally show a live demo of the attack."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=xHWI4a3osWc"
           },
           "speaker4": {
             "name": "Alireza Zolanvari",
@@ -709,7 +712,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "One of the significant steps in machine learning is to evaluate the performance of the algorithm after achieving the results and outputs. To this end, many methods have been proposed, depending on the type of problem as well as the study data. The purpose of this presentation is to introduce and review strategies for evaluating the performance of machine learning algorithms and how to implement them in Python using the PyCM library."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=pPy-haNJKtc"
           },
           "speaker5": {
             "name": "Sadra Sabouri",
@@ -719,7 +723,8 @@
             "type": "lightning talk",
             "talkDetail": {
               "p1": "Generative Art refers to an art work that is generated in whole or in part by an autonomous system. We will create these generative arts through the use of Python programming language and Samila Library."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=8CUzHlNCTO0"
           },
           "speaker6": {
             "name": "Sebastiaan Zeeff",
@@ -730,7 +735,8 @@
             "talkDetail": {
               "p1": "Driven by the immense popularity of asynchronous frameworks, such as FastAPI, asynchronous database support suddenly became a hot topic in the Python community. As talking to your database often forms a significant portion of the input and output of your application, it's important to do that asynchronously as well. With the release of version 1.4, SQLAlchemy added support for Asynchronous I/O for both its core and ORM features. This means that you can now use the popular SQL toolkit for Python in your asynchronous applications.",
               "p2": "In my talk, I will introduce you to the newly added support for asyncio in SQLAlchemy. I will go over how easy it is to set up the new AsyncEngine, point you to some of the differences with synchronous SQLAlchemy, and show you some of the pitfalls to avoid. In addition, I will also show you how you can run your existing synchronous SQLAlchemy code asynchronously to help you transition to a fully asynchronous application. By the end of my talk, you should know enough to start your own asynchronous SQLAlchemy adventure."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=Y-GLbLdLstU"
           },
           "speaker7": {
             "name": "Soroush Mousapour",
@@ -741,7 +747,8 @@
             "talkDetail": {
               "p1": "Are you also interested in how deep learning empowers intelligent applications? How do self-drivig cars, virtual assistants, face recognition devices, and chat bots process complex information? Whether you are familiar with machine learning or just starting out, this workshop will help you understand deep learning.",
               "p2": "In this workshop, we first investigate the relationship between machine learning, deep learning and artificial intelligence, and learn about the structure of the second version of Tensorflow. Next, we get to know the structure of neural networks and perceptrons, then we look at computer vision and get acquainted with convolutional neural networks, in the next step we go over text processing and use recursive neural networks, then we use GAN networks to create images. Finally, we examine the problem of implementing the model as a service and write various tests to review and implement it."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=9uBqc-5tGMg"
           },
           "speaker8": {
             "name": "Ahmad Fanaei",
@@ -770,7 +777,8 @@
                 },
                 "li5": "Finding slow queries using pg_stat_statment and troubleshooting problems by checking the output of Explain command"
               }
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=PMbQDTVpOAc"
           },
           "speaker9": {
             "name": "Hasan Noori",
@@ -780,7 +788,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "In the world of technology, two things are relatively easy: following new trends, and rejecting new trends. But to do the right work in most cases, you have to choose a middle way. When and to what extent we should use new trends. To expand our services, we started a way that we could approach microservices step by step, but not in too big a step."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=Fp0HUWMu8A8"
           },
           "speaker10": {
             "name": "David Tischler",
@@ -791,7 +800,8 @@
             "talkDetail": {
               "p1": "Python applications bring lots of flexibility and capability to IoT and Edge devices, but how do you deploy your Python code to devices that might be located across the country or across the world?  In this talk, we will demonstrate how to containerize your Python, then use balenaCloud to orchestrate pushing that container onto a device like a Raspberry Pi, no matter where it is located.  This same deployment method can be used across entire fleets of devices as well, saving developers’ time and effort when maintaining large fleets of IoT devices.  This talk will focus on constructing a small temperature sensor, but the concept presented can be replicated for any Python application.",
               "p2": "No hardware is needed to attend the workshop, but if you would like to follow along and build the project at home, then a Raspberry Pi, SD Card, and BME280 temperature sensor will be necessary."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=JD7DGPCBN88"
           },
           "speaker11": {
             "name": "Gajendra Deshpande",
@@ -811,7 +821,8 @@
                 "li6": "General guidelines for secure coding practices in Python (04 Minutes)",
                 "li7": "Summary and Questions (02 Minute)"
               }
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=3wPPc1aB_Ls"
           },
           "speaker12": {
             "name": "Parul Pandey ",
@@ -821,7 +832,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Machine learning models are making predictions that affect people’s lives, so ensuring that they’re fair and unbiased must be an industry imperative. One way to ensure fairness is to discover a model’s mispredictions and analyze and fix the underlying causes. In this talk, we'll look at ways and try to understand the decisions of these models to ensure responsible machine learning. Additionally, we'll examine the vulnerabilities and shortcomings of these methods and discuss the road ahead. After all, it is not only enough to get accurate predictions but predictions that are fair and not discriminating."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=MyNpny5rD9I"
           },
           "speaker13": {
             "name": "S Anand",
@@ -838,7 +850,8 @@
               "p5": "Take any social network. Say actors who act together. Or words that are similar. Or people who email each other. Or products that are bought together.",
               "p6": "Clustering the network gives us sub-groups within the network -- like actors who generally act together, products that are often bought together, etc.",
               "p7": "This workshop explores popular network clustering algorithms (using the scikit-network and networkx Python libraries) on real-world movie datasets -- letting you discover insights such as what it takes to connect two actors, and how Iranian and Turkish actors are far removed from Hollywood but close to each other."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=aK2cGcA7KkI"
           },
           "speaker14": {
             "name": "Shayegan Hooshyari",
@@ -848,7 +861,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Not every piece of code is bug-free. This presentation will focus on writing test cases in Python and show how to have enough confidence in our code. It will also address the TDD (Test Driven Development) concept and explain how writing tests ahead of actual development could help have readable and less buggy code. Although writing [unit] tests might sound like a slowing factor, it is not! In this presentation, you will see how to split the process of writing tests into simpler chunks and use the PyTest library to write effective [unit] tests."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=aDFz5IY0ffM"
           },
           "speaker15": {
             "name": "Mohammad Hassanzadeh",
@@ -860,7 +874,8 @@
               "p1": "Odoo is an open source, versatile business management software that meets the major needs of organizations seamlessly. Odoo ERP is great for small and medium-sized businesses, but large organizations are also interested in. The reason for the large organizations’ interest is the very dynamic and modern infrastructure and framework of Odoo that can be used as the infrastructure and custom production framework for these organizations. Logically, the framework and architecture, which has more than 80 applications and more than 25,000 modules and has more than 8 million online users, has passed the test, and it is much more reliable and favored by organizations than the frameworks that are just created and there is not enough experience in implementing numerous applications with many users on them. Today, many large companies and organizations use this software platform to produce the specialized and required software.",
               "p2": "Odoo ERP is a system that is capable of meeting all the needs of businesses, including customer relationship management, purchasing, sales, accounting, personnel information, presence and absence, leave, salary, production, maintenance and repairs, costs, warehousing, website management and e-commerce, internal communications, messaging, etc. in a fully integrated manner.",
               "p3": "Odoo has been the fastest growing enterprise software in the world for the past few years. This powerful software enables you to have quality software products tailored to your organizational needs in the shortest time and at a low cost."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=P18KDmzgK8g"
           },
           "speaker16": {
             "name": "Richard Blythman",
@@ -870,7 +885,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Web3 introduces many new tools such as data infrastructures and marketplaces, private AI technologies, tokenization and NFTs, DeFi and DAO tooling. This changes the workflow for AI practitioners quite significantly, as well as how they organize and collaborate. In this talk, we will explore how Algovera is making it easier for distributed communities of data scientists to come together online and build useful decentralized AI apps."
-            }
+            },
+            "video-url": " "
           },
           "speaker17": {
             "name": "Padmaja Bhagwat",
@@ -884,7 +900,8 @@
               "p3": "In this talk, I show how to build such a tool only using Python and discuss the design choices and challenges I faced when building such a system and talk on how to solve it.",
               "p4": "The core machine learning part of the tool was to identify customers who are at-risk of churning. At-risk customers are identified using Survival analysis models. They predict the probability that a specific customer might churn, at various time intervals. I used PySurvival and Lifelines Python packages to predict churn. They provide a blend of standard/traditional survival analysis models as well as the ability to incorporate modern deep learning architectures using PyTorch models.",
               "p5": "I built the front-end of the system using the Streamlit Python package. Streamlit is targeted towards data scientists to rapidly build UI and deploy the Machine Learning models, just using Python (No knowledge of HTML, CSS, and Javascript needed)."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=ANGKVjpayug"
           },
           "speaker18": {
             "name": "Pouya Malekinejad",
@@ -894,7 +911,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "In this presentation I will talk about what Odoo is, how it has become the fastest growing software company in Europe and how to use it for business application development. Codewise, Odoo has a great ORM and it is very flexible with a modular architecture. You are free to change it in any way you want, and 80% of the code is open source. I will make a quick application to see how fast it is to make any web based application."
-            }
+            },
+            "video-url": " "
           },
           "speaker19": {
             "name": "Xiaojian Wang",
@@ -904,7 +922,8 @@
             "type": "30-minute talk",
             "talkDetail": {
               "p1": "Nowadays, machine learning has been widely used in many areas. To identify what is the most popular programming language for AI and neural network, Python has taken a big lead with lots of outstanding libraries. However, the whole AI ecosystem is not friendly to web developers with different tech stack. In order to enable front-end developers to understand big data and build/train AI models easily, we develop Datacook, a machine learning and data analysis library in JavaScript. Meanwhile, to make this work applied in real production environment, we build Pipcook, a JavaScript end-to-end platform for building production ML pipelines based on Tensorflow.js. This talk will focus on thoughts behind Datacook/Pipcook and how we use them to apply AI in front-end area."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=XQlQqNYHOR4"
           },
           "speaker20": {
             "name": "Rohollah Alamalhoda",
@@ -921,7 +940,8 @@
               "p6": "UNDER-FETCHING occurs when the server-side developer does not send all the data to save resources, especially the data that is sent from the server, and saves on sending data.",
               "p7": "OVER-FETCHING occurs when the server-side developer for various reasons, including a decrease in the number of queries from the client, sends large amounts of data in one call. Using GRAPHQL, each client identifies exactly what data it needs and receives exactly the same data from the server. ",
               "p8": "GRAPHQL is a new way of developing an API that will bring many benefits. In addition, security issues must be considered. This workshop also tries to address some of the security concerns."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=6EFlbSMG9os"
           },
           "keySpeaker1": {
             "name": "Trent McConaghy",
@@ -931,7 +951,8 @@
             "type": "Keynote",
             "talkDetail": {
               "p1": "This talk describes how to leverage Python and data science skills for design and verification of Solidity smart contracts for Ethereum Virtual Machine (EVM). It will discuss how Brownie treats Solidity objects as Python objects, enabling more Python-based development flows. Then it describes how to use TokenSPICE to verify a contract via time-domain simulations involving many interacting agents, also in a Python data science oriented flow."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=nOCO9yp3ioQ"
           },
           "keySpeaker2": {
             "name": "Thierry Carrez",
@@ -941,7 +962,8 @@
             "type": "Keynote",
             "talkDetail": {
               "p1": "The OpenStack project was started in 2010 to create a ubiquitous, open source cloud computing solution. Twelve years later, where are we? Is OpenStack still relevant? What lessons do we have for Python and open source? In this keynote talk, we will look back at the history of the OpenStack project, present lessons learned, and discuss its future."
-            }
+            },
+            "video-url": "https://www.youtube.com/watch?v=svaCMh7SYpc"
           }
         }
       },
