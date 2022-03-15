@@ -102,7 +102,19 @@ export default function SponsorsPage() {
               </a>
             </div>
             <div className={styles.sponsorDescription}>
-              <p>{t("pages.sponsors.sponsors.sponsor4.p1")}</p>
+              <span>{t("pages.sponsors.sponsors.sponsor4.p1")}</span>
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://www.iranserver.com/cloud"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
+                <span style={{ cursor: "pointer", color: "#5999b3" }}>
+                  {t("pages.sponsors.sponsors.sponsor4.p2")}
+                </span>
+              </a>
+              <span>{t("pages.sponsors.sponsors.sponsor4.p3")}</span>
+              <p>{t("pages.sponsors.sponsors.sponsor4.p4")}</p>
             </div>
           </div>
           <div className={styles.sponsorCard}>
