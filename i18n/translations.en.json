@@ -912,7 +912,7 @@
             "talkDetail": {
               "p1": "In this presentation I will talk about what Odoo is, how it has become the fastest growing software company in Europe and how to use it for business application development. Codewise, Odoo has a great ORM and it is very flexible with a modular architecture. You are free to change it in any way you want, and 80% of the code is open source. I will make a quick application to see how fast it is to make any web based application."
             },
-            "video-url": " "
+            "video-url": "https://www.youtube.com/watch?v=KWYgC4XTY4Y"
           },
           "speaker19": {
             "name": "Xiaojian Wang",
