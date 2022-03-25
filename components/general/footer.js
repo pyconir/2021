@@ -57,11 +57,16 @@ export default function Footer() {
                   alt="discord-icon"
                 />
               </a>
-              <a href="">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://www.youtube.com/channel/UC4h9WMROnH__sbdzOBW6l_w/featured"
+                target="_blank"
+                rel="noreferrer nofollow noopener"
+              >
                 <img
                   className={styles.socialImage}
-                  src={prefix + `/GeneralAssets/linkedin.svg`}
-                  alt="linkedin-icon"
+                  src={prefix + `/GeneralAssets/youtube.svg`}
+                  alt="youtube-icon"
                 />
               </a>
               <a
