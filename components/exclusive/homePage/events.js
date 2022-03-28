@@ -38,7 +38,49 @@ export default function Events() {
         />
 
         <ul className={"bodyText"} style={{ marginBottom: "0px" }}>
-        <li className={"bodyText"}>
+          <li className={"bodyText"}>
+            <span className={styles.newsDate}>
+              {t("pages.home.events.date9")}
+            </span>
+            {t("pages.home.events.news9")}
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://www.youtube.com/playlist?list=PLS_yN8E1mjBM9jJp511MeuE_acvi7Li2u"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span
+                className={styles.newsButtonContainer + " " + "unSelectable"}
+              >
+                {">"}
+              </span>
+            </a>
+          </li>
+          <li className={"bodyText"}>
+            <span className={styles.newsDate}>
+              {t("pages.home.events.date8")}
+            </span>
+            {t("pages.home.events.news8")}
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://twitter.com/pyconir/status/1498686087044206599?cxt=HHwWjsC4gcnDs8wpAAAA"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span
+                className={styles.newsButtonContainer + " " + "unSelectable"}
+              >
+                {">"}
+              </span>
+            </a>
+          </li>
+          <li className={"bodyText"}>
+            <span className={styles.newsDate}>
+              {t("pages.home.events.date7")}
+            </span>
+            {t("pages.home.events.news7")}
+          </li>
+          <li className={"bodyText"}>
             <span className={styles.newsDate}>
               {t("pages.home.events.date6")}
             </span>
@@ -51,7 +93,7 @@ export default function Events() {
               </span>
             </Link>
           </li>
-        <li className={"bodyText"}>
+          <li className={"bodyText"}>
             <span className={styles.newsDate}>
               {t("pages.home.events.date5")}
             </span>

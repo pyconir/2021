@@ -49,7 +49,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
                 href="https://discord.gg/Z48FsGfhmv"
                 target="_blank"
-                rel="noreferrer nofollow noopener"
+                rel="noreferrer noopener"
               >
                 <img
                   className={styles.socialImage}
@@ -61,7 +61,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
                 href="https://www.youtube.com/channel/UC4h9WMROnH__sbdzOBW6l_w/featured"
                 target="_blank"
-                rel="noreferrer nofollow noopener"
+                rel="noreferrer noopener"
               >
                 <img
                   className={styles.socialImage}
@@ -73,7 +73,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
                 href="https://twitter.com/pyconir"
                 target="_blank"
-                rel="noreferrer nofollow noopener"
+                rel="noreferrer noopener"
               >
                 <img
                   className={styles.socialImage}
@@ -92,7 +92,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
                 href="https://instagram.com/pyconir/"
                 target="_blank"
-                rel="noreferrer nofollow noopener"
+                rel="noreferrer noopener"
               >
                 <img
                   className={styles.socialImage}
@@ -104,7 +104,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
                 href="https://github.com/pyconir"
                 target="_blank"
-                rel="noreferrer nofollow noopener"
+                rel="noreferrer noopener"
               >
                 <img
                   className={styles.socialImage}

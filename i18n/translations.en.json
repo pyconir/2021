@@ -65,12 +65,18 @@
           "date4": "November 16 ",
           "date5": "January 9 ",
           "date6": "January 11 ",
+          "date7": "February 20 ",
+          "date8": "March 1 ",
+          "date9": "March 27 ",
           "news1": "PyCon Iran Conference supports start-ups",
           "news2": "Discord server launched. Some parts of the conference are organized inside Discord. Please join the server",
           "news3": "The call for proposals is open and you can send your proposals until January 5",
           "news4": "The PyCon Iran Conference will be held from January 19 to January 21. You can register now",
           "news5": "The date of PyCon conference was changed. Iran PyCon will be held from February 16 to February 18",
-          "news6": "The call for proposals extended to February 4"
+          "news6": "The call for proposals extended to February 4",
+          "news7": "The PyConIran 1400 conference was held on 16-17 February. Thank you for your support and ... hope to see you next year",
+          "news8": "Conference prizes were awarded",
+          "news9": "You can watch all the videos of the PyCon Iran 1400 conference and workshop through the playlist prepared on the conference YouTube channel."
         },
         "landing": {
           "t1": "",
