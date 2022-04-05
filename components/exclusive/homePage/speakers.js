@@ -113,14 +113,12 @@ export default function Speakers() {
         style={pagelang() == "en" ? { direction: "ltr" } : { direction: "rtl" }}
       >
         <div className={styles.sectionTitleContainer}>
-          <h2 style={{ textAlign: "center" }}>
-            {t("pages.home.speakers.t1")}
-          </h2>
+          <h2 style={{ textAlign: "center" }}>{t("pages.home.speakers.t1")}</h2>
         </div>
         <div className={styles.speakersContainer}>
           <SpeakerCard
             speaker={"speaker7"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker7.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker7.jpg"}
             name={t("pages.home.speakers.speakers.speaker7.name")}
             title={t("pages.home.speakers.speakers.speaker7.title")}
             about={t("pages.home.speakers.speakers.speaker7.about")}
@@ -132,7 +130,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker8"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker8.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker8.jpg"}
             name={t("pages.home.speakers.speakers.speaker8.name")}
             title={t("pages.home.speakers.speakers.speaker8.title")}
             about={t("pages.home.speakers.speakers.speaker8.about")}
@@ -147,7 +145,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker9"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker9.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker9.jpg"}
             name={t("pages.home.speakers.speakers.speaker9.name")}
             title={t("pages.home.speakers.speakers.speaker9.title")}
             about={t("pages.home.speakers.speakers.speaker9.about")}
@@ -162,7 +160,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker10"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker10.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker10.jpg"}
             name={t("pages.home.speakers.speakers.speaker10.name")}
             title={t("pages.home.speakers.speakers.speaker10.title")}
             about={t("pages.home.speakers.speakers.speaker10.about")}
@@ -177,7 +175,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker12"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker12.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker12.jpg"}
             name={t("pages.home.speakers.speakers.speaker12.name")}
             title={t("pages.home.speakers.speakers.speaker12.title")}
             about={t("pages.home.speakers.speakers.speaker12.about")}
@@ -192,7 +190,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker11"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker11.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker11.jpg"}
             name={t("pages.home.speakers.speakers.speaker11.name")}
             title={t("pages.home.speakers.speakers.speaker11.title")}
             about={t("pages.home.speakers.speakers.speaker11.about")}
@@ -207,7 +205,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker6"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker6.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker6.jpg"}
             name={t("pages.home.speakers.speakers.speaker6.name")}
             title={t("pages.home.speakers.speakers.speaker6.title")}
             about={t("pages.home.speakers.speakers.speaker6.about")}
@@ -225,7 +223,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker1"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker1.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker1.jpg"}
             name={t("pages.home.speakers.speakers.speaker1.name")}
             title={t("pages.home.speakers.speakers.speaker1.title")}
             about={t("pages.home.speakers.speakers.speaker1.about")}
@@ -240,7 +238,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker2"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker2.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker2.jpg"}
             name={t("pages.home.speakers.speakers.speaker2.name")}
             title={t("pages.home.speakers.speakers.speaker2.title")}
             about={t("pages.home.speakers.speakers.speaker2.about")}
@@ -255,7 +253,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker3"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker3.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker3.jpg"}
             name={t("pages.home.speakers.speakers.speaker3.name")}
             title={t("pages.home.speakers.speakers.speaker3.title")}
             about={t("pages.home.speakers.speakers.speaker3.about")}
@@ -267,7 +265,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker4"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker4.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker4.jpg"}
             name={t("pages.home.speakers.speakers.speaker4.name")}
             title={t("pages.home.speakers.speakers.speaker4.title")}
             about={t("pages.home.speakers.speakers.speaker4.about")}
@@ -282,7 +280,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker5"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker5.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker5.jpg"}
             name={t("pages.home.speakers.speakers.speaker5.name")}
             title={t("pages.home.speakers.speakers.speaker5.title")}
             about={t("pages.home.speakers.speakers.speaker5.about")}
@@ -297,7 +295,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker13"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker13.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker13.jpg"}
             name={t("pages.home.speakers.speakers.speaker13.name")}
             title={t("pages.home.speakers.speakers.speaker13.title")}
             about={t("pages.home.speakers.speakers.speaker13.about")}
@@ -312,7 +310,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker14"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker14.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker14.jpg"}
             name={t("pages.home.speakers.speakers.speaker14.name")}
             title={t("pages.home.speakers.speakers.speaker14.title")}
             about={t("pages.home.speakers.speakers.speaker14.about")}
@@ -327,7 +325,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker15"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker15.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker15.jpg"}
             name={t("pages.home.speakers.speakers.speaker15.name")}
             title={t("pages.home.speakers.speakers.speaker15.title")}
             about={t("pages.home.speakers.speakers.speaker15.about")}
@@ -342,7 +340,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker16"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker16.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker16.jpg"}
             name={t("pages.home.speakers.speakers.speaker16.name")}
             title={t("pages.home.speakers.speakers.speaker16.title")}
             about={t("pages.home.speakers.speakers.speaker16.about")}
@@ -360,7 +358,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker17"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker17.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker17.jpg"}
             name={t("pages.home.speakers.speakers.speaker17.name")}
             title={t("pages.home.speakers.speakers.speaker17.title")}
             about={t("pages.home.speakers.speakers.speaker17.about")}
@@ -378,7 +376,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker18"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker18.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker18.jpg"}
             name={t("pages.home.speakers.speakers.speaker18.name")}
             title={t("pages.home.speakers.speakers.speaker18.title")}
             about={t("pages.home.speakers.speakers.speaker18.about")}
@@ -393,7 +391,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker19"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker19.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker19.jpg"}
             name={t("pages.home.speakers.speakers.speaker19.name")}
             title={t("pages.home.speakers.speakers.speaker19.title")}
             about={t("pages.home.speakers.speakers.speaker19.about")}
@@ -405,7 +403,7 @@ export default function Speakers() {
           />
           <SpeakerCard
             speaker={"speaker20"}
-            imageUrl={prefix + "ExclusiveAssets/speakers/images/speaker20.jpg"}
+            imageUrl={prefix + "/ExclusiveAssets/speakers/images/speaker20.jpg"}
             name={t("pages.home.speakers.speakers.speaker20.name")}
             title={t("pages.home.speakers.speakers.speaker20.title")}
             about={t("pages.home.speakers.speakers.speaker20.about")}

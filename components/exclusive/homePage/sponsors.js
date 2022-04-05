@@ -42,7 +42,7 @@ export default function Sponsors() {
           >
             <div className={styles.logoContainer}>
               <img
-                src={prefix + "ExclusiveAssets/sponsors/sponsor1.svg"}
+                src={prefix + "/ExclusiveAssets/sponsors/sponsor1.svg"}
                 alt="sponsor1-Logo"
                 className={styles.sponsorsLogo}
               />
@@ -56,7 +56,7 @@ export default function Sponsors() {
           >
             <div className={styles.logoContainer}>
               <img
-                src={prefix + "ExclusiveAssets/sponsors/sponsor2.svg"}
+                src={prefix + "/ExclusiveAssets/sponsors/sponsor2.svg"}
                 alt="sponsor2-Logo"
                 className={styles.sponsorsLogo}
               />
@@ -70,7 +70,7 @@ export default function Sponsors() {
           >
             <div className={styles.logoContainer} style={{ maxWidth: "230px" }}>
               <img
-                src={prefix + "ExclusiveAssets/sponsors/sponsor3.png"}
+                src={prefix + "/ExclusiveAssets/sponsors/sponsor3.png"}
                 alt="sponsor3-Logo"
                 className={styles.sponsorsLogo}
               />
@@ -84,7 +84,7 @@ export default function Sponsors() {
           >
             <div className={styles.logoContainer} style={{ maxWidth: "230px" }}>
               <img
-                src={prefix + "ExclusiveAssets/sponsors/sponsor4.png"}
+                src={prefix + "/ExclusiveAssets/sponsors/sponsor4.png"}
                 alt="sponsor4-Logo"
                 className={styles.sponsorsLogo}
               />
