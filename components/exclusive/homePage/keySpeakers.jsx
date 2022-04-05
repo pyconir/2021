@@ -32,7 +32,7 @@ function KeySpeakerCard(props) {
               <img
                 src={
                   prefix +
-                  "ExclusiveAssets/speakers/images/" +
+                  "/ExclusiveAssets/speakers/images/" +
                   props.keySpeaker +
                   ".jpg"
                 }
