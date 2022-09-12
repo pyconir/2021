@@ -2,6 +2,8 @@ import styles from "./speakersCard.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 import Link from "next/link";
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function SpeakerCard(props) {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
