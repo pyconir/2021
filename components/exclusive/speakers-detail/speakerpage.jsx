@@ -2,6 +2,8 @@ import styles from "./speakerPage.module.css";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 import ReactPlayer from "react-player/youtube";
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function SpeakerPage(props) {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
