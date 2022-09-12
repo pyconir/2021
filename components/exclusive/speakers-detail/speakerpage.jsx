@@ -31,7 +31,12 @@ export default function SpeakerPage(props) {
         </h1>
         <div className={styles.speakerImageContainer}>
           <img
-            src={"/ExclusiveAssets/speakers/images/" + props.speaker + ".jpg"}
+            src={
+              prefix +
+              "/ExclusiveAssets/speakers/images/" +
+              props.speaker +
+              ".jpg"
+            }
             alt={props.speaker + "-image"}
             className={styles.speakerImage}
           />
