@@ -26,7 +26,10 @@ export default function SpeakerCard(props) {
             <div className={styles.speakerPersonals}>
               <img
                 src={
-                  "/ExclusiveAssets/speakers/images/" + props.speaker + ".jpg"
+                  prefix +
+                  "/ExclusiveAssets/speakers/images/" +
+                  props.speaker +
+                  ".jpg"
                 }
                 alt={props.speaker + "-image"}
                 className={styles.speakerImage}
